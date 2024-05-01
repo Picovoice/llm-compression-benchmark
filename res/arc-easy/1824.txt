@@ -1,0 +1,2 @@
+Which trait can children inherit from their parents? (A) long hair (B) favorite color (C) brown eyes (D) broken arm
+Answer: C

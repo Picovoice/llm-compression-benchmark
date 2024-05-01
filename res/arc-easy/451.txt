@@ -1,0 +1,2 @@
+What part of a communication system converts binary codes in a computer into recognizable characters? (A) decoder (B) encoder (C) receiver (D) transmitter
+Answer: A

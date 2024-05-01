@@ -1,0 +1,2 @@
+Which illustrates the correct order of relationships in organisms? (A) tissue -> organ system -> organ -> cell (B) organ -> cell -> organ system -> tissue (C) cell -> tissue -> organ -> organ system (D) organ system -> organ -> cell -> tissue
+Answer: C

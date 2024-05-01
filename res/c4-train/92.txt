@@ -1,0 +1,96 @@
+mex filenames compiles and links one or more C++ source files written with the MATLAB Data API into a binary MEX file in the current folder. For information about writing these applications, see C++ MEX Applications.
+If writing MEX files based on the Calling MATLAB from C or the Calling MATLAB from Fortran, then mex filenames builds one or more C, C++, or Fortran source files with the -R2017b api. In a future version of MATLAB®, the default api option will change to use the interleaved complex API (-R2018a). MathWorks recommends that you create MEX files and update existing MEX files to use the interleaved complex API. Alternatively, use the MX_HAS_INTERLEAVED_COMPLEX macro to ensure the desired behavior across versions of MATLAB. For more information, see MATLAB Support for Interleaved Complex API in MEX Functions.
+For information about working with C, C++, and Fortran applications, see Integrate MATLAB with External Programming Languages and Systems.
+mex filenames api option1 ... optionN builds with the specified api and optional option1 ... optionN arguments. The option1 ... optionN arguments supplement or override the default mex build configuration.
+If writing applications based on the MATLAB Engine API for C, the MATLAB C API to Read MAT-File Data, the MATLAB Engine API for Fortran, or the MATLAB Fortran API to Read MAT-File Data, then mex -client engine filenames builds a standalone application with the -R2017b api. In a future version of MATLAB, the default api option will change to use the interleaved complex API (-R2018a). MathWorks recommends that you create engine applications and update existing applications to use the interleaved complex API.
+mex -client engine filenames api option1 ... optionN builds engine applications with the specified api and optional option1 ... optionN arguments.
+mex -setup [lang] selects a compiler for the given lang for building MEX files. MATLAB defines a default compiler for each supported language. If you have multiple compilers for a given language, use the lang option to change the default compiler for that language. For more information, see Change Default Compiler and Choose a C++ Compiler.
+mex -setup -client engine [lang] selects a compiler for building engine applications.
+Copy the source code example from the matlabroot/extern/examples folder.
+Build the MEX file. The output displays information specific to your compiler.
+Build a single C program yprime.c into a MEX file.
+Create a writable folder on your path c:\work and set it as the current folder.
+Building with 'MinGW64 Compiler  C '.
+To display the compile and link commands and other information useful for troubleshooting, use verbose mode.
+The output displays information specific to your platform and compiler.
+Build the yprime.c MEX file by appending the value -Wall to the existing compiler flag. Because the value includes a space character, you must delineate the string; the character you use depends on the platform.
+At the MATLAB prompt, use MATLAB single quotes (').
+For the MinGW-w64 compiler, which is based on gcc/g++, use the Linux® compiler flags.
+At the Windows® command prompt, use double quotes (").
+At the shell command line on macOS and Linux, use single quotes (').
+The MEX file example fulltosparse consists of two Fortran source files, loadsparse.F and fulltosparse.F. To run this example, you need a supported Fortran compiler installed on your system.
+Copy the source files to the current folder.
+Build the fulltosparse MEX file. The MEX file name is fulltosparse because fulltosparse.F is the first file on the command line. The output contains information specific to your compiler.
+Building with 'Intel Visual Fortran Composer XE 2013 with Microsoft Visual Studio 2012'.
+Combine all C source files in the current folder into MEX file mymex. Use the -output option to control the name of the MEX file.
+To preview the build command details without executing the commands, use the -n option. The output contains information specific to your platform and compiler.
+You can link to object files that you compile separately from your source MEX files.
+The MEX file example fulltosparse consists of two Fortran source files. The fulltosparse file is the gateway routine (contains the mexFunction subroutine) and loadsparse contains the computational routine.
+To run this example, you need a supported Fortran compiler installed on your system. Copy the computational subroutine to your current folder.
+Compile the subroutine and place the object file in a separate folder, c:\objfiles.
+Copy the gateway subroutine to your current folder. Compile and link with the loadsparse object file.
+To specify the path to include the MATLAB LAPACK library subroutines for handling complex number routines, use the -I option. To use these subroutines, your MEX file must access the header file fort.h.
+Copy the matrixDivideComplex.c example to the current folder.
+Create the -I argument by concatenating '-I' with the path to fort.h file.
+Create variables for the names and paths to the LAPACK library file and the file, fort.c, containing the complex number handling routines.
+Build the matrixDivide.c example on a Windows platform using the -L and -l options to specify the libmwlapack.lib library. The library file is located in the folder, matlabroot\extern\lib\arch\microsoft.
+Copy the matrixDivide.c example to the current folder.
+Capture the value of matlabroot.
+Capture the value of arch.
+To build the MEX file, copy the values of matlabroot and arch into the mex command, as shown in the following statement.
+You must use the ' characters because \Program Files in the path includes a space.
+The mxcreatecharmatrixfromstr.c example uses a #define symbol SPACE_PADDING to determine what character to use between character vectors in a matrix. To set the value, build the MEX file with the -D option.
+Copy the example to the current folder.
+Set the SPACE_PADDING directive to add a space between values.
+Copy the engwindemo.c engine example to the current folder.
+If you are running on a Windows platform, you must first register MATLAB as a COM server. For more information, see Register MATLAB as a COM Server.
+MATLAB displays the options for your version and system based on the list of Supported and Compatible Compilers.
+One or more file names, including name and file extension, specified as a string or a character vector. If the file is not in the current folder, specify the full path to the file.
+Static library files. For linking dynamic libraries, use the -llibname option.
+The first source code file listed in filenames is the name of the binary MEX file or engine application. To override this naming convention, use the '-output' option.
+Use the MATLAB Editor to write your source code. If you use an integrated development environment (IDE) such as Microsoft® Visual Studio® or Xcode, then you can use the mex command or follow the guidelines in Custom Build with MEX Script Options.
+MATLAB automatically selects a compiler, if installed, based on the language of the filenames arguments.
+Links with the release-specific Calling MATLAB from C or Calling MATLAB from Fortran, specified as one of these values. Do not combine these options.
+Do not use this option for MEX files or engine applications using the MATLAB Data API.
+Separate complex API, which contains the C and Fortran Matrix API functionality in MATLAB R2017b and earlier.
+Large-array-handling API, which handles arrays with more than 231-1 elements.
+Treats a handle to a graphics object as object, not double.
+In a future version of MATLAB, the default api option will change to use the interleaved complex API (-R2018a). MathWorks recommends that you create applications and update existing applications to use the interleaved complex API. Alternatively, use the MX_HAS_INTERLEAVED_COMPLEX macro to ensure the desired behavior across versions of MATLAB. For more information, see MATLAB Support for Interleaved Complex API in MEX Functions.
+Interleaved complex API, which includes the typed data access functions. For more information, see Upgrade MEX Files to Use Interleaved Complex API.
+To run a Fortran MEX file built with the interleaved complex API in MATLAB R2018a, you must use MATLAB R2018a Update 3.
+Treats a handle to a graphics object as object, not double. To treat the handle as double, combine this option with -DMEX_DOUBLE_HANDLE.
+Do not use the -compatibleArrayDims option when calling LAPACK or BLAS functions.
+Default option for C MEX S-functions only.
+Optional build options, specified as one of these values. Options can appear in any order on any platform, except where indicated.
+Uses Windows RSP file. An RSP file is a text file containing command-line options. Non-ASCII characters are not supported.
+Compiles an object file only. Does not build a binary MEX file.
+The -U option removes any initial definition of the C preprocessor macro, symbolname. Inverse of the -D option.
+Do not add a space between D or U and symbolname. Do not add spaces around the = sign.
+Overrides the default compiler selection. filepath is the name and full path of the configuration file, specified as a string or a character vector. For information about using a non-default compiler, see Change Default Compiler.
+Do not use the -f option to build engine applications. Use the -client engine option instead.
+Adds symbolic information and disables optimizing built object code. Use for debugging. To debug with optimization, add the -O option.
+Displays help for mex. Use from an operating system prompt.
+Adds pathname to the list of folders to search for #include files.
+Do not add a space between I and pathname.
+Links with dynamic object library libname in (optional) libfolder.
+If used, the -L option must precede the -l option. When using the -L option on Linux or macOS systems, you also must set the runtime library path, as explained in Set Run-Time Library Path.
+Do not add a space between l and libname or between L and libfolder.
+Specify the -l option with the lowercase letter L.
+To link a static library, use the filenames input argument.
+Displays, but does not execute, commands that mex would execute.
+Optimizes the object code. Use this option to compile with optimization.
+Optimization is enabled by default. Optimization is disabled when the -g option appears without the -O option.
+Specify this option with the capital letter O.
+Places all output files in folder dirname.
+Overrides the default MEX file naming mechanism. Creates binary MEX file named mexname with the appropriate MEX file extension.
+Change the default compiler to build lang language MEX files or engine applications. When you use this option, mex ignores all other command-line options.
+Suppresses informational messages. The mex command still reports errors and warnings, even when you specify -silent.
+Do not add a space between U and symbolname.
+Builds in verbose mode. Displays values for internal variables after all command-line arguments are considered. Displays each compile and link step fully evaluated. Use for troubleshooting compiler setup problems.
+Overrides default setting for variable varname. This option is processed after all command-line arguments are considered.
+Example: Override Default Compiler Switch Option.
+Language, specified as one of these values.
+For command-line usage outside of MATLAB, the mex program is located in the folder specified by [matlabroot '/bin'] on UNIX and [matlabroot '\bin\win64'] on Windows.
+The MEX file has a platform-dependent extension. You can place binary MEX files for different platforms in the same folder. To identify the MEX file extension, use the mexext function.
+To use mex to build executable files for standalone MATLAB engine applications, use the -client engine option.
+The mex command does not support folder names containing double quote (") characters.

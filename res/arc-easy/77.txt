@@ -1,0 +1,2 @@
+A student performs a lab investigation by measuring the average time it takes for a toy car to travel 10 meters. Why is it best to perform the experiment in three trials? (A) to form a good hypothesis (B) to increase the accuracy of the results (C) to make the results more significant (D) to better explain the investigation to others
+Answer: B

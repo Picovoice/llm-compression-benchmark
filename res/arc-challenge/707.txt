@@ -1,0 +1,2 @@
+Sickle cell anemia is a condition that affects the shape of a red blood cell. An unaffected individual can be represented with the genotype AA. An affected individual can be represented with the genotype SS. Individuals that are carriers have the genotype AS. Which is the best description of sickle cell anemia? (A) multiple alleles (B) incomplete dominance (C) homozygous recessive (D) heterozygous dominant
+Answer: B

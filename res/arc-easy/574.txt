@@ -1,0 +1,2 @@
+A switch that can open or close an electric circuit can be used to (A) increase the amount of current. (B) reverse the current's direction. (C) stop the current. (D) accelerate the current.
+Answer: C

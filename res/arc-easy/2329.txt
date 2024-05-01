@@ -1,0 +1,2 @@
+Compared to the particles in a hardened lava sample, the particles in a liquid lava sample (1) have a lower temperature (2) have less kinetic energy (3) are moving faster (4) are closer together
+Answer: 3

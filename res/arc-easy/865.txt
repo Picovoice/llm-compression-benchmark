@@ -1,0 +1,2 @@
+Weather stations built in urban areas can be influenced by the human-made structures that surround these stations. Some of these weather stations used to determine mean temperatures in the United States have had the validity of the data questioned. Which human-produced effect could these urban weather stations be measuring?  (A) heat island (B) rain shadow (C) land breeze (D) cold front
+Answer: A

@@ -1,0 +1,2 @@
+What information best helps a meteorologist predict the possibility of tornadoes developing in a certain area? (A) current wind conditions (B) type of clouds in the sky (C) percent humidity in the air (D) amount of rainfall
+Answer: B

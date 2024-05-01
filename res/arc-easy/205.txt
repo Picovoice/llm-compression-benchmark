@@ -1,0 +1,2 @@
+A student places a ball on the ground and kicks it. The ball moves along the ground. Why does the ball move? (A) The kick decreases the weight of the ball. (B) The kick applies a contact force to the ball. (C) The kick decreases the force of gravity acting on the ball. (D) The kick removes friction between the ball and the ground.
+Answer: B

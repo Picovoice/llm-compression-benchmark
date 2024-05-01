@@ -1,0 +1,2 @@
+Which chemical is a compound? (A) helium (He) (B) hydrochloric acid (HCl) (C) hydrogen (H2) (D) nitrogen (N2)
+Answer: B

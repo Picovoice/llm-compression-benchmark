@@ -1,0 +1,2 @@
+Choose the investigation that would best answer the question: Does the length of a string change how fast a pendulum swings? (A) Tie identical weights to two strings of different lengths. (B) Tie two different weights to a string. (C) Tie identical weights to a long string. (D) Tie two different weights to two identical strings.
+Answer: A

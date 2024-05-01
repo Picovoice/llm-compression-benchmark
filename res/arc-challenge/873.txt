@@ -1,0 +1,2 @@
+A mouse is placed at one end of a cardboard maze that has a piece of cheese at the other end. The mouse smells the cheese and learns how to find it. The mouse is using an (A) acquired trait to gain an inherited trait. (B) inherited trait to gain an acquired trait. (C) acquired trait to gain another acquired trait. (D) inherited trait to gain another inherited trait.
+Answer: B

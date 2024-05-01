@@ -1,0 +1,2 @@
+Which is the most appropriate unit for expressing the distance that an airplane travels in 2 hours? (A) meter (B) kilometer (C) millimeter (D) centimeter
+Answer: B

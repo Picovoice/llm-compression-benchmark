@@ -1,0 +1,2 @@
+A class conducts an experiment to determine the best color to paint a solar water heater that they plan to build. For their experimental test, the students have four identical cans. They paint one black, one green, one red, and one white. Each can is filled with 500 mL of 22°C water, and is allowed to sit in the sun for two hours. Which color can will have the greatest increase in water temperature? (A) black (B) green (C) red (D) white
+Answer: A

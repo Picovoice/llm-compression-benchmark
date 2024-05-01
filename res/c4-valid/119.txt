@@ -1,0 +1,44 @@
+Go to see the top 48, every month there are several Darwin with bad record and one good lucky month...I´ve check this several times...averaging the last 3 months would fix this problem easily.
+I agree it's not perfect. It can't be.
+What I do not agree with is your statement that opening multiple martingale accounts would be the ultimate way to "exploit" the Darwinia System.
+However, there is one thing that I dislike about the Darwinia dividends distribution. Currently, it doesn't matter if you rank one of the top places with an account of $100,000 or $300. You will get the same price.
+I would suggest distributing the dividends in relation to the size of the trading account. Just as an example, traders would get 10% (arbitrary number, chosen from the top of my head) of their account size as dividend price (capped at $1,000). That would be a fairer distribution in my opinion.
+About the ranking in general, past performance of 12 D periods are counting into the dscore which is the main value for a good ranking. Just 10% a month with luck will not give you a top10 ranking as long as you don't have a good dscore of 68+ which is not easy for most People/systems. It's getting harder slowly by more competition, so the dscore (or averaged past performance) is going to be more and more important for good ranks.
+One point I think should be fixed is the activity score, in February most Darwins didn't reach 100 because the month was short, in March most made 99,x activity because of more trading days. It should be normalized so that the number of trading days per month don't matter.
+So,do you propose to convert Darwinia in a RISK contest? I don´t get the point...so instead rewarding the best trader/darwin, you want to reward the biggest walet and/or higher risk?
+What I see very unfair is that promissing darwins like PPA, NNU, SOT, or PTY, are out of Darwinia just because they don´t have Exp 10 and/or 60+ D-Score...So, what Darwinia is rewarding? Of course, not the best darwins of the month or even last months...it is rewarding patience, consistency or loyalty, but not current performance.
+I agree with you in generl but not in the details. Everyone has his own criteria so that's why we need darwinex to play the role of garant which till now isn't perfect.
+Among the darwins you've cited Iwould eliminate at least one.
+No. Currently, there a two contests in Darwinia.
+1. The Darwinia Allocation, which is rewarding future trading through performance fee. I think that should remain as it is.
+2. The Darwinian Dividends. This price is paid for past trading performance of the last month. This might encourage bad trading (excessive risk) with smaller accounts, as you can afford to lose a $300 account for gaining a price of $1,000. But you probably won't risk a $100,000 account.
+You need a sample size to evaluate a trading system. You will see so many "promising" Darwins that fail over time.
+So, what Darwinia is rewarding? Of course, not the best darwins of the month or even last months...it is rewarding patience, consistency or loyalty, but not current performance.
+Actually, consistency and patience are good indicators of a solid trading system. More so than a short period track record. The D-Score is evaluating a number of different attributes (including performance) and is a far more reasonable evaluation instrument. Although there is room for improvement. I think the current combination of D-Score and short-term performance is a very good compromise.
+The trading days are the same for everyone so they don't really matter anyway?
+Not really, if all normal active Darwins E.g in February only reach 95 activity, some have an advantage by trading more. With a higher trade frequency then usual (let's say per day). Very consistent strategies have a slight disadvantage.
+In order to obtain a 100% in Activity, a DARWIN's market exposition in the current month must reach at least its average market exposition in the previous 3 months. Market exposition for Activity gets calculated in the same way it gets calculated for the Experience attribute.
+The number of trading days shouldn't play a role here. If you artificially increase your trade frequency in one period, you will have a disadvantage in the next period.
+I am sorry @ignacio, but I think @GAlbano76 (BSL), same like PPA, NNU, SOT, or PTY deserved already have been on top of 48 (not me, I am not there yet) more than old darwins with worse performance.
+No, actually it is only one contest with two different rewards. And going to your second point, that´s why I said before that some traders could see the current contest like an opportunity to open several accounts and once they get 40-50 D-Score, try martingale systems...I am not saying I agree or I´ll do it because that is not my goal, neither my strategy.
+I totally disagree with this statement, Darwinia purpose is to reward the monthly performance of darwnins. What is the point to reward someone because what it was last year? You said promising darwins fail over time, and that is true (some times),same old darwins fail over time (some times). But the point you can not predict the future, so you have to reward the current performance, not future not past. That´s is what Darwinia is supposed to be, right?
+Consistency and patience are good qualities (not indicators) of a person to be a trader. Darwinia doesn´t or shouldn´t do an evaluation or jugdement of trader qualities, but the Darwin performance. And again, Darwinia is a monthly contest rewarding the current performance, so why you need a year to get 10 Exp and 60+ D-Score? I can list dozens of old darwins with bad or mediocre performance that every month are in top 48, just because they are patienced and don´t give up, and once in a while have a lucky month...I can´t think about them like good or investable darwins (and the fact is that they don´t use to have investors).
+Thanks for the appreciation! I don't know if BSL should have already won a prize in DARWINIA but for now surely has got investors' trust and this is for me already a big prize.
+Regarding how DARWINIA and D. dividends are now, my concern are others.
+2) Darwinia is a way to attract good traders. For me it was a huge incentive. Now... D. dividends logic it is the same... using resourses that are generated between the community to attract more good traders. The problem for me is that using the same logic to assign those fund is ... "redundant" and being redundant when you are not talking about a nuclear plant maybe it's bad allocation.... my two cents? to use a different (or more than one) method for the assignment that target different good beahaviours and give different prizes for different positions (1000-750-500-250-100-100-100€....).
+I hope that also that @ignacio give a look to this argument.
+Ok but it is not easy to design another contest with other rules.
+IMO the current way to assign dividends is a good start but it is too simple.
+The best way to prize consistency is always an allocation, so that a lucky month is completely useless without a positive future semester.
+If they have more money to invest the right way should be increasing allocation.
+BTW redisigning prize distribution would be easier than designing another ruleset for another contest.
+Thanks for your feedback. All these DARWINS are very promising but have an Experience score below 10. As you may know, an Experience score below 10 means that the statistical representativeness of the sample used for the diagnostics is not sufficient (or, at least, not as representative as a DARWIN with an experience of 10).
+That being said, you are of course more than welcome to use your own criteria for your own portfolio!
+I like the current rating system very much but what works for an allocation may be very suboptimal for a cash prize.
+Now we can have also sideways darwins pocketing 1000 after a lucky month.
+Yes, I do agree on that.
+That being said, the chances that a "lucky" DARWIN makes it to DarwinIA's top are not so high (they need to have a relatively good score, too!).
+As I said, I do agree with that aspect!
+WOW... this one closed the darwin just after pocketing the cash prize!!
+Yes, I am dealing with that trader... the fact that he did not have investors so far may save him to re-open it, but I am not sure it will be possible.
+Guys, please do NOT close your DARWINS!

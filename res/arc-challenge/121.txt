@@ -1,0 +1,2 @@
+A toy truck rolls over a smooth surface. If the surface is covered with sand, the truck will most likely roll (A) slower (B) faster (C) at the same speed
+Answer: A

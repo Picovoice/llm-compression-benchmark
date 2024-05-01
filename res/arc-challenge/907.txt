@@ -1,0 +1,2 @@
+A bicycle is traveling at 3 meters per second (m/s). The rider applies the brakes and stops the bicycle in 3 seconds. What is the average rate of acceleration of the bicycle during this time? (A) -1 m/s^2 (B) -6 m/s^2 (C) 3 m/s^2 (D) 9 m/s^2
+Answer: A

@@ -1,0 +1,2 @@
+A computer model of an insect population takes into account the following parameters: * available food resources * annual temperature variation * timing of insect reproductive cycles Which additional parameter would most significantly improve the model's accuracy when predicting the insect population size? (A) decomposers recycling dead insects (B) annual variation in oxygen availability (C) activities of predators preying on insects (D) variation in barometric pressure
+Answer: C

@@ -1,0 +1,2 @@
+Which health condition is an infectious disease? (1) pneumonia caused by microorganisms (2) heart problem caused by a high-fat diet (3) lung cancer caused by smoking (4) eye damage caused by ultraviolet light
+Answer: 1

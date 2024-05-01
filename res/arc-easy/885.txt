@@ -1,0 +1,2 @@
+A ball rolling on the ground is observed to slow down and stop. Based on Newton's first law of motion, what is the best conclusion? (A) An object in motion eventually stops. (B) The ball must have been going slightly uphill. (C) The ball did not have enough mass to keep going. (D) There must have been an outside force acting on the ball.
+Answer: D

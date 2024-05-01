@@ -1,0 +1,2 @@
+It took Stephen 12 seconds to run across a grass field. Which additional information does he need in order to calculate his acceleration during the run? (A) the direction he ran and the average speed (B) the distance he ran and the average velocity (C) the beginning speed and the direction he ran (D) the beginning velocity and the ending velocity
+Answer: D

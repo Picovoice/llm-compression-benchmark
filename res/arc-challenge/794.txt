@@ -1,0 +1,2 @@
+Students want to test how the temperature changes each day throughout the year. Which of the following does not have to be kept the same during the test? (A) the place where the temperature is measured (B) the thermometer used to take the measurement (C) the person reading the temperature measurement (D) the time of day when the temperature is measured
+Answer: C

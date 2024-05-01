@@ -1,0 +1,2 @@
+A model of an atom includes red marbles for electrons, green marbles for protons, and blue marbles for neutrons. All marbles have a radius of 2 cm. How could the model be changed to represent more properties of an atom? (A) by using smaller marbles to represent electrons (B) by using two marbles to represent each neutron (C) by using two differently colored marbles for protons (D) by switching the colors of the marbles
+Answer: A

@@ -1,0 +1,2 @@
+A class made a solar cooker out of a large can. What color should they paint the can in order to collect the most heat? (A) black (B) green (C) pink (D) white
+Answer: A

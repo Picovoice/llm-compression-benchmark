@@ -1,0 +1,2 @@
+A dark colored wall becomes warm when the Sun is shining on it. After the Sun sets, a person standing a meter away can feel warmth from the wall. How does heat transfer from the wall to the person? (A) radiation (B) conduction (C) convection (D) insulation
+Answer: A

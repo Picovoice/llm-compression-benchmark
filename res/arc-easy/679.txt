@@ -1,0 +1,2 @@
+At concentrations of 0.1-1 µg/ml colchicine, a natural plant product, can cause the mitotic arrest of dividing cells at metaphase through disrupting the spindle apparatus. Colchicine interferes with which of these cell functions during cell division? (A) microtubule organization of spindle fibers (B) DNA synthesis of spindle protein (C) membrane transport of spindle fibers (D) RNA synthesis of spindle protein
+Answer: A

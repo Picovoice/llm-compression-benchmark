@@ -1,0 +1,2 @@
+What causes a ship carrying heavy cargo to take more time to come to a stop than an identical ship carrying lighter cargo if both ships are traveling at the same speed? (A) increased friction (B) greater momentum (C) greater acceleration (D) more constant velocity
+Answer: B

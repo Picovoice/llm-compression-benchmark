@@ -1,0 +1,2 @@
+A student observes the time it takes a marble to roll down a ramp four times. Which of these displays will best communicate the student's observations? (A) a pie chart with four different sections (B) a line graph with continuous data points (C) a bar graph with a bar for each trial (D) a table with four rows and four columns
+Answer: C

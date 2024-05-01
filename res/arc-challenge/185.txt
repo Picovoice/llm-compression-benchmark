@@ -1,0 +1,2 @@
+When a person parachutes from a plane, she travels at about 67 meters per second. When she pulls her cord and her chute opens, she slows to about 3 meters per second. If the velocity and acceleration are both considered positive before the chute opens, how do her velocity and acceleration change when the chute opens? (A) Velocity and acceleration both remain positive. (B) Velocity and acceleration both become negative. (C) Velocity remains positive but acceleration becomes negative. (D) Velocity becomes negative but acceleration remains positive.
+Answer: C

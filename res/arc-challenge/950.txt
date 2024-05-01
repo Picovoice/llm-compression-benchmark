@@ -1,0 +1,2 @@
+Which statement is best supported by the chemical equation shown? 6CO_{2} + 12H_{2}O + light -> C_{6}H_{12}O_{6} + 6O_{2} + 6H_{2}O (A) CO_{2} has 2 atoms of carbon in it. (B) H_{2}O has 2 atoms of oxygen in it. (C) Twelve molecules of H_{2}O are produced. (D) Six molecules of CO_{2} are needed as reactants.
+Answer: D

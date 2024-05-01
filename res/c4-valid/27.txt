@@ -1,0 +1,178 @@
+Since I am lazy and assume everything has been done in literature somewhere, does anyone have a reference with a typing system like that?
+PS. 'Solved' in Haskell. Courtesy of Sjoerd Visscher, Haskell allows for quantification over type constructors; though I want to avoid explicit quantifcation.
+The type system you're looking for is completely standard, and named F-omega (FÏ‰). In OCaml it lives only in the module system, in Haskell there is a cut-down version of it (that's not good enough for this specific example) called "higher-kinded type constructors". Scala probably has some version of it (possibly usable, possibly not), and Coq and Agda subsume it.
+Btw, the type annotation you give is not yet correct, because you have to quantify over 'f' as well.
+I simply, and only, want to unify over type constructors. I am not sure this is system F-omega, it feels doable to me.
+Is there a good reason why unification over type constructors would be intractable? And should I care?
+Without the quantifiers. Didn't know Haskell allowed for quantification over type constructors.
+If I'm not mistaken, it's actually rather painful to recover the simple HM type ((a -> b) -> a -> a -> (b, b)) from this version (you have to apply a term transformation instead of just type instantiation), as you have to define a phony newtype and then unbox it.
+In this regard, I consider it is not a proper solution to the problem of giving a general type to \f x y -> (f x, f y).
+Edit: in fact this type is not general enough to subsume the ML type, even in Fomega. The right type has one more higher-kinded type variable. See Matt M's remark below.
+Huh? What's your point? Elaborate please.
+HM just seems to have decided that f a is some existential and b = c?
+A solution is "general" when it subsumes other, more specific solutions. The definition you accepted as a "solution" to your problem is not able to type-check g (+1) 2 3, which trivially worked with the ML type.
+Uhm. I assumed that f may be the identity on types. Is that the problem?
+Yes. Type constructors are "constructors", they do not compute. List and Array and (int ->) are constructors, \a -> a is not.
+to undecidability in the type system.
+Can't you get around it with a type, or newtype, definition? Something like 'type Id a = a', or 'newtype Id a = a', or 'type IntId Int = Int'? I.e., if it wants a type constructor then just provide it manually?
+Looks more like a unification problem than anything else. A corner-case they didn't think of.
+An identity newtype wrapper is how you would get around this.
+Heuristically speaking, if GHC gets something wrong it is by thinking more or too much, not too little. (In contrast for instance with Scalac, and Scala is the language I use most).
+This is not a corner case at all. While this case is trivial, it's an instance of higher-order unification, which is known to be undecidable and certainly outside of Hindley-Milner. Actually, this point is even stated in gasche's quote from the paper â€” it's the second paragraph.
+Adding a special case for simple instances is not the kind of thing they'd do, because the result can easily get unpredictable (again, see Scalac). That's what I'd call "thinking more".
+The only usable type inference system attacking this problem is Agda, which uses (IIUC) higher-order pattern unification by Dale Miller. And type inference in the system still ends up being often unpredictable â€” which is acceptable in practice because of how interactive their typechecker is.
+I'm no GHC developer, but I still find that "assuming X didn't think of this" can be ineffective (especially when X is somewhat "smart", like GHC developers, or at least not known to be stupid). Instead, wondering "why X does not handle this?" allows finding the actual answer ("handling this in general is a hard problem"). IOW: whether you care about politeness or not, arrogance is pragmatically ineffective.
+I already asked whether I should care about undecideability. It is often not a problem in practice. HM might be decidable but is exptime too as far as I remember; it is trivial to blow up but that simply never happens.
+But I'll look at Agda, thank you for that. If the case of unification I assumed wasn't added then I wonder why it was not, or was it, theoretically investigated since, as gashe noted, the example would naturally subsume the HM inference.
+Who is arrogant? I my view that is the person who postulated that preposterous assumption in the first place and sloppily reads too much into questions he, or her, cannot answer and is bothered his beloved algorithm might not be as good as he thinks.
+Before all the rest, let me say that (higher-order) unification will answer "f a = a" with either "\x. x" or "\x. a" â€” hence you already lose principal types.
+There are also many more answers, but many (I think all) are beta-eta-equivalent to these two.
+I'm not the expert on the higher-order unification, but I can add something to the discussion. My (heuristic) summary is that the algorithms here are complex, and that in any case they don't "just work" but might answer "I don't know" in cases where the solution looks obvious, or might require more control. More importantly for me, the issue seems complex enough for me to not actually learn it. But my understanding is superficial.
+Huet's algorithm is implemented in Teyjus v1, an implementation of Î»Prolog, which uses higher-order unification for logic programming. In version 2, they changed to pattern unification (as in Agda), which is less expressive in practically useful cases (see the link for a problem where the solution looks obvious but is not found â€” though the example is more complex), but has principal unifiers. There also http://www.cs.nmsu.edu/ALP/2010/03/teyjus-a-lprolog-implementation/ and http://arxiv.org/abs/0911.5203 for more information than you'll ever want.
+I tried out Teyjus 1, but I wasn't able to make sense of all results of higher-order unification. Given the amount of documented bugs of V2 (see other issues at the tracker), maybe also V1 was buggy, and my problems might not depend on the algorithm itself.
+Another higher-order logic language is Elf, as implemented by Twelf. Twelf is actually used in practice (for programming language metatheory), but it avoids using either Huet's algorithm or Miller's restricted variant, because the latter is too restrictive for them, so they give their own extension. The reference is "Logic Programming in the LF Logical Framework", Sec. 3.4 onwards. I cannot say I understand everything they say, to the contrary: I have implemented first-order unification once, but I absolutely did not manage to understand what they explain (though the presentation IIRC does not help).
+Their examples are more illuminating â€” see 4.4, and note the extra knob of open vs closed.
+On the discussion, I think the linked paper has the "official" answer, already in the quote â€” they decided to avoid higher-order unification.
+OTOH, you had asked correctly "I assumed that f may be the identity on types. Is that the problem?" and the answer is "yes, that's the problem". I think this point was discussed, but apparently you questioned the difference between a type constructor and a type function, and nobody has fully explained the reason, so I'll give it a shot.
+IIUC, that's because unifying SomeConstructor T with f t makes the two terms syntactically equal, while unifying f a with a and getting f = \a.a (not /\a.a, that has the wrong kind) makes the two terms beta-equal â€” beta-equality is at least decidable here (thanks to a sound kind system), but synthesizing f is harder. Also, if you say that (\a.a) a = a, you're using beta-reduction on types, so yes, this implies type functions and computations on types. List (as in "List Int") is instead not a function because List Int is only equal to List Int.
+Algebraically speaking, the fundamental question is: are there non-trivial equations between types? If so (as in, beta-reduction) you now have a rewrite system for type, and thus computation. Otherwise, you have just type constructors.
+And to be sure: I've been wanting sometimes higher-order inference, but most of the examples were more complicated than simple identities. Googling "type lambdas in Scala" finds harder examples quickly.
+Haskell does it so that is a good indication that nobody minds, if I got it correct, a lot anymore about undecidability.
+I'll look up the difference between \a. a and /\a.a to see whether it denotes an abstraction or unification symbol. From some papers I gathered it may be abstraction, maybe the symbol changes meaning between type formalisms, and I assumed the dichotomy between expression and type reductions. I'll change it when needed.
+That paper dives into the topic of type classes over type constructors. I don't see the relation.
+Except that is the paper that introduced higher-kinded polymorphism in Haskell.
+Before writing my first answer to this thread, I paused for a moment and asked myself: "answering marco is usually a waste of time; is this one worth it?" I decided it was a genuinely interesting question that seems to be formulated in good faith. It probably was, but nevertheless I should have known better.
+I usually think the same thing about you too, Gabriel.
+Even though marco doesn't seem to appreciate your answers in this thread, I certainly do, and probably others too.
+I questioned the relevance. That's legal in my country.
+Being arrogant, selfish, unappreciative, patronizing, and rude is also legal in your country. That doesn't mean it's welcome or advisable. And, whether you intend it or not, many of your phrases give that impression.
+Of course, I don't have much room to complain about such things. But I'm oft impressed with how well gasche and some others tolerate blunt spoken persons like myself or you.
+BTW, 'Dude' itself comes across to me as a belittling title. Every time you use it, I find myself instantly irritated with you. Just an FYI. Is it interpreted differently in your community?
+Hell no. It's just a funny expression I picked up from Comedy Central. South Park, to be more precise.
+I usually use it in the same manner; like when Cartman says something unexpected. Usually that means I am laughing my head off.
+And I don't mind being rude when it sharpens the conversation to a point such that we don't end up with philosophy. If I am interested, that is.
+So, uhm. Whatever. It's just the Internet and I don't care much. Best wishes to you all, for the rest.
+arrogant, selfish, unappreciative, patronizing, and rude is also legal in your country.
+Seconded. It's painful to read through the discussion and gather meaningful points from all the ovoerfluous, more often than not inappropriate, words.
+"answering marco is usually a waste of time; is this one worth it?"
+Gang mentality doesn't work on a former lecturer.
+It's not really a gang mentality when people separately come to the same conclusion.
+Agreed. There is a lot of thought and effort in your answers Gabriel, it is interesting and useful to many of us here.
+The problem is that (+) isn't defined on all a. In other words, the problem is that quantifier that you want to get rid of, but I don't see how the type would make any sense without it.
+which does subsume the ML type in Fomega, but not in Haskell. The (good!) difference is that you can insert the appropriate term-level coercions to obtain the ML type from this function, which was not possible at all with Sjoerd's type.
+For the record, here is the term-level coercion you have to add to recover the ML typing from this type.
+Yeah, that's a more interesting type. I wondered what you were talking about :).
+Does it help when I write it in uppercase? Those who do mathematical philosophy wouldn't have much of a problem with the above type. I like C so I write stuff in lowercase, uppercase is annoying to programmers.
+Anyway. It doesn't have to make sense to you. It needs to make sense to programmers/mathematicians and the compiler. Can you give a case where a type like that could be interpreted ambiguously? Or no inference can be given?
+What you want are type level functions, which effectively enable arbitrary computation at the type level. For me this is too much... I want to write algorithms at the value level not the type level. I might want to express things at the type level, but I don't want to get into the 'how' to implement them. This is why I have chosen a logic-language for my type system, rather than a functional one. So my language will allow types like f(X) but they mean match predicate 'f', and unify X with the arguments (just like in Prolog).
+"Enable arbitrary computation at the type level"
+Meaningless statement unless you show me. I just want some primitive form of unification on type constructors. I don't see how that would immediately imply type level computations.
+Unification on type constructors, across a database of definitions... and you have re-invented Prolog :-) Which sounds pretty similar to what I am doing.
+No. That's what I once said I thought they did in Haskell. And it looks to me that they keep patching holes around it in ghc so I think I was right there.
+No closed world assumptions. Bad idea.
+The open/closed world issue only affects the definition of negation in the logic language. If you don't allow negation there is no difference between closed and open world.
+Really you need to specify a bit more about how you intend your system to work.
+I was more counting on all the academics doing all the hard work. Which is why I asked for references.
+I.e., give more mathematical types to programs and see whether one can get away doing so without quantifiers, since I don't like those much.
+I am not entirely sure that is possible without the rendering the type system both ambiguous as well as intractable. Something heuristically just looks tractable to me.
+I don't like Haskell's rank types system. In this particular case you can see that Sjoerd's type could have been derived heuristically; but I don't know of other cases and Haskell refusal to unify an arbitrary constructor with 'id' I find a weakness. Moreover I am guessing you need something like an algebra over type constructors, something where if 'f a=c' it is derived that 'f=id, a=c'; moreover, elimination rules where composed constructors are trivialized to single constructors, i.e., "(f . g) (x)" becomes "h (x)". Didn't see that so far.
+Since these are the types one would write down naively, and there are manners of transforming them into rankn types, possibly heuristically, it looks doable to me; the other question is whether one can avoid rankn completely, by naive unification, because that's obviously a problem.
+There must have been research into typing functional programs with more naive mathematical types hence I asked. But it doesn't seem it has been done so far; or people here are unaware of it.
+so that you can instantiate the function parameter at types b and c.
+Also, your edit to the post with discussion about choosing f to be identity on types isn't right. See my discussion with Gabriel -- he was thinking of a more general type. If you take f to be identity on types, then the function parameter must have type (forall a. a -> a), meaning it must be the identity function.
+What part of you can heuristically derive Sjoerd's type, but I am not sure that is ambiguous, didn't you get? And I questioned whether you can get away with not thinking about rankn types but as types as an algebra. No idea whether that is possible, but at least it might be backed by an informal heuristical translation to rankn.
+I didn't list your discussion on 'deriving a more general type' on purpose.
+What part of [thing marco posted] didn't you get?
+In this particular example that seems to boil down to a trivial analysis on the scope of 'a'. Why does the programmer need to inform the compiler on how to do the inferencing? Maybe there are good reasons. Maybe they are not so good. I wouldn't know, and nobody has shown good reasons so far.
+Then the unification with 'id' is something I assumed but isn't done in Haskell. I don't care about Haskell; is this a weakness of system F?
+May I remind you that this post starts with: "pesky rankn types" and I therefore purposefully didn't give rankn types? Because I want to get rid of them.
+The question from the start is whether the compiler can decide, or guess, the correct meaning of a more mathematical type, and what systems exist for that.
+Ah well. This topic is closed. We're not getting any further on it with our limited knowledge.
+If you phrase this as a (higher-order) unification problem, f could also be a constant type function. How do you know that solution is not wanted? (I think there are programming idioms using constant type functions in Haskell, though I can't name any terribly useful one).
+I am just thinking aloud along this lines. I thought the type theorists would already have solved it; hence the question for references. Turns out they didn't. I haven't given it much thought myself.
+They're both first-order unification â€” see Wikipedia. So no surprise there. But it can't unify on type functions.
+It can try to unify over any datatype you give it which implies term algebras, even 'datatypes' describing higher-kinded type grammars.
+It gives you a form of backtracking unification but that would in general not be worth it; unless you feel like exploring it that way.
+Sorry but I'm not entirely sure what you mean. If you're denying "that it can't unify on type functions", I think the point of confusion is that I'm convinced (with others) there's a clear difference between constructors from arbitrary functions, while you don't buy it. If so, I tried answering in my last comment on higher-order unification.
+What's there to be confused about. At the heart of type checking is unification, prolog gives you unification, therefore it might sometimes be a handy tool to experiment with. It can unify over datatype representing the AST and it is Turing complete so whatever it can, or cannot do, in academic terms, it can implement any algorithm.
+Interestingly, this is pricelsely the property of type constructors (and presumably deconstructors) that I was mis-naming as 'generative'.
+Its interesting because I think its this property that let's you incorporate IO cleanly into a pure language. You only need the monad formalism in Haskell because it is a lazy language. In a strict language the sequencing part of a monad is unnecessary, as order is strict in any case, but you can still use the type constructor/deconstructor to hide the IO or other side effects because they do not compute. This way the arrow in function application can be pure.
+It isn't coincidence. I was thinking of signatures too.
+Clean: ?? (pure/pure?) with uniqueness types.
+Does anyone know the correct terminology / explanation for this?
+I thought we've been over this? The (complete) type of the IO monad tells you you can't take anything out.
+The only thing special is that you can't take anything out of the IO monad. That's all you need. Everything else you want to state about it, including the monad laws to some extent, is therefor horsedung.
+What is special about the type of bind or return? The arrows are the same as for any other function (in Haskell).
+What about the impurity of lazy lists? What about the state monad?
+The monad is nothing special, its just a constructor class, requiring functions bind and return be defined with a certain type.
+The 'special' thing in Haskell is the impurity of type constructors/destructors. The 'special' thing in ML is the impurity of the function arrow.
+Everything in Haskell is pure. It has nothing to do with arrows.
+And again, everything interesting about the IO monad, isn't that it's a monad, but that you cannot take anything out. A monad, or rather: the IO monad, just happens to satisfy that condition. You might call it a free algebra but that isn't even to the point.
+Maybe you should ask someone else to show you?
+Something has to be impure. In Haskell its type constructors. Consider a List, how do you know if it is empty or not? and note that you can perform IO in a pure haskell function using a lazy list as the input or output argument.
+I think you are wrong on this one, and you will have to do better than hand waving to convince me otherwise.
+Edit: Okay I see your point about not being able to take anything out... but I am not sure its relevant.
+Would a language with pure-strict functions work with IO in impure/strict type constructors? I think so... and this is kind of the proof that it is not the monad - which provides sequencing in an impure language that is the necessary bit for IO, but the type-constructor.
+Stubborn. Aren't we? Okay, I'll take up the glove and demonstrate anything you're interested in.
+In a strict language with pure arrows, IO is not a monad, its just an impure type-constructor.
+Scrap anything in the "anything you're interested in"
+No I really don't see it. From a different perspective getchar is a program which hasn't been run yet. I gather unIO runs it. The strictness doesn't matter neither does the perceived impurity of the data constructor matter.
+The compiler is free to memoise the results of any pure function if the parameters are the same, and it can treat a zero argument function as a value. Getchar the program is a value, and the deconstructor unIO runs it returning a different value each time it is deconstructed.
+Well. I agree with that observation. But that doesn't imply I get what your question was?
+I am starting to see where you're going. Uhm. Why do you feel the strictness matter? A lazy language like Haskell could do the same, and optimize (one occurrence of) unsafePerformIO out; which was exactly the point I made before?
+I don't see where the strictness matters in this question. So maybe we should drop that, I will, and just think about the purity of it. Which means, I don't see what you're telling me since I agree with what you say about that particular program. And as I said: It doesn't matter that IO is a monad, as long as it hides stuff.
+So: laziness doesn't seem to matter neither does the fact that IO might be a monad. So what is the question again?
+With a lazy language there is no guarantee IO will get run in the expected order, or even at all. If the result of a function is never used any side-effects will never be generated. Note: I am assuming the case where we 'ignore' side effects. Haskell therefore needs to impose a sequencing on the IO, which is strict, rather than the normal lazy semantics. The monad does that with bind (>>=).
+Without the monad, and without any other kind of marker, nothing forces "f" to be "IO" or to make the compiler aware it contains side-effects. So when you said you can put stuff into a monad but not take it out, it was relevant, but what I was sating about the 'impure/special' deconstructor for IO was also relevant - I just didnt want the two topics to get mixed up at that point.
+What concerns me about the monadic approach is that the pure functional program generates an impure program as its output that is then run 'magically' at the end of main. This feels like an extra layer that makes things harder. Writing A to generate B seems harder than just writing B, and I am not sure it offers any advantages at all.
+What worries me about the ML approach is the lack of control of side-effects. The other problem is the lack of nullary functions - which if pure would just be values, but can have side effects in an impure language. Even if we have two different arrows, one pure, one impure, the nullary function problem remains.
+Which i think offer interesting encapsulation of operations like a file block copy.
+Yah. The complete algebra for monadic IO (i.e., the monadic operators plus the io functions plus unsafePerformIO) has only one (impure) deconstructor you're not supposed to know about: unsafePerformIO. I fully agree with that observation and made it myself though that bought me some flak on LtU before. And because it's an impure construct in a pure language it may be compiled out.
+Your idea is to create an impure strict language with mark annotations for impure operations? I wouldn't know. Personally, sorry, I expect nobody will use it. Either you have a (lazy) pure language, and you hide/encapsulate/track the impurity, or stuff is just (strict) impure; the design space just doesn't seem bigger than that. Well. I am not stopping you but are you not sure you haven't been indoctrinated with the Haskell popular lingo too much? In a strict language I really don't care things might be impure; it's a great nice to have. Unless you have a very good reason to track it, it's just an academic exercise I personally can't care much about.
+Last point on the nullary function I posted a joke about. I, again, fully agree with you and there is a serious undertone to it. It makes me doubt the relevance of their type soundness proofs. It might be that in the soundness proof nobody thought that nullary functions exist and may be impure; then again, it may also be totally unrelated.
+. Actually, I would want the opposite. Controlled impurity in a lazy pure language; that stopped me from using Haskell and I ended with ML. But you seem to have proven that's impossible. Though my idea of conflating objects with modules might be a way out; no idea, yet.
+ That's another reason I think E. Meijer's ACM paper is a teaser. He's somewhat older than me, knows both Clean and Haskell, and knows very well that you can't have uncontrolled impurity in a pure language. His "we should use unsafePerformIO sometimes" reads like an in-crowd joke. As do a number of other examples.
+Check out the Eff language. I think Idris has an algebraic effect system, too.
+For my language, I'm using an abstraction that I call processes. A process is an object that receives a message, updates its state, and then responds by sending a message out. It ends up being similar to algebraic effects.
+These techniques improve over simple effect typing by leaving the effect handling open to rebinding. So I can have a first class process that sends "print" messages and run it in a context where I get to specify the handler for that message and then after it's run for a while package it up as a value again. This also provides a nice interface for continuation capturing.
+I find it useful to view programming as building pure values in some mathematical universe of discourse and letting real world effects come from the interpretation of those values by machines. This certainly makes it easy to integrate with a theorem prover.
+That type doesn't make much sense to me.
+Idris has a ! syntax which I'm pretty sure works just like the unIO you're thinking about.
+Common subexpression evaluation of (unIO $ getchar) would indeed break the program, so that shouldn't be a permitted optimization.
+Yah that's true from a perspective. It's the hidden "unsafeperformIO" wrapped around the Haskell "main", or whatever it is, which is "impure" to some extent.
+Or it is pure. Philosophy.
+Something has to be impure. In Haskell its type constructors.
+The moral is that Haskell stays pure by only ever building values that describe programs that will have some effect at run-time. No function application at the type or value level ever produces an effect. Effects happen at run-time by interpreting the instructions that your Haskell program builds up in IO.
+Is what I remember. A Haskell program, or Gopher, or Miranda, just consumed a lazy list of chars and possibly produced a list of chars as output.
+That showed that FP was able to do IO purily.
+I don't think they went continuation passing style but went lazy event list. At least, I still think of unsafePerformIO as something which lazily both consumes and produces an event list while interpreting a program. (That's academically equivalent to interpreting chars, of course.) Might be wrong.
+But anyway. Since you're not supposed to know about unsafePerformIO you don't know how your 'program' is run so you might as well think of it as a pure construct.
+Is a lazy list pure? If the list is reading data from some external source we cannot know when the list will end. In fact if the list is from a keyboard buffer, it might be empty now, but not empty in the future.
+To me it seems the compiler cannot assume purity in any deconstructor, so it must assume they are all impure?
+I would say both arguments stick. Since you're deconstructing a lazy list which depends on input you might say it's impure.
+But mathematically everybody agrees that a stream of events is a constant. Therefore Haskell is pure.
+I favor the Haskell is pure interpretation but I agree the other case is there too.
+Haskell originally had both stream-based and continuation-based I/O; the stream-based version operated on lists of requests/responses, not chars (which allowed more things than reading/writing characters from stdin/out, say operating on other files). But I read the two are somehow equivalent (didn't get the details).
+This is described in Sec. 7 of A history of Haskell: being lazy with class.
+What tells the compiler that the GetChar is not a value? Normally the compiler would assume a function with the same parameters has the same result (referential transparency), so with a nullary function RT indicates it is a simple value, and the function can be optimised out and replaced with the memoised value. Something about the type of GetChar must tell the compiler that it is not a value and that it must be evaluated fresh for each use. In haskell all the function arrows are pure, so the only thing it can be is the IO type deconstructor.
+But its type is IO Char, not Char. Identical calls to GetChar do produce the same result in my example code above. In your example snippet, GetChar is not called twice with the same parameter. The outer call has argument (\c -> GetChar( \d -> Print (a,b))), and the inner call only has argument (\d -> Print (a,b)). But I wouldn't get too hung up on when two GetChar values are the same, because an IO Char is just instructions for producing a Char at a run-time (in my example code, it is literally just data). Just because you follow those same instructions two times doesn't mean you'll get the same character pressed both times.
+Also, I'd be careful reading in your reading of David's remarks, even though I think I agree with them. The comment he made about the IO deconstructor being impure might lead to confusion. There is no IO destructor value in Haskell. The language specifies how IO values will be interpreted by the environment and that's all.
+Yes, getchar is a value in Haskell due to the type "IO Char", and 'unsafePerformIO" can run it... I was talking about a naive 'getchar' implemented without monads, where you might just give it the type "Char" and expect it to work. In ML all arrows can possibly contain side-effects so although the type Char is not okay (it would be a value) "something -> Char" is fine, so pass a dummy argument or a stream id in and your okay. In Haskell the arrow is pure but IO Char can hide the impurity in the deconstructor for IO.
+Ssssshhh... That's actually a bug in ocaml types at the moment.
+DISCLAIMER: This comment was brought to you in good faith to inspire pure unadulterated good fun. I don't want people to get upset about it. Of course.
+One can understand IO as a pure constructor with an impure 'deconstructor' (really, an interpreter), which is conventionally available via unsafePerformIO or by defining `main`.
+However, this doesn't imply a compiler must assume other 'deconstructors' are impure! It's easy enough to create a compiler that understands IO as a special (built-in) use case - perhaps along with ST, STM, and a few others for performance reasons. For `Identity` or `Maybe` or `StateT` or `ReaderT`, for example, it would not be difficult to use known, purely functional deconstructors when guiding optimizations.
+Of course, if you start writing generic code - e.g. `(Runtime m, Monad m) â‡’ Int â†’ m Int` - the compiler won't be able to assume much of anything about the specific monad in use - it might be the IO monad or any other. It might be able to specialize in context, but for many use cases (like System.Plugins) the specific context might not be statically available to the compiler. In this case, it is indeed true that the compiler must make some difficult-to-optimize assumptions. At best, you'll get a few useful generic optimizations like `return . f >=> return . g = return . (g . f)`.
+Anyhow, if I read you correctly, you're trying to generalize from IO to other constructors when no such generalization is necessary (except for generic code).
+That is exactly what I was thinking with regard to the impure deconstructor.
+I guess this is how it is done (with special cases in the compiler), but I find it somewhat unsatisfactory that IO appears in the type system just like any other type constructor, but gets special treatment.
+I think it might be neater to have a type mark/annotation that indicates impurity explicitly.
+If you observe that IO is a monad but the monadic structure doesn't matter that much, in the sense that there are alternatives, and you observe that you're not supposed to know about unsafePerformIO then IO is exactly that. A marker.
+You might also be interested in â€œType Inclusion Constraints and Type Inferenceâ€ by Aiken and Wimmers. IIRC their algorithm would infer \(g :: \forall a b c d. (a \to c \cap b \to d) \to a \to b \to c \times d\).
+I am scanning it. Nicely written.
+But I am interested in type constructors because I am thinking a bit about what a module system abstractly is, and simultaneously if I can give programmers a better experience by getting rid of higher-rank types.
+So, hmm, doesn't seem to apply.
+First-class-polymorphism, and adapting Mark P Jones' FCP is how I intend to avoid higher ranked types needing to be used directly.
+Looks like I am not going to be able to get rid of higher-rank types since the problem cannot be defined very well and there isn't a 'database' of lambda terms to test a (heuristical) decision procedure against.
+So, higher-rank it is. Anyway. I guess programmers somewhere will like higher-rank types since it gives them the feeling they might have learned something.
+Looking at some of Daan Leijen's stuff now. And I think I remember Erik Meijer wrote an inferencer for a system F like system somewhere.

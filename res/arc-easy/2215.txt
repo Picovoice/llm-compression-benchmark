@@ -1,0 +1,2 @@
+Some changes are fast. Some changes are slow. Which of these changes is most likely the slowest? (A) fire (B) flood (C) landslide (D) drought
+Answer: D

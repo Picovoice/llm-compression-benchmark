@@ -1,0 +1,2 @@
+Human Immunodeficiency Virus (HIV) infects the cells that coordinate the human immune response. When these cells are killed or compromised, the body cannot effectively protect itself from infection. Which cells does HIV infect? (A) natural killer T cells (B) regulatory T cells (C) cytotoxic T cells (D) helper T cells
+Answer: D

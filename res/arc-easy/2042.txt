@@ -1,0 +1,2 @@
+A student has recorded rainfall amounts for 28 days and uses a calculator to determine the total rainfall. What does the student calculate when she divides the total rainfall by 28? (A) mean rainfall (B) rainfall mode (C) median rainfall (D) percentage of rainfall
+Answer: A

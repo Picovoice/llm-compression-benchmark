@@ -1,0 +1,2 @@
+One parent has brown eyes (BB) and has offspring with another parent who has blue eyes (bb). What is the probability that one of their children will have blue eyes? (A) 0% (B) 25% (C) 50% (D) 100%
+Answer: A

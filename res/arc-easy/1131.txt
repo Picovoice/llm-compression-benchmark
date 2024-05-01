@@ -1,0 +1,2 @@
+A hardware designer finds that the wiring in a circuit is releasing enough heat to make the circuit dangerously hot. Which change would best solve this problem? (A) increasing the current in the circuit (B) placing rubber insulation on wires in the circuit (C) reversing the direction of current flow in the circuit (D) using circuit wires with a lower resistance
+Answer: D

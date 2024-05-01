@@ -1,0 +1,2 @@
+In a certain field, plants with blue flowers are pollinated by bees, while plants with white flowers are pollinated by moths. If the population of bees decreases, which will most likely occur? (A) The population of blue flowers will increase over time. (B) The population of white flowers will increase over time. (C) The moths will start pollinating the blue flowers. (D) The bees will start pollinating the white flowers.
+Answer: B

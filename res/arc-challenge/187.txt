@@ -1,0 +1,2 @@
+A 0.20 kg softball travels 97 meters (m) south for 4.5 seconds (s). What piece of information distinguishes the velocity from the speed of the ball? (A) The ball went south. (B) The ball flew for 4.5 s. (C) The ball traveled 97 m. (D) The ball has a mass of 0.20 kg.
+Answer: A

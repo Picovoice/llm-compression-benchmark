@@ -1,0 +1,2 @@
+Which is a trait that a child can inherit from its parents? (A) eye color (B) a broken leg (C) length of hair (D) language skills
+Answer: A

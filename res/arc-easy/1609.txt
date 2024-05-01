@@ -1,0 +1,2 @@
+What type of cell passes on mutations? (A) skin cell (B) nerve cell (C) red blood cell (D) egg cell
+Answer: D

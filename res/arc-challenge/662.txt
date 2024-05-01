@@ -1,0 +1,2 @@
+In order to compare the results of an experiment among different groups, each group must (A) start the experiment at the same time. (B) have different members record results. (C) use the same equipment and procedures. (D) perform a different number of trials.
+Answer: C

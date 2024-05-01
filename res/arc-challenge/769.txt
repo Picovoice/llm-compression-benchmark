@@ -1,0 +1,2 @@
+Which of the following best describes the function of an encoder in a telephone communication system? (A) converting sound to electrical impulses (B) receiving transmitted electrical signals (C) changing electrical impulses into sound (D) sending electrical signals through a circuit
+Answer: A

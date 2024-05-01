@@ -1,0 +1,2 @@
+A researcher's plan is to place five fish in separate tanks, give them the same amount of food each day, and keep the temperature the same. One fish will be exposed to artificial light for 24 hours each day, while the others will have light for 22 hours and then no light for 2 hours each day. Which is the control for this experiment? (A) the separate tanks (B) the amount of food (C) the fish deprived of light (D) the fish exposed to light for 24 hours
+Answer: D

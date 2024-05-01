@@ -1,0 +1,2 @@
+The motion of a car accelerating in a straight line differs from the motion of a car moving in a straight line at a constant speed. Which change best describes acceleration of a car? (A) a change in the direction of the car (B) a change in the distance the car travels (C) the change in velocity divided by the time for that change (D) the change in the time for the car to travel a distance
+Answer: C

@@ -1,0 +1,2 @@
+A ball rolls across the floor and slows down to a stop. Which force caused the ball to slow down? (A) friction (B) gravity (C) magnetic (D) inertia
+Answer: A

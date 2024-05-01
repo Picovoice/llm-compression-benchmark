@@ -1,0 +1,2 @@
+During a collision, a seat belt slows the speed of a crash dummy. What is the direction of the net force exerted by the seat belt compared to the direction of the crash dummy's motion? (A) in the same direction (B) in a vertical direction (C) in a downward direction (D) in the opposite direction
+Answer: D

@@ -1,0 +1,2 @@
+The empty spaces in a material are called pores. Porosity is the amount of empty space within a material. Permeability describes how well the pores in a material are connected. Which of these materials would make the most effective aquifer? (A) a material that has high porosity and high permeability (B) a material that has high porosity and low permeability (C) a material that has low porosity and high permeability (D) a material that has low porosity and low permeability
+Answer: A

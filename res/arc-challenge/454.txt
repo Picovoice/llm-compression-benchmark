@@ -1,0 +1,2 @@
+In the design process, a trade-off occurs when a problem is solved but a feature is sacrificed. Which of the following is an example of a trade-off? (A) A car's gas mileage is increased and the engine has less power. (B) An airplane uses a more efficient engine and has higher performance. (C) A sports drink's taste is improved and has the same nutritional content. (D) A computer company upgrades the hardware and the price remains unchanged.
+Answer: A

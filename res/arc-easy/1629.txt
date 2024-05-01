@@ -1,0 +1,2 @@
+Sonar can be used to measure distances underwater. This is accomplished by sending a sound wave to a "target" while measuring the total time it takes for the wave to reach the target and then return to its source. Which of the following sound wave characteristics must be known when using sonar to measure distances? (A) amplitude (B) wavelength (C) frequency (D) speed
+Answer: D

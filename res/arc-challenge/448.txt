@@ -1,0 +1,2 @@
+The development of a nuclear power plant at an ocean site is expected to produce an enormous amount of electric power for a large population. Ocean water will be used to cool the plant and then returned to the ocean. What unintended consequence should be analyzed before starting construction? (A) number of kilowatts produced per home (B) the effect of warmed water on aquatic life (C) the impact of other energy-producing resources (D) energy use per person
+Answer: B

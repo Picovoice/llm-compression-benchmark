@@ -1,0 +1,2 @@
+The voltage is held constant in an electric circuit. What will happen to the current in this circuit if the resistance is doubled? (A) The current will be tripled. (B) The current will be doubled. (C) The current will be cut in half. (D) The current will stay the same.
+Answer: C

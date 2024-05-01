@@ -1,0 +1,403 @@
+Steganos Safe is the real deal when it comes to encryption. But can it offer more?
+Steganos Safe manages to create a secure encrypted storage for its users who want to secure their sensitive files.
+Users will find using Steganos Safe pretty easy.
+Some of the features that Steganos Safe offers are unique.
+And hence they provide some good options when it comes to maintaining secrecy and privacy.
+If someone steals your computer machine, you can always replace it.
+It will cost you a lot.
+But at least it is totally within the realms of possibility that you will, after spending a bit of money, get your computer machine back.
+What about when you have to claw back your sensitive data from data thieves who extracted that data from your computer?
+Well, as it turns out, that isn’t really possible.
+That’s not the worst part even.
+The worst part is that the cost of losing one’s data isn’t just limited to the data or what it contained.
+It is about how much the hacker can leverage the data for his/her nefarious designs.
+Eventually, the total cost of stolen data may rise much greater than the total price of the user’s computer machine itself.
+Hence, one should never leave himself/herself, open or vulnerable to any kind of data hacking or data breach.
+The best way to protect against data breaches is to first use an antivirus product, a VPN service, and an encryption safety tool.
+Today, we’ll talk exclusively about an encryption safety tool.
+In short, use encryption and protect all your sensitive files.
+This is what Steganos Safe does.
+It goes about its works by creating encrypted and secure containers for the user’s sensitive folders and files in those folders.
+Apart from this basic functionality, the Steganos Safe application also provides users with a considerable amount of advanced features.
+Now, Steganos Safe has been around the business for a long time.
+And hence periodically updated its product.
+Today, we are going to review version 19, which is the latest edition, of Steganos Safe.
+The latest version of Steganos Safe manages to add a two-factor authentication feature for users who want to unlock their data containers.
+This same version also comes with the ability to successfully convert a present disk partition into a secure container that is encrypted.
+This package allows users to install Steganos Safe on a total of five of their personal computers.
+Readers should take note that this isn’t a subscription-based service.
+Steganos Safe is actually a product that only requires the user to pay a one-time fee.
+Users only have to pay for their Steganos Safe software again if they want to purchase the latest version of Steganos Safe.
+Other encryption security tools like Raquel technologies CryptoForge and Folder Lock pretty much cost the same as Steganos Safe.
+Steganos Safe competitors such as CryptoExpert and Cypherix PE cost $45 and $59.95 respectively.
+As in the case of Steganos Safe, these prices are also only one time prices.
+Steganos Safe gets the lead over them because both all four of the above-mentioned encryption security tools provide users with just a single installation license compared to Steganos Safe’s five.
+Hence, if you are looking for a bargain, then Steganos Safe offers as distinct one as you are likely to come across with its five-license base package.
+Steganos Safe is a standalone product.
+But it is not the company’s only product.
+Steganos Safe is actually a part, though an integral one, of the complete Steganos Privacy Suite.
+The Steganos Privacy Suite also includes tools such as Steganos Password Manager and many others.
+How Do You Define Encryption?
+In other words, what is it?
+More importantly, how does it keep you safe.
+To answer this question comprehensively we will have to go through a short history lesson.
+Generals and queens have always had the need to communicate their military (and otherwise) plans with secrecy.
+Similarly, on the other side, their enemies have also left no stone unturned in toiling away with might to try and crack their secret and hidden communication systems.
+To understand encryption, you must understand cipher.
+A cipher is something that manages to replace each and every letter with another, most of the time different, letter and//or symbol.
+This type of cipher, as you can imagine, is pretty easy to crack.
+Because it is usually based on letter frequency.
+That is the reason why old-time cryptographers had enough with this type of cipher.
+And went looking out for something stronger because that was their need.
+You may have heard about The Great Cipher.
+This is the security system that Louis XIV of France used.
+And it managed to hold its own for over 200 years.
+After that, some hackers successfully cracked it.
+The Father-son team of Bonaventure and Antoine Rossignol managed to conceive the brilliant idea of using syllables for encoding rather than letters.
+They also let multiple code numbers/digits to represent the same kind of syllable.
+Moreover, the team also took the help of nulls along with numbers which did not contribute anything to the cipher.
+One would think that this would be enough for the security of any message.
+Cryptographers kept on working on their techniques and came up with new methods of encryption.
+That is the reason why the long-broken above-mentioned cipher still pales in comparison with the type of technology that people are using for modern-day encryption.
+We’re talking about the AES standard which has become the industry standard nowadays.
+The AES term stands for Advanced Encryption Standard.
+It is the United States government’s official encryption standard.
+How is it different and more secure from all the rest?
+Well, it runs all of the related blocks of data through several different transformations.
+Now, each implementation of the AES technology is different.
+But typically it uses a 256-bit key.
+There is also the Blowfish algorithm by Bruce Schneier.
+Security experts consider this one even tougher for hackers to crack because it makes use of a strong 448-byte key.
+The actual size of the key doesn’t really matter.
+You will eventually have to find a way to transmit the security key to the recipient.
+As you can probably tell, this is the most vulnerable point in the whole security system.
+If somehow, the enemy gets a hold of that security key then the size of the key would not matter.
+That’s why we can now count on technologies such as PKI.
+Or Public Key Infrastructure cryptography that does have any such weaknesses.
+Basically, each user has a total of two keys.
+The first key is the public key.
+This is visible to anyone and everyone.
+The second key is the private key.
+This is the key that no one can see and neither have.
+So if person A encrypts a given folder or a file with person B’s public key, then person B can decrypt the file or the folder with his/her private key.
+Before moving on let’s consider the converse situation as well.
+If person B encrypts a file with his/her private key, then the fact that person A can decrypt that file or folder with person B’s public key proves that the file or folder came from person B.
+Think of it as a digital signature.
+Steganos Safe is one encryption utility that has a quick and simple installation process.
+One the user has finished installing the software, the Steganos Safe will show the user a simple and straightforward main window.
+This main window has a total of two huge buttons.
+The first huge button is for users to create a brand new safe.
+The other huge button is for the user to open an already-created hidden safe.
+So if you really think about the context, a safe is just another name for a container that is encrypted.
+When the user opens the safe, it acts and looks exactly like a hard disk drive.
+Users can move files out of the safe and into the safe.
+They can also create new documents.
+Steganos Safes also allow users to edit their documents in place.
+There are many other features and we will discuss them as we move through this Steganos Safe review.
+With that said, readers should note that once they have closed the safe, the contents of the safe become rather inaccessible.
+No one can successfully unlock the safe once the user has closed it without a password.
+And that “no one” includes Steganos itself.
+The best-reviewed encryption utilities are AxCrypt Premium, CertainSafe and Folder Lock.
+All of these use AES for their encryption.
+And so does Steganos Safe.
+However, it does them one better.
+In other words, Steganos makes use of a 384 bit key instead of the 256-bit key that all other good encryption utilities make use of.
+Encryption utilities such as CryptoForge and CryptoExpert offer users a total of four different algorithms.
+File encryption software applications such as Advanced Encryption Package makes the effort of going over 17 choices for their users.
+The only problem is that only a small percentage of all users would have the necessary knowledge to actually make a suitable and informed decision of which algorithm to use.
+So the way to move forward is to stick with AES.
+Steganos Safe has another interesting feature.
+It warns the user with a pop-up message if the user tries to close the safe while the user still has files and/or folders open which are present in the safe for more editing.
+Steganos offers all users a basic safe feature.
+In addition to that, it also offers users to optionally create, what the company calls, portable safes.
+For users who like to have more options, there are also cloud safes and partition safes.
+We will try to cover each type of safe in a separate section in this Steganos Safe review.
+The entire process of creating a brand new safe via Steganos software for storing one’s sensitive files/documents/folders is pretty simple.
+Steganos Safe provides users with a wizard.
+This wizard makes everything simple because it walks the user through all the required steps.
+To start the process, the user has to assign a name to the new safe.
+Then the user has to provide the drive letter for the safe.
+Steganos Safe’s main window does a good job of displaying the name of the safe.
+By default, the application goes ahead and creates a file that represents the user’s safe in a subfolder that exists in the Documents folder.
+Users who want to change that have the facility of overriding the default option.
+In other words, users can put the new safe in any location they want to.
+And that includes the option of creating the new safe on a network drive.
+The next step is where the user has to define the new safe’s total capacity.
+The minimum capacity that Steganos allows is 2MB.
+And the maximum size has no limit.
+Well, there is a limit.
+And that limit is dependent on the user’s operating system.
+Steganos is a bit different from other encryption tools in that it doesn’t force the user to input a hard limit on the initial capacity of the device.
+CryptoExpert and Cypherix don’t give users that option.
+Steganos Safe provides users with the option of creating a safe whose size can grow dynamically.
+File encryption tools such as Folder Lock work slightly differently.
+While using Folder Lock users have to provide the software with the maximum size at the time of creating the safe.
+But Folder Lock only makes use of as much storage space as the content of the file or the folder require at any given moment.
+With Cypherix, users usually have to format a newly created volume.
+No, this action is not optional.
+The case is different with other encryption tools and Steganos.
+These encryption tools create safes that the user can use immediately.
+The next step is also a simple one.
+Users have to choose a suitable password.
+Users who have used the Steganos Password Manager to create a master password should feel right at home with the Steganos Safe’s password dialog.
+In other words, both have similarities.
+As the user types the password the Steganos application rates the strength of the password.
+If the user wishes, then he/she can actually define the safe password by performing a click on a sequence of images/pictures rather than the standard option of typing out the password.
+This feature is called PicPass.
+And in all honesty, it is pretty cute.
+However, PicPass doesn’t have the essentials to create a strong user password.
+In order to foil any and all possibilities of a keylogger capturing the user’s password at creation stage, users have the option of entering their new password with the help of a virtual keyboard.
+InterCrypto Advanced Encryption Package and Folder Lock also provide users with the same feature of a virtual keyboard.
+Users who wish to store their passwords on their removable disk drive can do so with ease.
+Such a case would effectively make the drive the key for the safe.
+Users should know that the default behavior is slightly abnormal if they go this route.
+Basically, if the user opens a safe in this way (via a removable drive) then the safe will automatically close once the user removes the key (the actual, physical drive).
+This isn’t exactly two-factor authentication though.
+Because even with the portable drive you can unlock the safe with either the key OR the password.
+At best, it provides the user with a bit more convenience.
+If the user is in a similar situation with decent encryption tools such as InterCrypto CryptoExpert then they can actually configure the software to require both the USB key as well as the master password to open the safe.
+Let’s talk about the Steganos version 19 in this regard.
+The latest version of Steganos Safe actually offers two-factor authentication.
+Users will have to use an authentication app which supports standard TOTP (Time-based One Time Password) algorithm.
+The most well-known authentication app that we know of is Google Authenticator.
+But there is no reason for you to go with Google Authenticator as there are many other good apps.
+In order to link the app with Steganos Safe, users have to snap the QR code that Steganos displays.
+Then the user has to enter the exact code that his/her app returns.
+If you successfully complete the above steps then you would now require both the ever-changing (and more secure) TOTP code and the master password.
+Steganos Safe also offers a special option.
+This special option only appears for users who want to create safes which are smaller than 3MB in their total size.
+If the user has selected an acceptable storage size then a link displays on the screen an explanation detailing how the user can proceed to create a new hidden safe.
+So what do you have to do to avail this option?
+Well, first you have to create the safe.
+Then you have to click the safe.
+After that, go to the menu and then choose the option that says Hide.
+When that’s done you should proceed to choose the carrier file.
+As mentioned before, when you enable this option Steganos Safe will actually stuff your entire tiny safe into your selected carrier file.
+And most of all, it would not affect the file’s or the folder’s ability to function properly either as a video/audio file or as a program.
+In order to open your safe, you will first have to open the main application.
+From the main window, you will have to click the option that says Open a Hidden Safe.
+Then you will have to select the carrier file.
+After that, it is just a matter of entering the password to open your safe.
+The only precaution that we would like users to know about is that they must remember the place where they hid their safe.
+One downside to this feature is that once the user has hidden his/her safe inside a given file of any type, the safe can no longer change its size dynamically according to the needs of the user.
+That, if you think about it, makes sense.
+Now we’ll come to the part where we have to give you a very stern warning.
+Under no circumstances should you even attempt to hide your safe that you have protected via two-factor authentication.
+Because if you do so, then you will absolutely lose all of your data from that given safe.
+Well, it’s the way that Steganos Safe works.
+When you hide your two-factor authentication protected safe, Steganos always requests for the password.
+But it never requests for the two-factor code.
+Once that happens, it moves forward to report that the input password is actually incorrect.
+As a consequence, you lose all of your data.
+Steganos representatives will tell you that they have also duplicated this particular problem.
+They would also tell you that their developers are hard at work to add a warning message for the users.
+Of course, we would like to see Steganos Safe just make the two-factor authentication work with the user’s hidden safes.
+What Are Those Portable Safes?
+Users who want to have additional security may want to consider creating a Steganos Safe portable safe.
+Essentially, users will have to store this safe in a secure location.
+Especially when they are not using the safe.
+The process of setting up a portable safe is very similar to the one we discussed before.
+The first step is to start off by selecting one’s target device.
+That target device could come in the form of an optical drive and/or USB storage device.
+Users will define the size of the portable device.
+And then the app would require the user to create a strong password.
+These steps are pretty similar to when the user has to set up the regular safe.
+After creating the password, the process diverges from the regular safe process.
+Basically, Steganos first creates and then opens up something that it calls by the name of a prepackaging drive.
+Users who want to create a portable drive can do so by dragging their desired files and folders into the newly created prepackaging drive.
+After that, when the user clicks Next, the official Steganos application moves ahead to create the necessary files.
+These necessary files are located on the target device.
+Our research tells us that users don’t have any need for the prepackaging drive after Steganos has gone through the initial creation stage.
+Now, we know that the portable safe is small.
+What we didn’t know was that if it is small enough, Steganos can create what the company calls by the name of SelfSafe.
+It would activate this feature by default if the size of the portable safe is below 400 MB.
+And as we saw in the case of hidden options for Steganos regular safes, the SelfSafe option only appears when the user has made a portable safe that has the appropriate size.
+In other words, it has to be small enough.
+But what is the SelfSafe file?
+Think of it as a single executable file.
+The name of that executable file is SteganosPortableSafe.exe.
+The first is the decryption code.
+The second thing it contains is the data which represents the Steganos Safe’s contents.
+Portable safes which are large go someplace else.
+Steganos saves the contents of these safes in a folder.
+It calls this folder as Portable_Safe.
+After that, it adds a special file which is called usbstarter.exe.
+The way you choose doesn’t really matter.
+In either case, if you launch the program that the app will allow you to open the portable safe.
+You will have to provide the app with the master password first, though.
+Our research shows that users should at least prepare for one surprise.
+As it turns out, the Steganos Portable safe isn’t actually completely portable.
+We mean that it still requires the official Steganos encryption engine.
+For the end user, this means, users can only open and then work with their Steganos Safe portable safe on a machine on which they have already installed the main Steganos program.
+This is where you should consider yourself fortunate.
+Because Steganos Safe comes with five licenses with each of its subscription package.
+We have already noted the fact that users can open up a portable Steganos safe on any given personal computer on which they have already installed the official Steganos Safe software application.
+The creation of a cloud safe for the same purpose is just another way to share one’s encrypted folders and files between various different computer machines.
+Steganos Safe is compatible with various popular cloud storage services.
+We’re talking about services such as Microsoft OneDrive, Google Drive and of course, Dropbox.
+Regardless of the user’s option, the user has to install the cloud service’s official desktop app.
+If the user reads the help page, he/she would come to know that OneDrive and/or Google Drive must continue to re-sync the entire Steganos safe whenever they detect any change in the contents.
+With Dropbox, users have more options since they can choose to selectively sync only the changes and not the whole thing.
+If the user tries to run the Cloud Safe feature without installing the desktop apps of the cloud storages services, then Steganos cloud safe will create a message.
+At the creation dialog phase, it will show the user the lack of any cloud storage desktop apps.
+It is a good idea for anyone who wants to try out Cloud Safe to go with a cloud storage service such as the Dropbox application.
+And as was the case with Steganos regular safe, users have to first choose a name and then a drive letter.
+After that, they have to select the size of the Steganos safe.
+In the case of Cloud Safe, users will not have the option of having their Cloud Safe expand as per their requirements.
+Apart from that, users will still have the opportunity to make use of two-factor authentication for their Cloud Safes.
+As alluded to before, the Steganos CLoud Safe will sync to the cloud service of the user’s choice each time the user decides to close the safe.
+Users can make use of the Cloud Safe on any personal computer.
+But again, users have to meet all the requirements.
+Those requirements include installing the official Steganos application on the computer.
+And the appropriate cloud service’s official desktop app.
+The latest version (that is version 19) of Steganos Safe comes with a feature which enables users to convert their dar drive partition into a full-fledged Steganos safe.
+To do so, all that the user has to do is to restart the Steganos Safe software application with the administrator privileges turned on.
+Users should know that whenever they instruct Steganos Safe to turn a given partition into a new safe, Steganos Safe will first wipe out all the pre-existing data.
+Hence, users must tread carefully while creating partition safes.
+Naturally, there is no need for the user to specify a size of the partition safe.
+Because the partition safe will occupy the entirety of the hard disk drive that the user chooses for the new partition safe.
+The application will require the user for a master password though.
+Users, will again, have the choice of invoking the new two-factor authentication feature or save the master password on one of their USB drives.
+Our research shows when the user tries to convert the primary Windows partition into a Steganos partition safe, they get an error.
+We would have liked for Steganos to point out to the user that it could not possibly make a partition safe out of the main Windows drive.
+Instead, it actually proceeded with the transformation, but midway terminated the conversion by giving the user an error message.
+The error message itself, to say the least, was uninformative.
+Needless to say that if the users choose a non-system hard disk partition, the process will go pretty smoothly.
+But smoothly (here) does not mean quickly.
+We found the process to be slightly on the slower side.
+Our research shows that if user wants to convert a 20GB partition to Steganos Safe then that will take them about 40 minutes or so.
+Of course, the actual time will vary depending on your computer machine.
+And how powerful it is.
+In total, Steganos offers four kinds of safes.
+Our favorite are the partition safe.
+With a Partition Safe, all that the user has to do is to unlock the safe and then proceed to use the whole hard disk drive partition to save/store/create important stuff in.
+Locking it will ensure that no one other than the user can touch the user’s private stuff.
+The other thing users need to note here is that the original partition on their computer machine ( for example, the drive E:) will still show up in the user’s Windows Explorer.
+But that doesn’t mean you can use that partition.
+Because to Windows, it would look like a hard disk drive that is present but doesn’t have the proper formatting or is corrupt.
+In order to bring up the main software application’s administration dialog, the user has to click any of his/her safes and then proceed to click on the Settings option.
+Once the user has accessed the administration dialog, the user can modify the name, password and/or file location for the official Steganos safe.
+Of course, there are many other options for users who want to customize their experience a bit.
+For such type of users, the main page of the software application has a dialog.
+This dialog page offers users options such as color-coding.
+Steganos Safe users can color-code their safes.
+They can also configure other options such as the Windows’ ability to see the safe either as a removable drive and/or a local drive.
+There is also the Events tab.
+This is the place where users can select whether they want to open their safe if/when they log in to their safe.
+They can also choose to close the safe one vents like the computer going into standby mode and/or when the screen saver activates.
+Steganos Safe also provides users with the option of running a specific command almost exactly after the user opens the safe.
+Users can also configure options so that Steganos Safe runs another specific command as soon as the Safe closes.
+To take an example, the user could configure Steganos Safe to launch a file automatically when it detects that the file resides within the user’s safe but only after the user opens it.
+Users could also set Steganos Safe to automatically backup the current file after the user closes the safe.
+We are not entirely sure as to how many consumers would want to use a feature like this.
+Our research suggests that such a feature may gain a lot of popularity among security geeks.
+Now we’ll talk about perhaps one of the more interesting features that come with Steganos Safe.
+The Safe has a feature called “safe in a safe”.
+As the name suggests, this feature helps the user to define a separate safe.
+This separate safe is actually well hidden within the user’s normal safe.
+It occupies a certain percentage of the available storage space which the user has to define before creating this “second” safe.
+This safe within a safe also has its own password.
+So how do you go about opening your safes?
+Well, if you want to open the normal safe then you provide your master password for that safe.
+If you want to open the Safe in a Safe then you provide the password for the Safe in a Safe.
+For the original safe, you will have to provide your master password.
+This is the safe that contains your other safe.
+It is such a sneaky feature.
+Regardless, users should exercise caution here as well.
+If the user is not careful enough and overfills the outer safe, then the contents of the outer safe can actually wipe out the contents of the Safe in a Safe (the super secret safe).
+Users who put their most private and/or sensitive information/files/folder in a good encrypted safe are actually the ones who are smart.
+However, some users make the mistake of leaving their unencrypted original files on their disk.
+Such users don’t realize that they have accomplished nothing in terms of security.
+And there is very little you can do about this problem.
+Because even if the user deletes his/her original files and then empties out the Recycle Bin, the files are still on the computer.
+They aren’t actually gone, in other words.
+Because even the deleted data stays on the hard disk until the system overwrites it with new data.
+In order to have true privacy, users must make sure that they make use of a good and secure deletion tool.
+This deletion tool should have the capability to overwrite file data.
+But it has to do that before the deletion process.
+The tool we want you to give consideration to is called file-shredder.
+Fortunately enough, Steganos Safe has its own file-shredder component.
+But how do you completely destroy a given file with the help of a file-shredder?
+The easiest method to use any file shredder feature is to first perform a right-click on a given folder and/or file.
+Then from the menu that appears on the screen, the user should choose the option that says Destroy.
+Once the user does that the Steganos Safe overwrites the folder’s and/or file’s data once.
+After that, it will proceed to delete the file.
+Most of the time, this is sufficient for users who want to foil software-based systems which aid in file recovery.
+With that said, we also have to mention that even if you use a shredder, theoretically speaking, someone could possibly make use of hardware-based forensic-specific tools in order to recover some or all of the deleted data.
+Other encryption security tools such as Folder Lock have a solution to this problem.
+Folder Lock, in contrast to Steganos Safe, allows users to perform up to a total of 35 overwrite passes.
+Our research shows that this is an overkill.
+Because after a total of 7 overwrite passes, there are no additional benefits.
+Encryption security tools such as Cypherix SecureIT, CryptoForge, AxCrypt and many other such tools offer users completely secure deletion of their original folders and/or files.
+The Steganos Safe main window’s menu will reveal the option for the full File Shredder program.
+When you launch the program you will come to know that this program doesn’t just delete files securely.
+It does a bit more.
+Similar to Folder Lock, Steganos File Shredder can also overwrite the entire free space that opens up after deleting a file on a disk.
+So what’s the benefit of doing so?
+It makes sure that there are no traces of the files that the user previously deleted.
+In other words, it wipes them out of existence.
+In effect, that means the Steganos File Shredder shreds files just one more time after the fact.
+The other thing users need to know is that the shredding Free space can and does take a pretty long time.
+A bit too long in our experience.
+Hence smart users would do well to use a scheduling feature in order to start the shredding process at a time when they are not making use of their computer machine.
+The Steganos File Shredder also offers features where the user can schedule weekly and/or daily free space shredding.
+Users should also note that should they stop and then restart the shredding process for some free space then the software will automatically skip past areas it has shredded before quite quickly.
+One final option is the Complete Shredder.
+Think of it as the Nuclear option.
+Select this option if you want to completely annihilate all data on a given drive.
+This would include the partition data as well.
+When you have shredded a drive, then know that you will have to format it again order to use the shredded drive again for anything of meaning.
+The Complete Shredder, just like shredding free space, does tend to take quite a while.
+Our research shows that users can’t really shred a Windows volume that is active.
+Perhaps that makes the most sense.
+Our research also shows that if a user tries to shred the Windows volume the software will not show any error message.
+But it won’t go ahead with the shredding either.
+This is the final component of the Steganos Safe.
+It is called Trace Destructor.
+For some reason, the company decided to keep it almost hidden.
+In other words, it does not show up on the screen when the user opens the program’s main application window.
+Conversely, the File Shredder is right there on the main window for users to click on it and then use it.
+Instead of accessing the Trace Destructor feature completely, users have to access this feature via the notification area where they have to right-click on a Steganos icon.
+From the resulting menu, they can then select the Trace Destructor option.
+The Trace Destructor option is a pretty similar tool to what Folder Lock offers.
+To put it another way, this tool has one aim.
+And that is to wipe out the traces of the user’s web browser and computer usage.
+It does that for the sake of user privacy.
+The Steganos Safe Trace Destructor feature is compatible with Internet Explorer, Firefox, and Chrome.
+For all of these web browsers, this tool has the ability to wipe clean all saved passwords, history, cookies and cache.
+It can also get rid of form data.
+Along with that, the Trace Destructor feature can destroy the list of downloaded files that the user has downloaded recently for web browsers such as Firefox.
+If we are talking about the operating system side (Windows) then it can destroy temp files.
+This tool can also clean the user’s Recycle Bin.
+Moreover, it does a good job of eliminating all the lists of recently used programs and files.
+Users are free to choose all or any of the options above to satisfy their erasure needs.
+Steganos Safe also has a feature where it can remember which items the user previously selected to destroy.
+Once the user has made the decision on his/her initial selection, the user has the option of choosing the One-Click Destruction option.
+This option is available in the tray menu via an icon.
+Users can access the same menu in order to repeat the previously performed cleanup process.
+There is also a simple settings dialog.
+This dialog enables users to configure the Steganos tool so that it erases web browser data each and every time the user closes the data/file/folder.
+Additionally, users can configure it to exempt specific types of cookies from the web browser’s cookie cleanup feature.
+Steganos Safe tries to focus on one singular task.
+And that task is to create storage containers which are encrypted for users to store their sensitive files in.
+If we are just talking about that task alone, Steganos Safe is a very accomplished encryption security tool.
+Most of its competitors who offer the same kind of features are harder to use than Steganos Safe.
+Other than that, Steganos Safe has the Safe in a Safe feature.
+There is also a hidden safe option.
+Both of these options are truly unique.
+It is true that users can only use the cloud safe feature and the portable safe feature on computer machines which have the Steganos and the cloud service desktop app installed.
+But Steganos takes care of that problem by offering five licenses with each subscription package.
+With that said, it is true that elite encryption security tools such as Folder Lock provide users with the same feature set as Steganos.
+And then they offer more.
+Folder Lock has features such as encryption of individual folders and files.
+It also has secure storage for private data.
+Moreover, it also furnishes users who can pay a bit of extra money with a secure online backup service.
+Similar is the case with AxCrypt Premium which is probably easier to use than the official Steganos Safe application.
+Moreover, AxCrypt Premium supports options such as public key cryptography.
+Then there is the CertainSafe Digital Safety Deposit Box.
+This encryption service can protect the user’s cloud-stored files (which are encrypted) and folders against any and all possibilities of those nasty data breaches.
+That is the reason why we rank these three encryption security tools above that of Steganos.
+However, Steganos Safe has done enough with its offering to deserve the title of “worthy contender” for your encryption needs.
+Thank you (again) for the comment.
+We see that you have become a regular contributor on the site.
+We would love to hear more from you and how do you think we can improve this review.

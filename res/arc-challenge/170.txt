@@ -1,0 +1,2 @@
+Which of these chemical equations demonstrates the law of conservation of mass as it applies to the combustion of ethane? (A) C_{2}H_{6} + 3O_{2} -> 2CO_{2} + 3H_{2}O (B) C_{2}H_{6} + 5O_{2} -> 2CO_{2} + 3H_{2}O (C) 2C_{2}H_{6} + 5O_{2} -> 4CO_{2} + 4H_{2}O (D) 2C_{2}H_{6} + 7O_{2} -> 4CO_{2} + 6H_{2}O
+Answer: D

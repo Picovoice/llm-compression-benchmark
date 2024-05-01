@@ -1,0 +1,2 @@
+Some new cars use special braking systems to recover energy when the brakes are applied. This energy is stored in special batteries and is used to power the electric motor. What type of energy are the brakes storing as they slow down the car? (A) gravitational (B) kinetic (C) potential (D) thermal
+Answer: C

@@ -1,0 +1,2 @@
+When using a map of the world, a scientist must recognize that a map is a (A) two dimensional representation of a one dimensional surface. (B) two dimensional representation of a three dimensional surface. (C) one dimensional representation of a two dimensional surface. (D) three dimensional representation of a two dimensional surface.
+Answer: B

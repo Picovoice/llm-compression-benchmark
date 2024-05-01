@@ -1,0 +1,2 @@
+Which weather event is most likely to cause a forest fire? (A) a flash flood (B) a lightning strike (C) a tornado (D) a hailstorm
+Answer: B

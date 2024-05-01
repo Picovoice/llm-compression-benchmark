@@ -1,0 +1,2 @@
+Each body cell of a goldfish contains 94 chromosomes. How many chromosomes are contained in a goldfish sex cell? (1) 23 (2) 47 (3) 94 (4) 188
+Answer: 2

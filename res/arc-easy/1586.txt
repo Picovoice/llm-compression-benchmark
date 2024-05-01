@@ -1,0 +1,2 @@
+A train travels at a rate of 13 meters per second (m/s). Over the next 60 seconds, the speed of the train increases to speed to 22 m/s. What is the average rate of acceleration of the train? (A) 0.15 m/s^2 (B) 0.21 m/s^2 (C) 0.36 m/s^2 (D) 0.58 m/s^2
+Answer: A

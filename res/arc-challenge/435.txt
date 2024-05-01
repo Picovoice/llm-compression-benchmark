@@ -1,0 +1,2 @@
+Mina wanted to know how much water would evaporate from a graduated cylinder in a day. On Day 1, Mina filled a graduated cylinder with 150 milliliters (mL) of water. On Day 2, she observed the volume of water dropped to 148.5 mL. If the water has a density of 1.0 grams per milliliter (g/mL), what was the mass of the water that evaporated? (A) 1.0 g (B) 1.5 g (C) 148.5 g (D) 298.5 g
+Answer: B

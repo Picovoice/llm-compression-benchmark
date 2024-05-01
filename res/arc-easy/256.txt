@@ -1,0 +1,2 @@
+The crews of two boats at sea can communicate with each other by shouting. Why is it impossible for the crews of two spaceships a similar distance apart in space to do this? (A) The sound is reflected more in space. (B) The pressure is too high inside the spaceships. (C) The spaceships are traveling faster than sound. (D) There is no air in space for the sound to travel through.
+Answer: D

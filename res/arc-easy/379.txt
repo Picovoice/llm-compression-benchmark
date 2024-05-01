@@ -1,0 +1,2 @@
+A class measures the time it takes for two different trucks to drive across the parking lot. How can they tell which truck is faster? (A) The truck that starts moving first is faster. (B) The truck that takes less time is faster. (C) The truck that has bigger tires is faster. (D) The truck that takes more time is faster.
+Answer: B

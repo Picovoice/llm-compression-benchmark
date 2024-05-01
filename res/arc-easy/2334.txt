@@ -1,0 +1,2 @@
+A birdwatcher wants to identify an eastern bluebird. What feature of a bird should the birdwatcher evaluate first to identify an eastern bluebird? (A) beak shape (B) eye position (C) feather pattern (D) tail-feather length
+Answer: C

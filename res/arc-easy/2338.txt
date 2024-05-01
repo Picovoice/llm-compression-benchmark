@@ -1,0 +1,2 @@
+As an object falls, air resistance gradually increases until it is equal with the pull of gravity. This effect is called (A) final velocity. (B) initial velocity. (C) escape velocity. (D) terminal velocity.
+Answer: D

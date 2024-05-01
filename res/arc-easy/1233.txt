@@ -1,0 +1,2 @@
+A small town is building their first water treatment plant. Their primary disinfectant is UV radiation. Which contaminant will UV radiation eliminate? (A) bacteria (B) metals (C) sediment (D) oil
+Answer: A

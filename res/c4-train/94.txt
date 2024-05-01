@@ -1,0 +1,261 @@
+View a manual of the HP DeskJet 1110 below. All manuals on ManualsCat.com can be viewed completely free of charge. By using the 'Select a language' button, you can choose the language of the manual you want to view.
+Learn how to use your HP DeskJet 1110 series.
+Off The printer is powered off.
+The printer is processing a job. To cancel the job, press the Power button ( ).
+On The printer is on and ready to print.
+seconds, the printer turns off.
+Select a paper size to continue.
+1. Raise the input tray.
+2. Slide the paper-width guide to the left.
+stack of paper down until it stops.
+4. Slide the paper-width guide to the right until it stops at the edge of the paper.
+5. Lower the output tray and pull out the output tray extender.
+print side up, and slide the stack of paper down until it stops.
+The side to be printed on should face up. The flap should be on the left side and facing down.
+4. Slide the paper-width guide to the right against the stack of envelopes until it stops.
+www.hp.com for more information about HP paper.
+a variety of weights and sizes from major paper manufacturers.
+of project you are printing.
+Depending on your country/region, some of these papers might not be available.
+delivers exceptional results with professional quality and durability.
+13 x 18 cm (5 x 7 inches). It is acid-free for longer lasting documents.
+inches, and 4 x 6 inches (10 x 15 cm). It is acid-free for longer lasting documents.
+photos or multiple prints to share.
+newsletters. It is heavyweight for an impressive look and feel.
+sided color usage with no show-through, which makes it ideal for newsletters, reports, and flyers.
+everyday documents. It is acid-free for longer lasting documents.
+HP Office Recycled Paper is a high-quality multifunction paper made with 30% recycled fiber.
+The printer is designed to work well with most types of office paper. Use HP paper for optimum print quality.
+Programs, click HP, click the folder for the printer, and then select the icon with the printer's name.
+● Power usage is reduced while in Sleep mode.
+● After initial setup of printer, the printer will enter Sleep mode after 5 minutes of inactivity.
+● The Power button light is dimmed in Sleep mode.
+● The time to Sleep mode cannot be changed.
+minutes of inactivity to help reduce energy use.
+or is not using these capabilities.
+with fax, USB, or Ethernet network capability establishes a fax, USB, or Ethernet network connection.
+Before printing documents, make sure you have paper loaded in the input tray and the output tray is open.
+For more information about loading paper, see Load media on page 6.
+1. From your software, select Print.
+2. Make sure your printer is selected.
+3. Click the button that opens the Properties dialog box.
+Setup, Printer Properties, Printer, or Preferences.
+4. Select the appropriate options.
+● On the Layout tab, select Portrait or Landscape orientation.
+select the appropriate color in the Color area.
+● Click Advanced to select the appropriate paper size from the Paper Size drop-down list.
+5. Click OK to close the Properties dialog box.
+6. Click Print or OK to begin printing.
+1. From the File menu in your software, choose Print.
+3. Specify the page properties.
+If you do not see options on the Print dialog, click Show Details.
+vary from one application to another.
+● Choose the paper size.
+NOTE: If you change the Paper Size ensure that you have loaded the correct paper.
+● Enter the scaling percentage.
+5. On the Layout tab, select an appropriate option from the Print on Both Sides Manually drop-down list.
+up and top of the page down, and then click Continue.
+7. Click OK to print.
+2. In the Print dialog, choose Paper Handling from the pop-up menu and set Page Order to Normal.
+3. Set Pages to Print to Odd only.
+5. After all of the odd numbered pages have printed, remove the document from the output tray.
+blank side of the document is facing toward the front of the printer.
+pages to print to Even Only.
+Before printing photos, make sure you have photo paper loaded in the input tray and the output tray is open.
+● Click Advanced to select the appropriate photo size from the Paper Size drop-down list.
+5. Click OK to return to the Properties dialog box.
+6. Click OK, and then click Print or OK in the Print dialog box.
+so it does not start to curl, which could reduce the quality of your printout.
+3. Set the print options.
+a. Choose the appropriate paper size in the Paper Size pop-up menu.
+◦ Off: applies no changes to the image.
+◦ Basic: automatically focuses the image; moderately adjusts image sharpness.
+4. Select any other print settings you want, and then click Print.
+● Click Advanced to select the appropriate envelope size from the Paper Size drop-down list.
+5. Click OK, and then click Print or OK in the Print dialog box.
+a. Select the appropriate envelope size from the Paper Size pop-up menu.
+Use maximum dots per inch (dpi) to print high-quality, sharp images on photo paper.
+4. Click the Paper/Quality tab.
+5. From the Media drop-down list, select an appropriate paper type.
+7. In the Printer Features area, select Yes from the Print in Max DPI drop-down list.
+8. Select the appropriate paper size from the Paper Size drop-down list.
+9. Click OK to close the advanced options.
+10. Confirm Orientation on the Layout tab, and then click OK to print.
+4. Select any other print settings that you want, and then click Print.
+should be loaded correctly, and the printer should have the appropriate settings.
+● Use original HP ink cartridges.
+● Install both the black and tri-color cartridges correctly.
+For more information, see Replace ink cartridges on page 30.
+● Check the estimated ink levels in the ink cartridges to make sure there is sufficient ink.
+For more information, see Check estimated ink levels on page 28.
+● If the print quality is not acceptable, see Printing issues on page 46 for more information.
+type to avoid a paper jam.
+● Load the paper with side to be printed on facing up.
+● Ensure that paper loaded in the input tray lays flat, and the edges are not bent or torn.
+guide does not bend the paper in the input tray.
+For more information, see Load media on page 6.
+the Pages per Sheet drop-down list.
+the Advanced Options dialog box.
+Black Ink Only, and then click OK. It also allows you to print a high quality black and white image.
+Select High Quality Grayscale, and then click OK.
+more than two pages per sheet.
+method from the drop-down list, and then click OK.
+● Booklet-LeftBinding: The binding side after folded into a booklet appears at the left side.
+Select the option if your reading habit is from left to right.
+● Booklet-RightBinding: The binding side after folded into a booklet appears at the right side.
+Select the option if your reading habit is from right to left.
+single click. To use it, go to the Printing Shortcut tab, select one printing shortcut, and then click OK.
+Printing Shortcut tab, click Save As and enter a name, and then click OK.
+To delete a printing shortcut, select it, and then click Delete.
+NOTE: You cannot delete the default printing shortcuts.
+● On the Print dialog, use the Paper Size pop-up menu to select the size of paper loaded in the printer.
+produce great results, time after time.
+required as a result of using a non-HP supply will not be covered under warranty.
+● Ink level warnings and indicators provide estimates for planning purposes only.
+● You can print your document on both sides of the paper manually.
+You can easily check the ink supply level to determine how soon you might need to replace an ink cartridge.
+The ink supply level shows an estimate of the amount of ink remaining in the ink cartridges.
+2. In the printer software, click the Estimated Ink Levels tab.
+2. Select the HP DeskJet 1110 series from the list of devices at the left of the window.
+The estimated ink levels appear.
+4. Click All Settings to return to the Information and Support pane.
+used in another printer, the ink level indicator might be inaccurate or unavailable.
+delays. You do not have to replace the ink cartridges until the print quality is unacceptable.
+cartridge after it is used. For more information, see www.hp.com/go/inkusage.
+Before ordering cartridges, locate the correct cartridge number.
+● The cartridge number is located inside the cartridge access door.
+The print cartridge ordering numbers appear.
+3. Click All Settings to return to the Information and Support pane.
+choose your country/region, and then follow the prompts to find the right cartridges for your printer.
+a. Open the cartridge access door and wait for the print carriage to move to the center of the printer.
+b. Press down to release the ink cartridge, and then remove it from the slot.
+3. Insert a new ink cartridge.
+a. Remove the ink cartridge from the packaging.
+b. Remove the plastic tape using the pull tab.
+NOTE: Do not touch the electrical contacts on the ink cartridge.
+c. Slide the ink cartridge into the slot until it clicks into place.
+d. Close the cartridge access door.
+document after installing the new ink cartridge.
+initiated when an ink cartridge is removed from the ink cartridge carriage.
+NOTE: When the printer operates in single-cartridge mode, a message is displayed on the computer screen.
+cartridge issues on page 44.
+● Install both the black and tri-color ink cartridges in the printer.
+For a copy of the HP Limited Warranty Statement, see the printed documentation that came with the printer.
+until the Power button light goes out.
+icon for each slot. Make sure the cartridges snap into place.
+● Align the printer for best print quality. See Printing issues on page 46 for more information.
+print quality becomes unacceptable. See Replace ink cartridges on page 30 for more information.
+● If you remove a cartridge from the printer for any reason, try to replace it again as soon as possible.
+Outside of the printer, if unprotected, cartridges begin to dry out.
+The printer supports a rear USB 2.0 High Speed port for connection to a computer.
+1. Insert the printer software CD in the computer CD-ROM drive.
+NOTE: Do not connect the USB cable to the printer until you are prompted to do so.
+selecting USB on the Connection Options screen.
+has not been installed, insert the CD that came with the printer and follow the on-screen instructions.
+same model to your computer, you can use the following instructions to set up the connection.
+NOTE: Use this method if you have already installed the printer software.
+2. In the printer software, click Utilities.
+4. Select Connect a new printer. Follow the on-screen instructions.
+3. Click + below the list of printers at the left.
+4. Select the new printer from the list.
+Instructions for clearing paper jams and resolving issues with paper or the paper feed.
+NOTE: The HP online troubleshooting wizards may not be available in all languages.
+Paper jams can occur in several locations.
+1. Pull the paper gently out of the input tray.
+2. Make sure there is no foreign object in the paper path, and then reload paper.
+serious paper jams. Do not take down the input tray shield.
+3. Press the Power button ( ) to continue the current job.
+1. Pull the paper gently out of the output tray.
+2. Press the Power button ( ) to continue the current job.
+1. Remove the jammed paper.
+a. Press the Power button ( ) to turn off the printer.
+b. Open the cartridge access door.
+c. If the print carriage is in the center of the printer, slide it to the right.
+d. Remove the jammed paper.
+e. Close the cartridge access door.
+2. Press the Power button ( ) to turn on the printer.
+1. Press the Power button ( ) to turn off the printer.
+the cleanout door to open it.
+3. Remove the jammed paper.
+4. Close the cleanout door. Gently push the door towards the printer until both latches snap into place.
+5. Turn the printer over, and then press the Power button ( ) to turn on the printer.
+If something is blocking the print carriage or it does not move easily, get step-by-step instructions.
+▲ Remove any objects, such as paper, that are blocking the print carriage.
+removing jammed paper from inside the printer.
+● Do not overfill the input tray.
+● Remove printed papers from the output tray frequently.
+input tray must be the same size and type.
+● Do not force paper too far down in the input tray.
+out of paper message appears before adding paper.
+◦ Make sure paper is loaded in the input tray. For more information, see Load media on page 6.
+width guide does not bend the paper in the input tray.
+against the left side of the paper.
+◦ Load paper into the printer only when it is not printing.
+◦ Make sure the input tray is not overloaded with paper.
+◦ Make sure the pieces of the loaded paper are not sticking together.
+◦ Use HP paper for optimum performance and efficiency.
+cartridges has a problem, do the following to identify whether a cartridge has a problem.
+1. Remove the black cartridge and then close the cartridge access door.
+● If the Power button light blinks quickly, the tri-color cartridge has a problem.
+● If the Power button light does not blink, the tri-color cartridge does not have a problem.
+● If the Power button light blinks quickly, the black cartridge has a problem.
+● If the Power button light does not blink, the black cartridge does not have a problem.
+printer longer than 30 minutes. This could result in damage to the printhead or the ink cartridges.
+2. Open the cartridge access door and wait for the print carriage to move to the center of the printer.
+3. Remove the ink cartridge indicated in the error message.
+4. Clean the cartridge contacts and printer contacts.
+The electrical contacts are the small gold-colored dots on the ink cartridge.
+b. Wipe only the contacts with a dry swab or lint-free cloth.
+elsewhere on the ink cartridge.
+c. On the inside of the printer, locate the contacts for the cartridge.
+d. Use a dry swab or lint-free cloth to wipe the contacts.
+5. Reinstall the ink cartridge.
+operate the printer with only one ink cartridge.
+information, see Replace ink cartridges on page 30.
+HP Print and Scan Doctor The HP Print and Scan Doctor is a utility that will try to diagnose and fix the issue automatically.
+NOTE: This utility is only available for Windows operation system.
+Get step-by-step instructions if the printer is not responding or printing.
+2. Disconnect and reconnect the USB cable.
+3. Verify that the printer is not paused or offline.
+● Windows 7: From the Windows Start menu, click Devices and Printers.
+● Windows Vista: From the Windows Start menu, click Control Panel, and then click Printers.
+what's printing to open the print queue.
+d. If you made any changes, try to print again.
+4. Verify that the printer is set as the default printer.
+b. Make sure the correct printer is set as the default printer.
+The default printer has a check mark in a black or green circle next to it.
+d. Try using your printer again.
+5. Restart the print spooler.
+ii. Click or tap Control Panel, and then click or tap System and Security.
+iii. Click or tap Administrative Tools, and then double-click or double-tap Services.
+iv. Right-click or touch and hold Print Spooler, and then click Properties.
+v. On the General tab, next to Startup type, make sure that Automatic is selected.
+iii. Right-click the Print Spooler, and then click Properties.
+iv. On the General tab, next to Startup type, make sure that Automatic is selected.
+v. If the service is not already running, under Service status, click Start, and then click OK.
+iii. Right-click the Print Spooler service, and then click Properties.
+i. From the Windows Start menu, right click My Computer.
+ii. Click Manage, and then click Services and Applications.
+iii. Double-click Services, and then select Print Spooler.
+iv. Right-click Print Spooler, and click Restart to restart the service.
+7. Clear the print queue.
+b. Double-click the icon for your printer to open the print queue.
+e. Check the print queue again to make sure it is clear, and then try to print again.
+1. Check for error messages and resolve.
+3. Verify that the product is not paused or offline.
+a. In System Preferences, click Print & Fax.
+b. Click the Open Print Queue button.
+c. Click a print job to select it.
+● Delete: Cancel the selected print job.
+● Hold: Pause the selected print job.
+● Resume: Continue a paused print job.
+● Pause Printer: Pause all print jobs in the print queue.
+wait until the Power button light goes out.
+1. Make sure you are using original HP ink cartridges.
+drop-down list and print quality from the Quality Settings drop-down list.
+In the printer software, click Print and then click Set Preferences to access the print properties.
+3. Check the estimated ink levels to determine if the ink cartridges are low on ink.
+4. Check the paper type.
+more information, see Paper basics on page 10.
+There are no questions about the HP DeskJet 1110 yet.
+Have a question about the HP DeskJet 1110 but cannot find the answer in the user manual? Perhaps the users of ManualsCat.com can help you answer your question. By filling in the form below, your question will appear below the manual of the HP DeskJet 1110. Please make sure that you describe your difficulty with the HP DeskJet 1110 as precisely as you can. The more precies your question is, the higher the chances of quickly receiving an answer from another user. You will automatically be sent an e-mail to inform you when someone has reacted to your question.

@@ -1,0 +1,2 @@
+A force of 5 N is required to increase the speed of a box from a rate of 1.0 m/s to 3.0 m/s within 5 s along a level surface. What change would most likely require additional force to produce the same results? (A) reduce the mass of the box (B) increase the mass of the box (C) make the surfaces of the box smooth (D) make the surface of the floor smooth
+Answer: B

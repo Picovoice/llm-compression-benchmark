@@ -1,0 +1,2 @@
+Which of these groups contains only metric measurements? (A) inches, grams, ounces (B) inches, pounds, ounces (C) centimeters, grams, milliliters (D) centimeters, pounds, milliliters
+Answer: C

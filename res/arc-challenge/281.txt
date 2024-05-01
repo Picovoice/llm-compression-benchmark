@@ -1,0 +1,2 @@
+A class tested the amount of vitamin C in fresh orange juice and calculated a different amount than the previous class that conducted the same investigation. What should most likely be done to make sure that their results are accurate? (A) try a different juice (B) analyze the recorded data (C) ask a scientist what went wrong (D) repeat the investigation two more times
+Answer: D

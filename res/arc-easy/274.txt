@@ -1,0 +1,2 @@
+A student wants to estimate the number of dandelion plants growing in a field. He counts the number of plants in a 5 square meter section of the field. What other information should he obtain to make his estimate? (A) the total area of the field (B) average rainfall in the area (C) all the organisms living in the field (D) energy and nutrient requirements of dandelions
+Answer: A

@@ -1,0 +1,2 @@
+Which plant is grown for food? (A) Rice (B) Tobacco (C) Orchid (D) Cotton
+Answer: A

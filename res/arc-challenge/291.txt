@@ -1,0 +1,2 @@
+Which of the following is a correctly written chemical equation that demonstrates the conservation of mass? (A) Mg + HCl -> H_{2} + MgCl_{2} (B) H_{2}O + CO_{2} -> H_{2}CO_{3} (C) KClO_{3} -> KCl + O_{2} (D) H_{2} + O_{2} -> H_{2}O
+Answer: B

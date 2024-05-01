@@ -1,0 +1,57 @@
+Important Notice: This policy may not be altered or amended in any manner by the customer, and by accepting delivery of goods purchased from CPU Solutions, Inc., the buyer agrees to abide by the terms and conditions contained herein.
+Purchase Orders are accepted from government and educational institutions at our discretion.
+Delivery is available in the US only to verified shipping & billing addresses.
+International credit cards are not accepted.
+APOs are "welcomed”. APOs take longer to ship than normal orders. Shipping rates are determined after the fact to reflect APO shipping services.
+Orders for in-stock, unassembled items or parts which are received before 2:00 p.m. will usually ship the same day. Orders received after 2:00 p.m. usually ship the following business day.
+Shipping is a service provided by Fedex ,UPS and USPS. Shipping and Handling charges are non-refundable.
+Up to a 15% restocking fee will be charged on all merchandise returned for a refund.
+Canceled Credit Card orders are subject to a 6% processing charge.
+Refunds do NOT include freight or shipping and handling charges.
+All refund & exchange items must be in original sellable condition, with all original packing, manuals, and software. All packages opened are subject to a 15% restocking fee.
+Returns on systems and opened items which cannot be resold as "new” are subject to a 15% restocking fee.
+Refunds requested will reflect current prices for those items. This is in addition to the 15% restocking fee that is applicable to any items returned for refund.
+We do not accept software returns.
+Special order items are not eligible for return.
+Purchases older than 30 days are not eligible for return, exchange, store credit or refund. These items would be covered under the "manufacturer” warranty.
+Individual components carry a manufacturer’s warranty only. CPU Solutions does not warranty these items outside of the 30 day return/exchange period.
+Manufacturer Warranty Period: All individual parts and components carry their manufacturer warranties.
+CPU Solutions provides basic Windows support on full systems purchased with a version of Microsoft Windows.
+Extended warranties are available at the time of purchase and for up to 60 days after purchase on all CPU Solutions systems.
+The owner of all products shipped and sold from CPU Solutions, Inc. remains with CPU Solutions until all payments from the customer are cleared.
+No warranty for physically damaged items, which have cracks, missing pins, or burn marks or any other damages that would void the manufacturer warranty.
+Any product found to be abused, mishandled, modified or altered: all warranties will be voided.
+Removal of labels or stickers containing bar codes or serial numbers of any kind, and in particular those found on CPUs and RAM.
+If a replacement is not available CPU Solutions, Inc. reserves the right to replace the item with a similar product of equal value or offer an upgraded product at a minimum fee, if the item has been discontinued from our product line. CPU Solutions, Inc. also has the right to repair the product.
+CPU Solutions, Inc. accepts no liability with respect to any software or data contained in any product or parts sold by or returned to CPU Solutions, Inc.
+Prices and specifications are subject to change without notice. We do our best to be accurate, but occasionally mistakes do occur. CPU Solutions is not responsible for any typographical, photographic or technical errors.
+Components carry manufacturer’s warranty only.
+Software sales are final. CPU Solutions, Inc. will not accept any returns for software.
+All refunds or credits will either be placed back on the Purchaser's credit card, or will be in the form of company check. Up to 30 days (from date we receive returned merchandise) may be required to process refunds.
+CPU Solutions, Inc. does not provide cross-ship or advanced replacement services. Defective Items must be received by CPU Solutions for a replacement to be issued.
+Before returning a product, please contact our Technical Support department for an RMA number.
+RMA numbers are valid for 14 days from the time of issuance. If the product is not received within 14 days the customer is required to apply for a new RMA number.
+The pre-approved RMA number must be marked clearly on the outside of the shipping box. Packages without an RMA # will be refused!
+Items must be received by CPU Solutions RMA department before the last day of warranty.
+All RMA items must be shipped freight pre-paid by the customer. The customer must pay for any desired insurance on the package. CPU Solutions is not responsible for any losses or damages in transit.
+RMAs will be shipped back to the customer via UPS ground, FedEx ground or US Mail. Optional express shipping is available at an additional cost to the customer.
+Customer is responsible for proper packaging of RMA returns.
+CPU Solutions, Inc. voids all warranties on items that are insufficiently or inaccurately packaged.
+CPU Solutions reserves the right to void any and all warranties for parts returned with insufficient packaging, physical damage, or modifications of any kind.
+CPU Solutions, Inc. Reserves the right to inspect and test all returned products: no replacement or exchange will be granted if the returned products were found to meet the functionality of manufacturer's specifications.
+Products returned as defective that are tested and found to be working to manufacturer's specifications, will be returned to the customer via UPS Ground at the customer’s expense.
+All items returned for refund must be in original sellable condition, with all original packing materials, manuals, software and cables.
+Generous amounts of packing material should be used to minimize sliding, colliding, or other internal movements of the product(s) in transit.
+If the item being shipped is a system, it must be DOUBLE-BOXED with generous quantities of tightly packed bubble wrap. If peanuts are used please ensure the system is bagged or well-sealed in bubble-wrap so that they do not get inside the power supply, system fans, or other openings. Newspaper is only effective when it is VERY densely packed!
+CPU Solutions will void the warranty for any damage that occurs during shipping.
+For wrong items, missing items, shipping damage or other discrepancy the customer must report the issue to CPU Solutions within 48 hours of delivery.
+Customer is responsible for paying any freight charge caused by refused shipment or unclaimed goods.
+CPU Solutions, Inc. will make every effort to deliver on time however: CPU Solutions, Inc. shall not be liable for late or lost shipments.
+Customer should inspect all packages for damage and discrepancies upon receipt.
+For wrong items, missing items and shipping damages, customer should contact our RMA department within 48 hours. Any claims after this will not be honored.
+Always inspect each item for physical damage, missing documentation and driver disks.
+Customer should always provide a detailed and specific description of problems for defective items.
+For any defective equipment you must call the RMA department for an RMA #, which must be present on package next to shipping label, otherwise the package will be refused.
+Purchaser is presumed to have qualified and knowledgeable technical ability to diagnose and pinpoint problem sources. CPU Solutions technical support will provide help where available, but cannot teach customers basic diagnostics and step-by-step installation procedures.
+CPU Solutions, Inc. shall not be liable for any failure to perform or delay in performing any of its obligations when such failure or delay is due to circumstances beyond its reasonable control including, without limitation, any act of God, war strike riot, fire flood earthquake, lock-out, late or non-delivery by suppliers, shortage or unavailability of materials, components or transportation facilities, or act, refusal to act, regulation, order or intervention of any governmental authority.
+Under no circumstance shall CPU Solutions, Inc. be liable for any special, indirect, incidental or consequential damages of any kind or nature whatsoever, including, without limitation: lost goodwill, lost resale profits, loss of data or software, work stoppage or impairment of the goods and whether arising out of breach of any express or implied warranty, breach of contract, tort (including negligence), strict product liability or otherwise, even if advised of the possibility of such damage could have been reasonably foreseen, except or lye in case of personal injury where and to the extend applicable law requires such liability. The laws of the State of Wisconsin, in which CPU Solutions, Inc. shall govern the rights and obligations of the parties under this agreement.

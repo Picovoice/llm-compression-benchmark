@@ -1,0 +1,2 @@
+Which of the following must be included with magnitude to represent a vector? (A) mass (B) direction (C) acceleration (D) volume
+Answer: B

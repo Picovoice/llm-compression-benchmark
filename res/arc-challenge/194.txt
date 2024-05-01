@@ -1,0 +1,2 @@
+Students want to compare rainfall data collected from the homes of different students in the area. What is one way the students can reduce the possibility of uncontrolled variables affecting their data? (A) by checking their rain gauges hourly (B) by using identical rain gauges in each location (C) by collecting temperature data along with rainfall (D) by collecting rainfall data while it is raining
+Answer: B

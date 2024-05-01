@@ -1,0 +1,2 @@
+Ann makes hats for people. She has each person select the fabric and a hat style before she makes the hat to fit the person's head size. Which type of manufacturing system is Ann most likely using to make hats? (A) mass production (B) custom production (C) automated production (D) assembly line production
+Answer: B

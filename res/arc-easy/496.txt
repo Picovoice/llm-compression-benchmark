@@ -1,0 +1,2 @@
+A company wants to make a game that uses a magnet that sticks to a board. Which material should it use for the board? (A) cardboard (B) glass (C) steel (D) wood
+Answer: C

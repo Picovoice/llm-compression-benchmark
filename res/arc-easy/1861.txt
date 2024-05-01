@@ -1,0 +1,2 @@
+In humans, a V-shaped hairline is dominant over a straight hairline. If one parent is homozygous for a V-shaped hairline ( HH ) while the other parent is homozygous for a straight hairline ( hh ), what is the probability that the offspring of these parents will have a straight hairline? (A) 0% (B) 50% (C) 75% (D) 100%
+Answer: A

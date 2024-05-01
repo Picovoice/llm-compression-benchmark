@@ -1,0 +1,2 @@
+An engineer is analyzing which areas in a city might become flooded if there are heavy rains. Which of the following maps is best to use for this analysis? (A) a map showing the routes of city buses (B) a map showing the locations of streets (C) a map showing the locations of houses (D) a map showing the elevations of ground surfaces
+Answer: D

@@ -1,0 +1,2 @@
+Four significantly different household appliances (blender, mixer, toaster, and food processor) are plugged into four outlets along a counter. Turning on or off one or more of the appliances does not affect the performance of the other appliances because the four appliances (A) run on a direct current. (B) are connected in series. (C) are connected in parallel. (D) run on an alternating current.
+Answer: C
