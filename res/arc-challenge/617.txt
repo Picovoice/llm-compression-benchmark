@@ -1,0 +1,2 @@
+An athlete can run 9 kilometers in 1 hour. If the athlete runs at that same average speed for 30 minutes, how far will the athlete travel?     (A) 18 kilometers (B) 9 kilometers (C) 4.5 kilometers (D) 3.3 kilometers
+Answer: C

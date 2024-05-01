@@ -1,0 +1,2 @@
+Which calculation is used to determine acceleration? (A) divide change in velocity by change in time (B) multiply average velocity by change in time (C) divide average velocity by mass (D) multiply change in velocity by distance traveled
+Answer: A

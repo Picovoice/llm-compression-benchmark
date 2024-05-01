@@ -1,0 +1,20 @@
+{
+  "language": "en",
+
+  "dictionaries": [
+    "dict"
+  ],
+
+  "dictionaryDefinitions": [
+    {
+      "name": "dict",
+      "path": "./dict.txt",
+      "addWords": true
+    }
+  ],
+
+  "ignorePaths": [
+    "**/*.txt",
+    "**/__pycache__/**"
+  ]
+}

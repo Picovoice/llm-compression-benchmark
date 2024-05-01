@@ -1,0 +1,2 @@
+A student sorted mineral samples into two groups: dull and shiny. Which of the following properties did the student use to sort the mineral samples into groups? (A) cleavage (B) color (C) luster (D) streak
+Answer: C

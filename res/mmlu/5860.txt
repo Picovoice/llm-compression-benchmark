@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about virology.
+
+Why are parvoviruses a highly impactful parasite?
+A. Because they have no nucleic acid
+B. They require a helper virus
+C. Only replicate in dividing cells
+D. Can integrate into host chromosomes
+Answer: A
+
+Which of the following is a morphological characteristic of the paramyxoviruses.
+A. Fragile viruses often visualised with RNA spewing from the inside
+B. Elongate viruses
+C. Icosahedral viruses with envelope
+D. Very large viruses
+Answer: A
+
+A key factor facilitating the application of nested case-control studies from the MACS was:
+A. Data collection
+B. Establishment of a repository of biologic specimens
+C. Participant interest
+D. Administration of the questionnaire by staff
+Answer: B
+
+The most important goal of a behavioral intervention is:
+A. Change in behavior
+B. Comprehensive coverage
+C. Effective use of behavioral theory
+D. Sustained behavior change
+Answer: D
+
+The median survival time to AIDS and death was established by following:
+A. Seroprevalent HIV-infected individuals
+B. Seronegatives
+C. Seroconverters
+D. High-risk seronegatives
+Answer: C
+
+As part of the Women’s Health Study, researchers investigated the role of systemic inflammation in predicting cardiovascular disease in women (N Engl J Med. 2002;347[20]:1557-1565). Researchers used a prospective study design with a large sample size. Blood levels of C-reactive protein (CRP) were measured at baseline and women were followed for an average of 8 years. The following table shows the relative risk estimates of cardiovascular event (heart attack or stroke) within 5 years by quintile of CRP level for the 30,000 women. The first quintile is used as the reference category.  1 0.49 mg/dL Relative Risk Number of women  1.0 6000  2 >0.49-1.08 mg/dL 1.8 6000  Quintile of CRP Level 3 >1.08-2.09 mg/dL 2.3 6000  4 >2.09-4.19 mg/dL 3.2 6000  5 >4.19 mg/dL 4.5 6000  Based on the relative risk data above, one can conclude:
+A. There is no risk of heart attack/stroke for women with CRP levels in the first quintile.
+B. Decreasing CRP level appears to increase the risk of heart attack/stroke.
+C. Increasing CRP level appears to increase the risk of heart attack/stroke.
+D. There appears to be no association between CRP levels and heart attack/stroke.
+Answer: A

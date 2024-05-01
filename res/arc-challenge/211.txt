@@ -1,0 +1,2 @@
+Two bicyclists were riding their bikes at a rate of 20 kilometers per hour (km/h). During the next half hour, they observed that they had increased their speed to 26 km/h. What was their average acceleration? (A) 0.2 km/h^2 (B) 3.0 km/h^2 (C) 6.0 km/h^2 (D) 12.0 km/h^2
+Answer: D

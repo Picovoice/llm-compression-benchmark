@@ -1,0 +1,48 @@
+The following are multiple choice questions (with answers) about formal logic.
+
+ Select the best translation into predicate logic: No people drive on Mars.
+A. ~Pd
+B. (∀x)(Px ∨ ~Dx)
+C. (∀x)(Px ⊃ ~Dx)
+D. ~Dp
+Answer: C
+
+Select the best translation into predicate logic.George borrows Hector's lawnmower. (g: George; h: Hector; l: Hector's lawnmower; Bxyx: x borrows y from z)
+A. Blgh
+B. Bhlg
+C. Bglh
+D. Bghl
+Answer: C
+
+ Select the best English interpretation of the given arguments in predicate logic.
+Dm
+(∀x)(Wx ⊃ ~Dx)
+(∀x)Wx ∨ Ag	/ (∃x)Ax
+A. Marina is a dancer. Some weaklings are not dancers. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball.
+B. Marina is a dancer. No weakling is a dancer. Everything is either a weakling or plays volleyball. So something plays volleyball.
+C. Marina is a dancer. Some weaklings are not dancers. Everything is either a weakling or plays volleyball. So something plays volleyball.
+D. Marina is a dancer. No weakling is a dancer. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball.
+Answer: D
+
+ Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
+E ⊃ (F · E) and ~E · F
+A. Logically equivalent
+B. Contradictory
+C. Neither logically equivalent nor contradictory, but consistent
+D. Inconsistent
+Answer: C
+
+ Which of the given formulas of PL is the best symbolization of the following sentence?
+Turtles live long lives and are happy creatures, unless they are injured.
+A. (L • H) ≡ I
+B. (L • H) ∨ I
+C. L • (H ∨ I)
+D. L • (H ⊃ R)
+Answer: B
+
+ Select the best translation into predicate logic: Some folks are lucky.
+A. (∃x)(Fx • Lx)
+B. Fl
+C. Lf
+D. (∀x)(Fx • Lx)
+Answer: A

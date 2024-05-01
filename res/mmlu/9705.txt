@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about high school microeconomics.
+
+In a competitive labor market for housepainters, which of the following would increase the demand for housepainters?
+A. An effective minimum wage imposed on this labor market.
+B. An increase in the price of gallons of paint.
+C. An increase in the construction of new houses.
+D. An increase in the price of mechanical painters so long as the output effect exceeds the substitution effect.
+Answer: C
+
+If the government subsidizes producers in a perfectly competitive market, then
+A. the demand for the product will increase
+B. the demand for the product will decrease
+C. the consumer surplus will increase
+D. the consumer surplus will decrease
+Answer: C
+
+The concentration ratio for a monopoly is
+A. 0
+B. 5
+C. 10
+D. 100
+Answer: D
+
+Which of the following is true of a price floor?
+A. The price floor shifts the demand curve to the left.
+B. An effective floor creates a shortage of the good.
+C. The price floor shifts the supply curve of the good to the right.
+D. To be an effective floor, it must be set above the equilibrium price.
+Answer: D
+
+Which of the following is necessarily a characteristic of oligopoly?
+A. Free entry into and exit from the market
+B. A few large producers
+C. One producer of a good with no close substitutes
+D. A homogenous product
+Answer: B
+
+Suppose that aluminum is a key production input in the production of bicycles. If the price of aluminum falls, and all other variables are held constant, we expect
+A. the demand for aluminum to rise.
+B. the supply of bicycles to rise.
+C. the supply of bicycles to fall.
+D. the demand for bicycles to rise.
+Answer: B

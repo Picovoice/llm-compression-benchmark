@@ -1,0 +1,2 @@
+A student records the temperature in the schoolyard every day for a month. Which is the best way to present the temperature data so each day can be compared? (A) summary paragraph (B) labeled diagram (C) pie chart (D) bar graph
+Answer: D

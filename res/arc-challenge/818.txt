@@ -1,0 +1,2 @@
+What is the voltage in a circuit with a current of 3 ohms and a total resistance of 12? (A) 0.25 V (B) 4 V (C) 15 V (D) 36 V
+Answer: D

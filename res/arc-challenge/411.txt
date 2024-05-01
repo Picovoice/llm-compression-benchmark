@@ -1,0 +1,2 @@
+A student studied the growth of plants in different soil types. The best way to organize the data is by (A) date and time. (B) date and plant height. (C) plant height and soil type (D) date, plant height, and soil type.
+Answer: D

@@ -1,0 +1,3 @@
+auto_gptq
+picollm
+transformers==4.40.1

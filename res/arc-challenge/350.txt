@@ -1,0 +1,2 @@
+There are a total of eight planets that orbit the Sun. How many of the other planets orbit in the same direction as Earth? (A) 0 (B) 1 (C) 4 (D) 7
+Answer: D

@@ -1,0 +1,2 @@
+How much time is required for a bicycle to travel a distance of 100 m at an average speed of 2 m/s? (A) 0.02 s (B) 50 s (C) 100 s (D) 200 s
+Answer: B

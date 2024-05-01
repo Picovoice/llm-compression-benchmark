@@ -1,0 +1,2 @@
+Recently the telephone company announced the implementation of a new telephone area code for Massachusetts. What technological changes are responsible for the need for a new area code? (A) the increased size of the telephone book (B) the increase in use of modems, fax machines, and cellular phones (C) the increase in use of speed dialing and call waiting (D) the increased demand for telephone repairs and installation
+Answer: B

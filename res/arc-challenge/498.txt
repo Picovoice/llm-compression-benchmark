@@ -1,0 +1,2 @@
+How much energy is needed to raise the temperature of 5.0 grams of lead from 25°C to 35°C? [specific heat (c) = 0.129 J/(g °C)] q = c \times m \times \Delta T (A) 6.45 J/(g °C) (B) 6.45 J (C) 16.1 J/(g °C) (D) 16.1 J
+Answer: B

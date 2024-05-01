@@ -1,0 +1,2 @@
+A 20-N force acts on a 5-kg object at rest. How fast will the object accelerate on a frictionless surface? (A) 4 m/s^2 (B) 15 m/s^2 (C) 25 m/s^2 (D) 100 m/s^2
+Answer: A

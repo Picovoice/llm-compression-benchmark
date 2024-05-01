@@ -1,0 +1,2 @@
+A group of students records the daily snowfall during the winter. The data are kept in order by date and accurately measured each day. Which other way can the data best be organized? (A) ranked by number of centimeters of snow per day (B) arranged according to the cause of the snowfall (C) ordered by how long the snow remained on the ground (D) matched with air temperature at time of the snowfall
+Answer: A

@@ -1,0 +1,2 @@
+A student is investigating Newton's second law of motion by changing the force acting on an object and observing its resulting acceleration. If the force on the object were increased four times, by how much would the acceleration increase? (A) 2 times (B) 4 times (C) 8 times (D) 16 times
+Answer: B

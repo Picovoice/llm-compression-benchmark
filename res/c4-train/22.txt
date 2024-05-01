@@ -1,0 +1,66 @@
+Not all marksmen are snipers.
+There is an element of romanticism around snipers and precision marksmanship. The reality isn’t as glamorous. A lot of a sniper’s job is actually observation and intelligence gathering.
+The designated marksmanship program grew out of Soviet doctrine. There was a need for precision marksmanship embedded at the squad level that better supported fire and maneuver. The fieldcraft, observation skills, and other skills associated with snipers weren’t necessary for this role. They only needed to deliver effective fire at range.
+The rifles were typically semi-automatic and capable of accurate fire up to 600 yards. The Soviets used the Dragunov SVD. At first, the US fielded modified M14s. Those were slowly replaced with modern 308 rifles. That said, nothing stops you from using a standard 5.56 rifle for the role.
+The Swiss recognized the same need as everyone else but didn’t have the time or budget to do it the same way. Instead, they developed a system that mixed a point blank zero with designated holdover points and controlled rapid fire instead of single shots. They called this concept Sniping 4th Generation, or S4G.
+This is a field expedient method designed to maximize what little time and exposure the shooter can take advantage of.
+The quoted portions below come from a 2010 thread on M4Carbine.net. The text is one military member quoting another. I’ll bold the important parts as they come up.
+“This is a description by “Bold,” a forum member from Germany, of a Swiss mil program, “Sniping 4th Generation” (S4G). It’s an interesting read; I hope you find it so.
+The Swiss have a very interesting designated marksman concept called “sniping 4th generation” (abbr. S4G).
+In a single day of training, S4G enables an ordinary shooter to hit a man-sized target at 600 meters with the Swiss service rifle and a decades-old fixed 4x-scope – not with every shot, but with a very short target exposure time required.
+Notice the limitations that the Swiss developed this program under. The training course took place over the course of one day, not months. The rifle they work with is the standard service rifle, a Sig 550, with a fixed 4x scope.
+The scope referenced is the Kern, which has a simple post reticle with no holdover markings. It’s closer to my TR24G than an ACOG.
+The math behind S4G is centered around a practical accuracy of 1 per mill – “practical” meaning the combination of rifle, ammo, optics, shooter, and “per mill” meaning a deviation of not more than one meter at 1000 meters, **or 10 centimeters at 100 meters. That amounts to round about 3.4 MOA, which is not too difficult to achieve.
+The bolded portion is equivalent to the vital zone of a point blank zero. The allowable deviation chosen for sniping 4th generation is 1 mil. That’s an angular measurement rather than a fixed length. Milradians are a topic for another day.
+For the designated marksman, the Swiss regard quick hits with a few more rounds expended as superior to a perfect single round hit that took the better part of a minute or more to set up or a shot – because the latter method might see a lot of shots that are never taken as the target has disappeared in the meantime.
+I want to emphasize a particular point here. The Swiss thinking behind sniping 4th generation is that precision marksmanship is too slow. It takes too much time for the average rifleman to estimate range, dial sights, and take a perfect shot. The concept provides a simple way to pick an aiming point and place effective fire where it needs to go as quickly as possible.
+Remember, real targets don’t wait for you to hit them. They are actively trying not to get shot.
+The course starts in the KD-Box (“Kurzdistanz-Box”, i.e. short distance range) at 25 meters.
+First, we are taught a simple and universal method of zeroing a scope with unreadable or no markings.
+We fire a 3-shot group at 25 meters (prone with a daypack as a rifle rest) and adjust windage by 10 clicks. Then, we fire 3 more shots, measure the distance between the centers of the two groups and divide it by 10 (any number will do, but it needs to be large enough to compensate for small shooting errors and other deviation factors – so adjusting by a single click is out, but you could just as well use 20 clicks and divide by 20, for example). Now we know the adjustment one click will give us at 25 meters.
+We repeat the process for elevation and now have the numbers to adjust our formerly unknown scope to point of aim = point of impact at 25 meters.
+Depending on the rifle and scope, this will give us a zero of 25 / 300(ish) – the exact distance for the second intersection is not too important.
+Notable here is that the Swiss end up with about the same point blank zero as the US military trains for. But, even more interesting, they don’t zero for the far distance at 300, only the near distance.
+When we look at a target with our Mk1 eyeball and can see any kind of detail, that is a close target.
+Details would be stuff like gender, hair color, hairstyle, the general type of clothing (e.g. wearing a jacket or not), other equipment (e.g. backpack, rifle) etc..
+With a close target, we will aim at the hip, since generally the target will be within ~300 meters and our bullet will impact above the line of sight and thus somewhere on the torso.
+When we cannot make out any of those details and are just able to see a person, we have a far target.
+With a far target, we aim at the neck/head, since our bullet will impact below the line of sight – again, somewhere on the torso.
+This portion here is the most interesting to me. Traditional PBZ means you pick an aiming point, such as center mass, and fire. The bullet stays within your desired vital zone for some distance.
+The Swiss, on the other hand, are selecting different aiming points to accommodate both holding under and over. Since their chosen vital zone is so wide, they know that shooting over the top of the target is a risk. To account for that at closer ranges, they hold low.
+With practice, it is easy to grasp the concept of aiming at the belt line as the target gets closer or at the neck as the target gets further.
+The hazard here is what to do if you can’t actually see the whole target. In the case of a head peeking out from a wall, there is no neck or belt line to aim for.
+For a close target, we do not correct for wind at all.
+For a far target, we correct half the target’s width for weak wind. Weak wind is a wind that can be felt on exposed skin but will not significantly sway trees or make clothing flap about.
+According to the definition of weak wind, we now know what strong wind would be – anything noticeably stronger than weak wind.
+In a strong wind, we hold a full target’s width into the wind, i.e. we imagine a “virtual twin” right beside our target and hold at its neck/head area.
+This is pretty standard windage advice these days. Rather than worry about the exact windage value, as a precision shooter would do, you simply judge if the wind is light or strong.
+The first shot is a carefully aimed single shot. If it hits and produces perceptible results, we can stop.
+If it does not produce results, be it from a miss or a bad hit, we change to what the Swiss call “rasches Einzelfeuer” – rapid semi-auto.
+Depending on our shooting position and distance, we shoot five shots at a steady rhythm of 1 to 2 rounds per second. We do not try to see the bullet impact, we do not change our point of aim.
+If we missed our first shot (or had a bad hit), something went wrong. We could have misjudged distance or wind. Maybe we jerked the trigger or maybe it was something else. We do not know and we do not have the time to find out.
+This “volley fire” is very different from what most people think of in terms of sniping.
+If you study small unit tactics, though, you’ll realize that this technique is not about landing that first hit. In conflict, any shot that causes the enemy to react and take cover is effective fire.
+If the first shot did not connect, then the following volley could at least pin the target down and allow maneuvering.
+What we try to achieve with our rapid follow-up is to increase our deviation just to the point where one of the shots we fire will cancel out our earlier mistake, but not so far as to miss the target completely…The Swiss army is taught to shoot this way (one aimed shot with eventual rapid-fire follow-up) at all distances.
+Depending on target exposure time, distance or movement, we might skip the carefully aimed shot and start with rapid semi-auto fire – our call.
+The follow-on volley fire is not designed to correct the initial mistake. Rather, the idea of sniping 4th generation is to use the natural variation in accuracy to rapidly place more shots in the vicinity of the first.
+Statistical deviation does its thing and there is a good chance that one of the follow-on shots will connect with a target. At a minimum, in a real conflict, all of the shots would be considered effective fire.
+Putting it all together, let’s say we perceive a possible target.
+As we establish our shooting position, we go through the very short checklist.
+Do we see details? – No.
+Wind? – Just a touch on the face from the right side: WEAK, HALF a target’s width into the wind.
+At the time we are content with our shooting position, we already know that we need to aim just above the right shoulder of the target – the process took us mere seconds (and can be practiced any time you go out for a walk…).
+He goes on to explain the details of the rifle and scope used for the program. But he closes by saying that students of the course achieve an 80% hit rate out to 600 meters using this system.
+One aimed shot followed by five rapid shots. This video depicts a Swiss military exercise. If you pay attention to the rifle fire, you’ll notice the cadence of one shot followed by a rapid string of follow on shots.
+It might be a uniquely American cultural desire to always hunt for that one-shot-one-kill concept.
+But most people in a firefight don’t have the luxury of time and concealment that a true long-range precision professional might have. A system like sniping 4th generation would seem to obey the Clausewitzian principle of applying mass by applying “accurate enough” fire to a concentrated location and raising the probability of a hit.
+The trade-off, of course, is a potentially higher expenditure of ammunition.
+Something that stood out to me about post-type reticle of the Kern is its similarity to the triangle-post on my TR24G. Of course, the TR24 also has the advantage of being able to zoom down to 1x and effectively serve as a green dot sight.
+As interesting as the sniping 4th generation concept is, I wouldn’t use it for general marksmanship. It’s definitely geared towards combat and small unit tactics, though.
+The big takeaway for me is the underlying principle of choosing an appropriate battlesight zero (BZO) and using field-expedient methods to estimate range and wind.
+Love the idea of S4G. Too bad the instructional book wasn’t available in English.
+The one problem with the above original article, regards hitting the target at 600 meters. The author perhaps forgot to state that in order to do so, using an approximate Swiss altitude, requires aiming ~90 inches ABOVE the target.
+Thanks for a great article !, IAC.
+Hey Ignazio, sorry about the delay. Your comment got flagged as spam since it had two links in it. Thank you for those links, they do indeed look helpful. I’d always be cautious about taking something like Bold’s description as gospel for the exact reason you mentioned. There are almost always other factors at play. But the underlying concept is sound. If you know the predictable trajectory arc, you can leverage with two different aiming points and double your effective range.
+“Effective” is relative, though. This method wouldn’t be effective for hunting or precision competition, but it would be effective at making an adversary seek cover.

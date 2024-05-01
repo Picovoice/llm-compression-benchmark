@@ -1,0 +1,2 @@
+Which is a compound? (A) Nitrogen (N_{2}) (B) Neon (Ne) (C) Ozone (O_{3}) (D) Ammonia (NH_{3})
+Answer: D

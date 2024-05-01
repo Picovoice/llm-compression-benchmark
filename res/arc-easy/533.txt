@@ -1,0 +1,2 @@
+An object moves through space with balanced forces acting on it. Which statement best describes the speed and direction of the object as long as the forces acting on it remain balanced? (A) The speed and direction of the object will both change. (B) The speed and direction of the object will remain constant. (C) The speed will change, but the direction will remain constant. (D) The speed will remain constant, but the direction will change.
+Answer: B

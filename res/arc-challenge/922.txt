@@ -1,0 +1,2 @@
+A student measures the acceleration of a stone block on a level surface when the block is acted upon by a known force. What additional information is needed to precisely calculate the block's mass? (A) the block's density (B) the amount of friction (C) the mass of the surface (D) the direction of motion
+Answer: B

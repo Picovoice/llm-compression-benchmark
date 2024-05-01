@@ -1,0 +1,2 @@
+A structure that carries a single unit of hereditary information is a (1) gene (2) tissue (3) sex cell (4) pedigree chart
+Answer: 1

@@ -1,0 +1,2 @@
+Which of the following actions will increase the gravitational force between two masses, m_{1} and m_{2}, by the greatest amount? (A) Halve the mass of m_{1} and halve the distance between m_{1} and m_{2}. (B) Halve the mass of m_{1} and double the distance between m_{1} and m_{2}. (C) Double the mass of m_{1} and halve the distance between m_{1} and m_{2}. (D) Double the mass of m_{1} and double the distance between m_{1} and m_{2}.
+Answer: C

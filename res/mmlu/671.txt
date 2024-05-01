@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about professional law.
+
+A state legislature has recently enacted a statute making it a misdemeanor to curse or revile or use obscene or opprobrious language toward or in reference to a police officer perfonning his duties. A student at a state university organized a demonstration on campus to protest the war. The rally was attended by a group of 50 students who shouted anti-war messages at cars passing by. To show his contempt for the United States, the student sewed the American flag to the rear of his jeans. When a police officer saw the flag sown on the student's jeans, he approached and told him to remove the flag or he would be placed under arrest. The student became angered and shouted at the police officer, "Listen, you bastard, I'll wear this rag anywhere I please. " The student was subsequently placed under arrest and charged with violating the state statute. The student subsequently brings suit in state court challenging the constitutionality of the statute. The strongest constitutional argument for the student is that
+A. the statute is void for vagueness under the Fourteenth Amendment's due process clause.
+B. the statute is invalid because it violates the petitioner's freedom of speech under the First Amendment.
+C. the statute is an abridgment of freedom of speech under the First Amendment because less restrictive means are available for achieving the same purpose.
+D. the statute is overbroad and consequently invalid under the First and FourteenthAmendments.
+Answer: D
+
+A state has recently enacted a statute prohibiting the disposal of any nuclear wastes within the state. This law does not contravene or conflict with any federal statutes. A man operates a company in the state that is engaged in the disposal of nuclear wastes. Subsequent to the passage of the state statute, the man, not yet aware of the new law, entered into contracts with many out-of-state firms to dispose of their nuclear wastes in the state. On account of this new law, however, the man will be unable to perform these contracts. Assume that the man has standing to challenge this state law. Which of the following presents his strongest constitutional grounds to challenge the state law prohibiting the disposal of nuclear wastes within the state?
+A. The commerce clause.
+B. The equal protection clause of the Fourteenth Amendment.
+C. The privileges and immunities clause of Article IV, Section 2. 
+D. The contract clause.
+Answer: A
+
+Judge took judicial notice of some facts at the beginning of the trial. Which of the following is not an appropriate kind of fact for judicial notice?
+A. Indisputable facts.
+B. Facts that have been asserted by individual political organizations.
+C. Facts recognized to be true by common knowledge.
+D. Facts capable of scientific verification.
+Answer: B
+
+On October 1, 1980, a developer, owner of several hundred acres in a rural county, drafted a general development plan for the area. The duly recorded plan imposed elaborate limitations and restrictions upon the land in the plan, which was to be developed as a residential district. The restrictions were to extend to all persons acquiring any of the lots and to their heirs, assigns, and lessees. It was further provided that all subsequent owners would be charged with due notice of the restrictions. Among those restrictions in the general plan were the following:(22) A franchise right is created in a strip of land 10 feet in width along the rear of each lot for the use of public utility companies with right of ingress and egress. (23) No house or structure of any kind shall be built on the aforementioned strip of land running through the said blocks. In 2000, a retiree purchased one of the lots, built a house, and erected a fence in the rear of his property within the restricted area. In 2004, a teacher purchased a lot adjacent to the retiree's property and built a new house. Two years later, a librarian purchased the lot that adjoined the teacher's property. The three deeds to those properties each contained references to the deed book where the general plan was recorded. In 2008, the librarian began the construction of a seven-foot post-and-rail fence along the line dividing his lot with the teacher's, and along the center of the area subject to the franchise right. Although the teacher objected to its construction, the fence was completed. If the teacher seeks a mandatory injunction to compel removal of the librarian's fence, the court will most likely
+A. grant relief, because the fence was in violation of the easement restriction. 
+B. grant relief, because the encroachment of the fence violated the restriction in the original plan. 
+C. deny relief, because the teacher failed to enforce the restriction against the retiree. 
+D. deny relief, because the fence would not be construed as "a structure" within the terms of the restriction. 
+Answer: B
+
+A son owed a creditor $5,000. The son's father contacted the creditor and told him that he wanted to pay the son's debt. The father signed a document that stated the father would pay the son's debt at a rate of $500 a month for 10 months. The creditor made no written or oral commitment to forbear to sue the son to collect the $5,000 debt, and the father made no oral or written request for any such forbearance. For the next five months, the father made and the creditor accepted the $500 monthly payments as agreed. During that period, the creditor, in fact, did forbear to take any legal action against the son. However, the father then informed the creditor that he would make no further payments on the debt. Which of the following is the most persuasive argument that the father is liable to the creditor under the terms of their agreement?
+A. The father's promise and the creditor's reliance thereon, if proved, gave rise to a valid claim by the creditor against the father based on the doctrine of promissory estoppel. 
+B. Because it was foreseeable that the father's promise would induce the creditor to forbear taking any action against the son, such forbearance was, as a matter of law, a bargained-for consideration for the father's promise. 
+C. The father's five payments to the creditor totaling $2,500 manifested a serious intent on the father's part to be contractually bound, and such manifestation is generally recognized as an effective substitute for consideration. 
+D. By assuming the antecedent debt obligation that the son owed to the creditor, the father became a surety whose promise to the creditor was enforceable, since it was in writing and supported by adequate consideration. 
+Answer: A
+
+A farmer, being fee simple owner of a farm, devised it to his niece and her husband as tenants by the entirety. The niece and her husband took immediate possession of the farm and lived there with their daughter and son. Thereafter, the husband died in an automobile accident. In 1972, two years after her father's death, the daughter moved to another state. The son lived with his mother on the farm until her death intestate in 1980. The son continued in exclusive possession of the farm until his death in 2001. In his will, the son devised the farm to a local charity. When he was alive, the son was unaware that his sister was still alive and that title to the farm had descended to the two of them as their mother's sole surviving heirs. Since his mother's death in 1980, the son has held himself out as the owner of the farm, maintaining it and paying all of the taxes on the property. The sister had not communicated with either her mother or her brother since her redomiciling in 1972. The jurisdiction in which the farm is located has a 20-year limitation period for the acquisition of property by adverse possession. What interest, if any, does the sister have in the property?
+A. None, because of her own laches.
+B. None, because the brother acquired title to the farm by adverse possession.
+C. An undivided one-half interest because the brother's possession was not adverse to her title.
+D. An undivided one-half interest because the 20-year limitation period did not run against her because she was unaware of the brother's exclusive possession.
+Answer: C

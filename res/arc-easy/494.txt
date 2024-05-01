@@ -1,0 +1,2 @@
+Scientists often use mathematical models and computer simulations to study systems. What is the main advantage of using these techniques for studying the spread of infectious diseases? (A) to reduce the amount of work for all involved (B) to reduce the cost of conducting experiments on people (C) to obtain results quickly in a short period of time (D) to perform experiments that would be irresponsible using human subjects
+Answer: D

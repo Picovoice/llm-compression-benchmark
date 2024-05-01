@@ -1,0 +1,2 @@
+A scientist studied the number of eggs a species of bird lays each year. He found that the most common number of eggs laid in a year is three. Which statistical measurement did the scientist find? (A) the mean number of eggs laid in a year (B) the median number of eggs laid in a year (C) the mode of the number of eggs laid in a year (D) the range of the number of eggs laid in a year
+Answer: C

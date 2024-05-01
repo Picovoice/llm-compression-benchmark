@@ -1,0 +1,2 @@
+John drove a truck for one hour at a rate of 80 kilometers per hour. The next hour, he drove at 100 kilometers per hour. What was his average speed during those two hours? (A) 80 kilometers per hour (B) 90 kilometers per hour (C) 100 kilometers per hour (D) 180 kilometers per hour
+Answer: B

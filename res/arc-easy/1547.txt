@@ -1,0 +1,2 @@
+The driver of a car at a railroad crossing hears a change in pitch of the train whistle as the train passes by. This change in pitch is most likely due to (A) the Doppler effect. (B) the Compton effect. (C) a change in medium. (D) a change in speed.
+Answer: A

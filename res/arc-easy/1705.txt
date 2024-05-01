@@ -1,0 +1,2 @@
+A class is studying how gravity affects objects in motion. Which tool would best measure the distance an object travels after it is thrown? (A) a magnetic compass (B) a meter stick (C) a calculator (D) a stop watch
+Answer: B

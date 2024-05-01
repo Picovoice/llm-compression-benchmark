@@ -1,0 +1,2 @@
+When heat flows from a hot spot to a cooler spot, entropy increases. When heat is forced to flow from a cool spot to a warmer spot, entropy decreases. Marta is looking for something in her house that causes a decrease in entropy. Which of these should she choose? (A) an ice cube melting (B) the refrigerator (C) an egg frying (D) the toaster
+Answer: B

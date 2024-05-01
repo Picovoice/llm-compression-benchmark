@@ -1,0 +1,2 @@
+The force of an object, with a certain mass accelerating at a certain rate, can be determined by using the equation below. force = mass x acceleration Which object would have the greatest force? (1) a 5-kg object accelerating at 10 m/s^2 (2) a 5-kg object accelerating at 20 m/s^2 (3) a 20-kg object accelerating at 4 m/s^2 (4) a 20-kg object accelerating at 3 m/s^2
+Answer: 2

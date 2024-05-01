@@ -1,0 +1,2 @@
+A ship has a satellite communication device to identify the ship's position at sea. For which of the following activities is this device most likely used? (A) control (B) guidance (C) propulsion (D) suspension
+Answer: B

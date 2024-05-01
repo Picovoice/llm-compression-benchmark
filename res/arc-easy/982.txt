@@ -1,0 +1,2 @@
+Jon had a flat tire on his car. He used a hydraulic jack to lift the car up so that he could change the tire. If Jon knows the amount of force used to lift the car 0.25 meter off of the ground, what is he able to calculate? (A) momentum (B) power (C) pressure (D) work
+Answer: D

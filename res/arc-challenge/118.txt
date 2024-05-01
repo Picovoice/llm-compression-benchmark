@@ -1,0 +1,2 @@
+An airplane flies in a straight line between two cities that are separated by 840 kilometers. If it takes 4 hours for the airplane to make the trip, what is its average speed? (A) 84 km/h (B) 105 km/h (C) 180 km/h (D) 210 km/h
+Answer: D

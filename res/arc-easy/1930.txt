@@ -1,0 +1,2 @@
+When crossing parents with genotypes Rr and rr, what will be the percentages of the genotypes of the offspring? (A) 75% Rr, 25% rr (B) 50% Rr, 50% rr (C) 100% Rr (D) 100% rr
+Answer: B

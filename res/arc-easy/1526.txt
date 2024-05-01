@@ -1,0 +1,2 @@
+In a turtle race, each turtle walks one a 3-meter track. If the turtles walk one at a time, how can you tell which turtle was fastest? (A) The turtle that started first is fastest. (B) The turtle that finished first is fastest. (C) The turtle that took the shortest time is fastest. (D) The turtle that took the longest time is fastest.
+Answer: C

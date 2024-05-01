@@ -1,0 +1,2 @@
+What type of graph would be best for recording plant growth over a one-week period? (A) pie chart (B) line graph (C) scatterplot (D) histogram
+Answer: B

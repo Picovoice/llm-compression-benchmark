@@ -1,0 +1,2 @@
+A man ran on a treadmill for 1,800 seconds. At the end of his run, the treadmill indicated his energy output as 240,000 J. What average power did he generate? (A) 666 W (B) 133 W (C) 66 W (D) 7 W
+Answer: B

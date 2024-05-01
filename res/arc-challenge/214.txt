@@ -1,0 +1,2 @@
+Which method should be used to determine the type of popcorn that produces the greatest number of popped kernels? (A) Research articles about different ways to heat popcorn to make it pop. (B) Design an experiment that tests multiple types of popcorn using repeated trials. (C) Heat kernels of some types on an electric stove and heat other types on a gas stove. (D) Construct a mathematical equation that compares size and mass of kernels from each type.
+Answer: B

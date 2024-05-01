@@ -1,0 +1,2 @@
+A tick attaches to a deer and consumes blood, harming the deer. This is an example of which type of relationship? (A) predator-prey (B) mutualism (C) parasite-host (D) commensalism
+Answer: C

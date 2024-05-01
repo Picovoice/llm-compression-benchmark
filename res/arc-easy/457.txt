@@ -1,0 +1,2 @@
+Why is it not a safe practice to place a fuel depot over an aquifer? (A) Aquifers are too high up in the mountains. (B) The weight of the depot is too great over the aquifer. (C) The fumes escaping from the fuel depot are explosive. (D) If the fuel leaks, the water in the aquifer will become contaminated.
+Answer: D

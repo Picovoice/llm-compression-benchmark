@@ -1,0 +1,2 @@
+A student shines a flashlight on different colors of paper. Which color of paper will absorb the most light? (A) Red (B) Black (C) White (D) Yellow
+Answer: B

@@ -1,0 +1,2 @@
+In a rubber duck race, the winning duck traveled 300 meters in 10 minutes. What was the duck's average speed? (A) 0.5 m/s (B) 1.0 m/s (C) 7.5 m/s (D) 30 m/s
+Answer: A

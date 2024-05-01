@@ -1,0 +1,2 @@
+In a population of spiders there are three different sizes: small, medium, and large. The large spiders are easily seen by predators. Small spiders have a difficult time finding food. What will most likely happen to the population after many generations? (A) Medium spiders will be the most plentiful. (B) Large spiders will learn to hide from predators. (C) Small and medium spiders will be the least plentiful. (D) Small and large spiders will mutate.
+Answer: A

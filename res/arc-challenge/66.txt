@@ -1,0 +1,2 @@
+Some students are performing hardness tests on several substances. X scratches Y. Y scratches Z. Z scratches W. Which of these statements best describes substance W's hardness? (A) W is the softest of the four substances tested. (B) W is the hardest of the four substances tested. (C) W can scratch Y. (D) W can scratch X.
+Answer: A

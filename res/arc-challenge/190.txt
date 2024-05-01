@@ -1,0 +1,2 @@
+A student has recorded the speed of cars for a science experiment. What type of graph would give the most detail about cars traveling in a particular speed range? (A) bar graph (B) line graph (C) scatterplot (D) stem and leaf
+Answer: C

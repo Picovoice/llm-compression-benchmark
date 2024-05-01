@@ -1,0 +1,2 @@
+When an electric current is passed through water (H_{2}O) using a specific apparatus, hydrogen (H_{2}) and oxygen (O_{2}) gases form. How can this reaction be shown in a chemical equation? (A) H_{2}O -> H + O + H (B) 2H_{2}O(l) -> 2H_{2}(g) + O_{2}(g) (C) H:O:H -> H_{2}O (D) H_{2}O(l) -> 2H(g) + O(g)
+Answer: B

@@ -1,0 +1,2 @@
+Air that travels away from the equator fails to maintain a straight path. The path of the air is deflected to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The apparent deflection of air to either the right or left is known as the Coriolis Effect. Which factor produces the Coriolis Effect? (A) the gravity of Earth (B) the rotation of Earth (C) the axial tilt of Earth (D) the revolution of Earth
+Answer: B

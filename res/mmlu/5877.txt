@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about logical fallacies.
+
+If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?
+A. tu quoque
+B. horse laugh
+C. argument against the person
+D. ignoratio elenchi
+Answer: C
+
+The complex question fallacy consists of
+A. arguing something is inferior just because it doesn't do something it was never intended to do.
+B. including more than one claim in the proposition and treating proof for one claim as proof for all the claims.
+C. drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion.
+D. asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.
+Answer: D
+
+Which of the following is true of a valid categorical syllogism?
+A. The minor premise must deny the antecedent
+B. The major premise must affirm the consequent
+C. The middle term must be used in at least one premise in a universal or unqualified sense
+D. All of the above
+Answer: C
+
+Arguing that what is true of the parts must be true of the whole is the fallacy of...
+A. Division
+B. Composition
+C. Appeal to the person
+D. Appeal to ignorance
+Answer: B
+
+When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of
+A. poor sportsmanship
+B. appeal to compassion
+C. argument against the person
+D. ignorance of refutation
+Answer: D
+
+Which of the following describes he fallacy of appeal to pride?
+A. arguing a claim should be accepted based only on evidence that unidentified authorities accept it.
+B. arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.
+C. arguing something should be done based only on evidence that it's been done that way in the past, or should be believed only because it's been believed for a long time.
+D. arguing that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence for the lack of significant effects.
+Answer: B

@@ -1,0 +1,2 @@
+Computers have devices called heat sinks designed to lower the temperature of a computer by scattering produced heat into the surrounding area. Which type of energy is kept away from a computer by a heat sink? (A) electrical (B) chemical (C) thermal (D) nuclear
+Answer: C

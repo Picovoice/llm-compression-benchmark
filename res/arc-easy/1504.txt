@@ -1,0 +1,2 @@
+The engineering team that is designing a scientific research station on the Arctic permafrost has to provide the station with energy for cooking, heating, and lighting. Considering the fragile environment and other conditions there, the best choice is probably to (A) build a wind turbine. (B) have fuel trucked in. (C) have a pipeline built. (D) build a solar collector.
+Answer: A

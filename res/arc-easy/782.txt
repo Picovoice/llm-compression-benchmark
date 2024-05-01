@@ -1,0 +1,2 @@
+A student wants to find out whether storms with lightning produce more rain than storms without lightning. Which is the best way to answer this question? (A) average the amount of rain that fell during a lightning storm (B) count number of lightning strikes during a one-hour period (C) record rainfall amounts in storms with and without lightning (D) calculate the number of fires that are caused by lightning strikes
+Answer: C

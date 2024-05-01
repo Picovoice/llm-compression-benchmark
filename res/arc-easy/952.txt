@@ -1,0 +1,2 @@
+Which food contains the highest percentage of protein? (A) rice (B) dates (C) carrots (D) chicken
+Answer: D

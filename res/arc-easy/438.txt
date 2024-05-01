@@ -1,0 +1,2 @@
+A student divides several cubes into two groups, based on whether or not each cube can float in later. What property is the student using to classify the cubes?     (A) weight (B) density (C) conductivity (D) mass
+Answer: B

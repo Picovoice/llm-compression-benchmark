@@ -1,0 +1,2 @@
+An engineer must construct a power plant that will cause the least amount of damage to the environment. Which type of power plant should be constructed? (A) coal (B) nuclear (C) solar electric (D) hydroelectric
+Answer: C

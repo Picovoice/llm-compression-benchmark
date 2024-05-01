@@ -1,0 +1,73 @@
+Batch normalization is a technique designed to automatically standardize the inputs to a layer in a deep learning neural network.
+Once implemented, batch normalization has the effect of dramatically accelerating the training process of a neural network, and in some cases improves the performance of the model via a modest regularization effect.
+In this tutorial, you will discover how to use batch normalization to accelerate the training of deep learning neural networks in Python with Keras.
+How to create and configure a BatchNormalization layer using the Keras API.
+How to add the BatchNormalization layer to deep learning neural network models.
+How to update an MLP model to use batch normalization to accelerate training on a binary classification problem.
+Keras provides support for batch normalization via the BatchNormalization layer.
+The layer will transform inputs so that they are standardized, meaning that they will have a mean of zero and a standard deviation of one.
+During training, the layer will keep track of statistics for each input variable and use them to standardize the data.
+Further, the standardized output can be scaled using the learned parameters of Beta and Gamma that define the new mean and standard deviation for the output of the transform. The layer can be configured to control whether these additional parameters will be used or not via the “center” and “scale” attributes respectively. By default, they are enabled.
+The statistics used to perform the standardization, e.g. the mean and standard deviation of each variable, are updated for each mini batch and a running average is maintained.
+A “momentum” argument allows you to control how much of the statistics from the previous mini batch to include when the update is calculated. By default, this is kept high with a value of 0.99. This can be set to 0.0 to only use statistics from the current mini-batch, as described in the original paper.
+At the end of training, the mean and standard deviation statistics in the layer at that time will be used to standardize inputs when the model is used to make a prediction.
+The default configuration estimating mean and standard deviation across all mini batches is probably sensible.
+Batch normalization can be used at most points in a model and with most types of deep learning neural networks.
+The BatchNormalization layer can be added to your model to standardize raw input variables or the outputs of a hidden layer.
+Batch normalization is not recommended as an alternative to proper data preparation for your model.
+When used to standardize the outputs of a hidden layer, the layer can be added to the model just like any other layer.
+The BatchNormalization normalization layer can be used to standardize inputs before or after the activation function of the previous layer.
+If time and resources permit, it may be worth testing both approaches on your model and use the approach that results in the best performance.
+Let’s take a look at how batch normalization can be used with some common network types.
+The example below adds batch normalization after the activation function between Dense hidden layers.
+The example below adds batch normalization after the activation function between a convolutional and max pooling layers.
+The example below adds batch normalization after the activation function between an LSTM and Dense hidden layers.
+In this section, we will demonstrate how to use batch normalization to accelerate the training of an MLP on a simple binary classification problem.
+This example provides a template for applying batch normalization to your own neural network for classification and regression problems.
+We will use a standard binary classification problem that defines two two-dimensional concentric circles of observations, one circle for each class.
+Each observation has two input variables with the same scale and a class output value of either 0 or 1. This dataset is called the “circles” dataset because of the shape of the observations in each class when plotted.
+We can use the make_circles() function to generate observations from this problem. We will add noise to the data and seed the random number generator so that the same samples are generated each time the code is run.
+We can plot the dataset where the two variables are taken as x and y coordinates on a graph and the class value is taken as the color of the observation.
+The complete example of generating the dataset and plotting it is listed below.
+Running the example creates a scatter plot showing the concentric circles shape of the observations in each class.
+We can see the noise in the dispersal of the points making the circles less obvious.
+This is a good test problem because the classes cannot be separated by a line, e.g. are not linearly separable, requiring a nonlinear method such as a neural network to address.
+We can develop a Multilayer Perceptron model, or MLP, as a baseline for this problem.
+First, we will split the 1,000 generated samples into a train and test dataset, with 500 examples in each. This will provide a sufficiently large sample for the model to learn from and an equally sized (fair) evaluation of its performance.
+We will define a simple MLP model. The network must have two inputs in the visible layer for the two variables in the dataset.
+The model will have a single hidden layer with 50 nodes, chosen arbitrarily, and use the rectified linear activation function and the He random weight initialization method. The output layer will be a single node with the sigmoid activation function, capable of predicting a 0 for the outer circle and a 1 for the inner circle of the problem.
+The model will be trained using stochastic gradient descent with a modest learning rate of 0.01 and a large momentum of 0.9, and the optimization will be directed using the binary cross entropy loss function.
+Once defined, the model can be fit on the training dataset.
+We will use the holdout test dataset as a validation dataset and evaluate its performance at the end of each training epoch. The model will be fit for 100 epochs, chosen after a little trial and error.
+At the end of the run, the model is evaluated on the train and test dataset and the accuracy is reported.
+Finally, line plots are created showing model accuracy on the train and test sets at the end of each training epoch providing learning curves.
+This plot of learning curves is useful as it gives an idea of how quickly and how well the model has learned the problem.
+Running the example fits the model and evaluates it on the train and test sets.
+Your specific results may vary given the stochastic nature of the learning algorithm. Consider re-running the example a number of times.
+In this case, we can see that the model achieved an accuracy of about 84% on the holdout dataset and achieved comparable performance on both the train and test sets, given the same size and similar composition of both datasets.
+A graph is created showing line plots of the classification accuracy on the train (blue) and test (orange) datasets.
+The plot shows comparable performance of the model on both datasets during the training process. We can see that performance leaps up over the first 30-to-40 epochs to above 80% accuracy then is slowly refined.
+This result, and specifically the dynamics of the model during training, provide a baseline that can be compared to the same model with the addition of batch normalization.
+The model introduced in the previous section can be updated to add batch normalization.
+The expectation is that the addition of batch normalization would accelerate the training process, offering similar or better classification accuracy of the model in fewer training epochs. Batch normalization is also reported as providing a modest form of regularization, meaning that it may also offer a small reduction in generalization error demonstrated by a small increase in classification accuracy on the holdout test dataset.
+A new BatchNormalization layer can be added to the model after the hidden layer before the output layer. Specifically, after the activation function of the prior hidden layer.
+Running the example first prints the classification accuracy of the model on the train and test dataset.
+In this case, we can see comparable performance of the model on both the train and test set of about 84% accuracy, very similar to what we saw in the previous section, if not a little bit better.
+A graph of the learning curves is also created showing classification accuracy on both the train and test sets for each training epoch.
+In this case, we can see that the model has learned the problem faster than the model in the previous section without batch normalization. Specifically, we can see that classification accuracy on the train and test datasets leaps above 80% within the first 20 epochs, as opposed to 30-to-40 epochs in the model without batch normalization.
+The plot also shows the effect of batch normalization during training. We can see lower performance on the training dataset than the test dataset: scores on the training dataset that are lower than the performance of the model at the end of the training run. This is likely the effect of the input collected and updated each mini-batch.
+We can also try a variation of the model where batch normalization is applied prior to the activation function of the hidden layer, instead of after the activation function.
+The complete code listing with this change to the model is listed below.
+In this case, we can see comparable performance of the model on the train and test datasets, but slightly worse than the model without batch normalization.
+The line plot of the learning curves on the train and test sets also tells a different story.
+The plot shows the model learning perhaps at the same pace as the model without batch normalization, but the performance of the model on the training dataset is much worse, hovering around 70% to 75% accuracy, again likely an effect of the statistics collected and used over each mini-batch.
+At least for this model configuration on this specific dataset, it appears that batch normalization is more effective after the rectified linear activation function.
+Without Beta and Gamma. Update the example to not use the beta and gamma parameters in the batch normalization layer and compare results.
+Without Momentum. Update the example to not use momentum in the batch normalization layer during training and compare results.
+Input Layer. Update the example to use batch normalization after the input to the model and compare results.
+Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, 2015.
+The Batch Normalization layer of Keras is broken, Vasilis Vryniotis, 2018.
+Batch Normalization before or after ReLU?, Reddit.
+Studies of Batch Normalization Before and After Activation Function.
+In this tutorial, you discovered how to use batch normalization to accelerate the training of deep learning neural networks in Python with Keras.
+The post How to Accelerate Learning of Deep Neural Networks With Batch Normalization appeared first on Machine Learning Mastery.

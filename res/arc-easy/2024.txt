@@ -1,0 +1,2 @@
+A small aluminum cube is dropped into a beaker of water to determine the buoyancy. Which of these is not necessary in determining the buoyant force acting on the cube? (A) density of water (B) displaced volume (C) gravitational pull on Earth (D) density of the aluminum cube
+Answer: D

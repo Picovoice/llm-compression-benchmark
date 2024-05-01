@@ -1,0 +1,2 @@
+A certain fossil (Y) is found in a layer of rock that lies between two index fossils, X and Z. Surprisingly, the older of the index fossils (Z) is found above the other fossils, suggesting that the rock layer has overturned. Which dating method is best to confirm the rock layer has overturned by determining the ages of these fossils? (A) anatomical comparison (B) gene sequencing (C) radiometric analysis (D) fossil depth measurement
+Answer: C

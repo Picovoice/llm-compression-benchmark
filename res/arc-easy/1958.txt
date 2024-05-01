@@ -1,0 +1,2 @@
+An engineer was given an assignment to build a model rocket. The main requirement was that it had to build it out of a metal that could release the energy that built up when reentering the atmosphere of Earth. What property should the engineer concentrate on the most when designing the rocket? (A) density (B) ductility (C) specific heat (D) boiling point
+Answer: C

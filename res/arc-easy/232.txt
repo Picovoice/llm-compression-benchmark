@@ -1,0 +1,2 @@
+Sal is looking at a map of Massachusetts. He has measured the distance, in inches, from Boston to Salem on the map. He wants to know how many actual miles the inches represent. What feature of the map should he look for? (A) key (B) scale (C) legend (D) compass
+Answer: B

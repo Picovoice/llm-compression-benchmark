@@ -1,0 +1,2 @@
+Water, ice, and steam all have different temperatures. What is the order from coldest to hottest? (A) ice, water, steam (B) ice, steam, water (C) steam, ice, water (D) steam, water, ice
+Answer: A

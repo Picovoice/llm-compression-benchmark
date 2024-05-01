@@ -1,0 +1,2 @@
+Which best illustrates the sequence of steps that should be followed when solving technological problems? (A) Identify the problem, evaluate the solution, explore possible solutions, and select a solution. (B) Identify the problem, explore possible solutions, select a solution, and evaluate the solution. (C) Identify the problem, select a solution, explore possible solutions, and evaluate the solution. (D) Identify the problem, evaluate the solution, select a solution, and explore possible solutions.
+Answer: B

@@ -1,0 +1,2 @@
+When estimating amounts of building supplies, it is better to allow for some waste and error rather than to cause delays by not ordering sufficient supplies. An engineer is estimating the number of bundles of shingles needed for a roof area of approximately 2000 sq. ft. In roofing, a square is 100 sq. ft., and each bundle covers one-third of a square. Which of the following is closest to the number of bundles that the engineer should order? (A) 23 (B) 43 (C) 63 (D) 83 331
+Answer: C

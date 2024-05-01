@@ -1,0 +1,2 @@
+Which of the following is the primary difference between hydraulic and pneumatic systems? (A) Hydraulic systems are under pressure and pneumatic systems are not. (B) Hydraulic systems involve liquids and pneumatic systems involve gases. (C) Hydraulic systems are open systems and pneumatic systems are closed systems. (D) Hydraulic systems involve fluids in motion and pneumatic systems involve fluids at rest.
+Answer: B

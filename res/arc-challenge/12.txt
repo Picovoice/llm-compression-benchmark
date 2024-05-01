@@ -1,0 +1,2 @@
+The morning temperature in a city is 41°F. If a sunny, mild day is forecast, which temperature is most likely for 2:00 p.m.? (A) 32° F (B) 41° F (C) 78° F (D) 98° F
+Answer: C

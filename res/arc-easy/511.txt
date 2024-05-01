@@ -1,0 +1,2 @@
+A student counts ants in an ant colony every day at the same time. The student writes the date of observation in one column in a notebook and the number of ants counted on each date in a second column. Which best describes how the student arranged the information? (A) pie chart (B) data table (C) bar graph (D) scatterplot
+Answer: B

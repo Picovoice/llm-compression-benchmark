@@ -1,0 +1,2 @@
+A scientist puts more food than a lab rat can eat in each of 100 cages containing lab rats. She surveys the mass of food each rat eats in one day. To determine the difference between the largest and smallest masses of food eaten, she should find her data's  (A) mean. (B) range. (C) mode. (D) median.
+Answer: B

@@ -1,0 +1,2 @@
+A sample of an unknown substance has a volume that is independent of its container. Which additional information is needed to determine the state of the sample? (A) the mass of the sample (B) the density of the sample (C) whether the sample has a fixed shape (D) whether the sample conducts electricity
+Answer: C

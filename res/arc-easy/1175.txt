@@ -1,0 +1,2 @@
+A large plant population may impose selective pressure on a smaller, isolated group of plants, resulting in a change in allele distribution. Which mechanism is responsible for this change in the allele distribution? (A) mutation (B) hybridization (C) genetic drift (D) trait acquisition
+Answer: C

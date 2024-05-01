@@ -1,0 +1,2 @@
+Cell differentiation is the result of gene expression. Genes can be regulated several ways. For example, small interference RNA molecules (siRNA), prevent gene expression by binding to the product of transcription. How do siRNA molecules silence genes? (A) They bind to ribosomes. (B) They bind to tRNA. (C) They bind to RNA polymerase. (D) They bind to mRNA.
+Answer: D

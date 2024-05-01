@@ -1,0 +1,2 @@
+A tree uses gas A to produce gas B. An animal uses gas B to produce gas A. What is gas B in this cycle? (A) oxygen (B) nitrogen (C) carbon dioxide (D) carbon monoxide
+Answer: A

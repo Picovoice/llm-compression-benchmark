@@ -1,0 +1,64 @@
+Find out about Gambling Tax Reform, how it affects you and what you should do if you need to register.
+This detailed guidance was originally archived on 17 March 2015.
+This guidance has been superseded by the General Betting Duty, Pool Betting Duty and Remote Gaming Duty guide.
+This guide is about General Betting Duty (GBD), Pool Betting Duty (PBD) and Remote Gaming Duty (RGD).
+The rules for these taxes changed from 1 December 2014.
+This guide gives details of the key changes and what you need to do if the changes affect your business.
+These taxes are covered by separate guides.
+Up to and including 30 November 2014 these taxes were taxed on a ‘place of supply’ basis.
+This means that if you’re supplying gambling from the UK, you pay tax on all your gross gambling profits. Operators supplying UK customers from outside the UK pay no UK gambling taxes.
+From 1 December 2014, HM Revenue and Customs (HMRC) changed how these gambling duties were taxed from ‘place of supply’ to ‘place of consumption’.
+This means that if you offer remote gambling to a person who usually lives in the UK, you’re liable to one or more of the taxes (GBD, PBD or RGD). This applies no matter where in the world you’re based.
+Therefore, from 1 December 2014 UK based operators who supply remote gambling to customers who don’t usually live in the UK are no longer liable to GBD, PBD or RGD on those transactions.
+If you’re a bookmaker offering bets from a shop in the UK or a spread betting provider, the changes don’t make any difference to what you pay, but there are some administrative changes.
+On-course only bookmakers remain exempt from GBD and the requirement to tell HMRC about their business has been abolished. However, as before, on-course only bookmakers need to register for and pay GBD on any off-course bets they take in the course of their business.
+Bets not at fixed-odds or on horse or dog racing may be subject to GBD.
+RGD is charged on a gaming provider’s profits from remote gaming played by a UK person. A gaming provider is the person with whom the player has a contract (or similar arrangement) for play.
+If you’re liable to GBD, PBD or RGD for the first time on or after 1 December 2014, you must register for the appropriate tax, submit returns and pay any tax due in sterling.
+For multiple taxes you must register in one single transaction using the GTS online registration service.
+If you don’t hold (and are not required to hold) a Remote Operating Licence (ROL) from the Gambling Commission (GC), HMRC can send you paper registration forms.
+HMRC has written to you about the changes and about moving you to the new system. This letter asked you to provide some additional information.
+Following your reply, you were issued with a ‘registration certificate’ including a new reference number for each tax that you’re registered for.
+If you haven‘t replied to the letter, you need to do so straight away so that HMRC can move you to the new system.
+If you’re liable to more than one tax you’ll need to make a separate registration application for each tax. This is because in law each tax is a separate tax.
+For example, a bookmaker offering fixed-odds and pool betting may be liable to GBD and PBD and will have to make a separate registration application for each tax.
+GTS makes this easy for you. It guides you through the separate registration applications and copies information between these applications so that you don’t need to enter the same information again.
+You can apply to register for all of the taxes that are relevant to you in a single GTS session.
+It’s important to note that currently, if you don’t apply to register for all of the taxes that are relevant to you in a single GTS session – for example, you apply to register for one tax and log out of the system before returning to apply to register for an additional tax – you’ll not be able to do so.
+HMRC intend to make improvements to GTS in future IT releases.
+Find more in the Gambling Tax registration guide.
+A group is a number of corporate bodies under common control. A separate registration is needed to form a group for each tax.
+A group only submits 1 return for each accounting period to cover all group members. All group members have joint and several liability for each other’s duty.
+Each group must have a Group Lead Member (GLM) and that GLM must have a principal place of business in the UK.
+When a group has been formed no group member will need to appoint a representative.
+If you need to appoint a representative you’ll be asked to nominate one during the online registration application process.
+HMRC will contact the nominated representative who’ll be asked to complete a ‘Gambling Tax - Representative Details’ form (GTRA1). Nominated representatives must also supply HMRC with their current year financial statement.
+Within 3 weeks, HMRC will let you know when they’ve contacted your nominated representative and will tell the representative and you of approval. If approval isn’t possible, HMRC will discuss this with you.
+HMRC won’t complete the registration process until they’ve approved your representative.
+Find more about appointing representatives and providing security.
+If you want someone such as an accountant or other agent to act for you, you can appoint them when applying to register online.
+You must submit a return for each type of gambling tax you’ve registered for. HMRC don’t expect returns to be available before 31 March 2015.
+Your return, which you can fill in online, must be with HMRC by the 30th day after the end of each accounting period. If the 30th day falls on a weekend or bank holiday, your return and payment must be with HMRC by the end of the previous working day.
+You have 4 accounting periods a year.
+You must make a return even if you don’t owe any tax for the accounting period.
+If you were liable before 1 December 2014, HMRC sent you a return for the period up to and including 30 November 2014. This was due by 30 December 2014.
+If you were on monthly accounting periods before 1 December 2014, you’ll now be on quarterly periods and HMRC has written to you about this.
+HMRC has set your first accounting period to end on 31 March 2015. This means your first return and payment for the period to 31 March 2015 is due by 30 April 2015.
+If you weren’t expecting your first accounting period to end on 31 March because you asked for something else when you applied to register, you’ll receive a letter from HMRC. This will explain the accounting period end dates you’ll have after 31 March 2015.
+If you asked for non-standard tax periods, HMRC may be able to offer you a first accounting period end date between 15 March 2015 and 16 April 2015.
+If you’ve registered for GBD there are 3 separate sections of the return. You’ll need to complete the sections that are relevant to you – if you’re filling an online return you’ll only see the relevant sections.
+You’ll be able to work out how much tax to pay using the information above.
+This will enable you to work out how much to pay.
+If you can’t pay using one of the electronic methods listed above, you can send a cheque, in sterling, to be drawn on a UK bank. You should allow at least 3 working days for your payment to reach HMRC from the UK - you’ll need to allow longer if the cheque isn’t sent from the UK. This allows for any delays in the post outside HMRC’s control.
+Payments from outside the UK can be made by transferring funds electronically from an overseas bank through the SWIFT banking system. This will involve holding an International Bank Account Number and a SWIFT Bank Identifier Code.
+You’ll need to keep appropriate records.
+The guidance in section 7 of Notice 451: General Betting Duty (edition April 2010) sets out record-keeping requirements for GBD liabilities before 1 December 2014.
+The guidance in section 8 of Notice 451a: General Betting Duty covers record keeping requirements for liabilities after that date.
+The guidance in section 10 of Notice 147: Pool Betting Duty (edition September 2010) sets out record-keeping requirements for PBD liabilities before 1 December 2014.
+The guidance in section 9 of Notice 147a:Pool Betting Duty covers record-keeping requirements for liabilities after that date.
+The guidance in section 7 of Notice 455: Remote Gaming Duty (edition April 2010) sets out record-keeping requirements for RGD liabilities before1 December 2014.
+The guidance in section 8 of Notice 455a: Remote Gaming Duty covers record keeping requirements for liabilities after that date.
+You should keep your records for 4 years as HMRC might ask to see them.
+15 January 2015 Update to inform customers that they can register for all the taxes in one single transaction.
+21 November 2014 Added separate sections for return periods under old and new rules. Guidance on record keeping added.
+29 September 2014 First published.

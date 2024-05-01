@@ -1,0 +1,63 @@
+The following are multiple choice questions (with answers) about econometrics.
+
+For a stationary autoregressive process, shocks will
+A. Eventually die away
+B. Persist indefinitely
+C. Grow exponentially
+D. Never occur
+Answer: A
+
+Consider the following AR(1) model with the disturbances having zero mean and unit variance
+
+yt = 0.2 + 0.4 yt-1 + ut
+
+The (unconditional) mean of y will be given by
+A. 0.2
+B. 0.4
+C. 0.5
+D. 0.33
+Answer: D
+
+Suppose that a test statistic has associated with it a p-value of 0.08. Which one of the following statements is true?
+
+(i) If the size of the test were exactly 8%, we would be indifferent between rejecting and not rejecting the null hypothesis
+
+(ii) The null would be rejected if a 10% size of test were used
+
+(iii) The null would not be rejected if a 1% size of test were used
+
+(iv) The null would be rejected if a 5% size of test were used.
+A. (ii) and (iv) only
+B. (i) and (iii) only
+C. (i), (ii), and (iii) only
+D. (i), (ii), (iii), and (iv)
+Answer: C
+
+What would be then consequences for the OLS estimator if heteroscedasticity is present in a regression model but ignored?
+A. It will be biased
+B. It will be inconsistent
+C. It will be inefficient
+D. All of (a), (b) and (c) will be true.
+Answer: C
+
+Suppose now that a researcher wishes to use information criteria to determine the optimal lag length for a VAR. 500 observations are available for the bi-variate VAR, and the values of the determinant of the variance-covariance matrix of residuals are 0.0336, 0.0169, 0.0084, and 0.0062 for 1, 2, 3, and 4 lags respectively. What is the optimal model order according to Akaike's information criterion?
+A. 1 lag
+B. 2 lags
+C. 3 lags
+D. 4 lags
+Answer: C
+
+Which of the following are plausible approaches to dealing with residual autocorrelation?
+
+i) Take logarithms of each of the variables
+
+ii) Add lagged values of the variables to the regression equation
+
+iii) Use dummy variables to remove outlying observations
+
+iv) Try a model in first differenced form rather than in levels.
+A. (ii) and (iv) only
+B. (i) and (iii) only
+C. (i), (ii), and (iii) only
+D. (i), (ii), (iii), and (iv)
+Answer: A

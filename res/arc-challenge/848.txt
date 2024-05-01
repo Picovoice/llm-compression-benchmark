@@ -1,0 +1,2 @@
+A meteor in the atmosphere of Earth travels at 35 km/sec. It is slowed by friction with the atmosphere by 0.02 km/sec before it reaches the surface of Earth. What is the final the speed of the meteor caused by friction of the atmosphere? (A) 0.7 km/sec (B) 34.98 km/sec (C) 35.02 km/sec (D) 1750 km/sec
+Answer: B

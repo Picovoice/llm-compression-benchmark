@@ -1,0 +1,2 @@
+Which is the best way to generate an electrical current in a coil of wire? (A) stroking the coil with a piece of silk (B) heating the coil uniformly (C) laying the coil near a magnet (D) rotating the coil in a magnetic field
+Answer: D

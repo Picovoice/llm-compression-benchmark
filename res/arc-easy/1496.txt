@@ -1,0 +1,2 @@
+Hector's class is counting the number of ducks in a pond. Hector counts a different number than the rest of the class. Which of the following actions should Hector most likely perform? (A) keep the result (B) change the number he counted (C) think that the class results are wrong (D) remove his number from the class result
+Answer: A

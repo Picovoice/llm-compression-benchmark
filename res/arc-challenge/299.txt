@@ -1,0 +1,2 @@
+A farmer has three large fields where he plans to grow grasses to harvest for hay. Grasses should be harvested only after two years of growth. What could the farmer do to make sure he has a hay crop each year? (A) Plant each field at one-year intervals. (B) Plant the grasses as close together as possible. (C) Plant all the fields at the same time, but with different types of grasses. (D) Plant warm-season grasses and cool-season grasses in each field at the same time.
+Answer: A

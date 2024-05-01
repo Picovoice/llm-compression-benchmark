@@ -1,0 +1,2 @@
+Less force is required to launch a spaceship from the surface of the Moon than to launch an identical ship from the surface of Earth because (A) the Moon has a smaller surface area than Earth. (B) the mass of an object on Earth is greater than on the Moon. (C) the gravitational field of the Moon is less than that of Earth. (D) the atmosphere of the Moon is much thinner than that of Earth.
+Answer: C

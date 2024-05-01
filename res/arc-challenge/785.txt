@@ -1,0 +1,2 @@
+A DNA strand contains codons, which consist of a sequence of three nucleotides. Which best describes the importance of codons found in the sequence of DNA? (A) They contain the code for messenger RNA. (B) They signal the start of mitotic cell division. (C) They ensure proper replication of the genetic code. (D) They are used to assemble amino acids for protein synthesis.
+Answer: D

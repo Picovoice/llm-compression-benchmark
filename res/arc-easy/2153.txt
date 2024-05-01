@@ -1,0 +1,2 @@
+Which unit is used to express the amount of energy in food? (1) Calorie (2) degree Celsius (3) milliliter (4) gram
+Answer: 1

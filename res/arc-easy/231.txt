@@ -1,0 +1,2 @@
+The rover Spirit is a robotic probe that NASA has placed on Mars. The gravitational attraction of Mars is approximately 62% less than that of Earth. Compared to its measurements on Earth, on Mars the probe has (A) the same weight and the same mass. (B) a larger weight, but smaller mass. (C) a smaller mass and larger weight. (D) a smaller weight and the same mass.
+Answer: D

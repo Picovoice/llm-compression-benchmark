@@ -1,0 +1,2 @@
+The engine of an automobile is part of which type of system? (A) structure (B) propulsion (C) guidance (D) control
+Answer: B

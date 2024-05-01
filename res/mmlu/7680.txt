@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about computer security.
+
+SHA-1 has a message digest of
+A. 160 bits
+B. 512 bits
+C. 628 bits
+D. 820 bits
+Answer: A
+
+_____________ can modify data on your system – so that your system doesn’t run correctly or you can no longer access specific data, or it may even ask for ransom in order to give your access.
+A. IM – Trojans
+B. Backdoor Trojans
+C. Trojan-Downloader
+D. Ransom Trojan
+Answer: D
+
+What is ethical hacking?
+A. "Hacking" ethics so they justify unintended selfish behavior
+B. Hacking systems (e.g., during penetration testing) to expose vulnerabilities so they can be fixed, rather than exploited
+C. Hacking into systems run by those whose ethics you disagree with
+D. A slang term for rapid software development, e.g., as part of hackathons
+Answer: B
+
+Exploitation of the Heartbleed bug permits
+A. overwriting cryptographic keys in memory
+B. a kind of code injection
+C. a read outside bounds of a buffer
+D. a format string attack
+Answer: C
+
+The ____________ is anything which your search engine cannot search.
+A. Haunted web
+B. World Wide Web
+C. Surface web
+D. Deep Web
+Answer: D
+
+Consider the paper Native Client: A Sandbox for Portable, Untrusted x86 Native Code by Yee et al. Ben Bitdiddle notes that NaCl uses Intel x86 segmentation to ensure that the sandboxed module does not read or write memory outside its own data area, and does not execute instructions outside its own code. Ben thinks that with these restrictions alone, executing the sandboxed module must be safe; that is, he thinks validation is not needed. Ben is wrong. Circle the types of x86 machine instructions that the validator always forbids in sandboxed code. Please ignore trampoline and springboard code.
+A. all instructions that modify segment state
+B. all loads or stores to addresses that are not 0 mod 32
+C. all indirect loads or stores (via an address in a register or variable)
+D. all indirect jumps (via an address in a register or variable)
+Answer: A

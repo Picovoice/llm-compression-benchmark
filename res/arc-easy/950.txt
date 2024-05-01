@@ -1,0 +1,2 @@
+Use the information below to answer the question. In solid fuel rockets, a fuel mixture is burned and once the mixture starts burning it cannot be stopped. In liquid fuel rockets, there is a tank of fuel and a tank of oxygen. The burning of the fuel can be stopped by preventing the flow of fuel and oxygen into the combustion chamber. Based on this information, which system is more highly developed in liquid fuel rockets than in solid fuel rockets? (A) propulsion (B) suspension (C) control (D) structure
+Answer: C

@@ -1,0 +1,2 @@
+A battery-powered cart pulls an 800-gram load across the floor. If the load were reduced to 400 grams, and the force used to move the cart remained the same, the cart would (1) move slower (2) move faster (3) move at the same speed (4) stop moving
+Answer: 2

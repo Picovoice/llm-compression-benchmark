@@ -1,0 +1,2 @@
+An earthworm has a length of 12.8 centimeters. What is the length, in millimeters, of the earthworm? (A) 0.128 millimeter (B) 1.28 millimeters (C) 128 millimeters (D) 1280 millimeters
+Answer: C

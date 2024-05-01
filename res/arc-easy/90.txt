@@ -1,0 +1,2 @@
+Part of a student's experiment is to measure changes in wind speed several hours before a storm. What piece of equipment should the student use? (A) barometer (B) hygrometer (C) anemometer (D) weather vane
+Answer: C

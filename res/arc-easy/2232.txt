@@ -1,0 +1,2 @@
+In a laboratory, a sealed container with 100 g of steam is cooled until all the steam becomes a liquid. The container is then cooled further until all the water becomes a solid. Which of the following remains constant during both of these changes? (A) the mass of the water (B) the pressure in the container (C) the total energy of the water (D) the position of the atoms in the container
+Answer: A

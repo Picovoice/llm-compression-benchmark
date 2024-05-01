@@ -1,0 +1,2 @@
+Which is the correct order of the planets from the Sun? (A) Mercury, Venus, Earth, Saturn, Uranus, Jupiter, Mars, Neptune (B) Mercury, Earth, Mars, Venus, Saturn, Jupiter, Neptune, Uranus (C) Mercury, Venus, Mars, Earth, Jupiter, Uranus, Saturn, Neptune (D) Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+Answer: D

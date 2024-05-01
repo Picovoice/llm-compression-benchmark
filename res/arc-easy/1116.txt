@@ -1,0 +1,2 @@
+A class wanted to see which paper airplane design could fly the farthest. In order to have the most accurate results, every student should (A) use the same size of paper. (B) buy the same color of paper. (C) fold the paper the same way. (D) decorate the paper the same way.
+Answer: A

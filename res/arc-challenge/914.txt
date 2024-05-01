@@ -1,0 +1,2 @@
+The average temperatures over a four-month period were 31, 24, 18, and 12 degrees Celsius. What is the median temperature for these four months? (A) 15°C (B) 21°C (C) 27°C (D) 33°C
+Answer: B

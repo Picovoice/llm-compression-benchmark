@@ -1,0 +1,2 @@
+A student wants to organize a group of animals into two categories based on observable external features. Which display will most appropriately show the two categories of animals?    (A) a timeline (B) a pie chart (C) a data table (D) a line graph
+Answer: C

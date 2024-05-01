@@ -1,0 +1,2 @@
+When a space shuttle orbits Earth and returns home, a force opposes its motion. What is the source of the opposing force? (A) friction from the atmosphere (B) the velocity of the shuttle (C) the mass of the shuttle (D) gravity from Earth
+Answer: A

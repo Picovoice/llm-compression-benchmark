@@ -1,0 +1,2 @@
+If the force used to push a shopping cart increases, the cart's acceleration will (1) decrease (2) increase (3) remain the same
+Answer: 2

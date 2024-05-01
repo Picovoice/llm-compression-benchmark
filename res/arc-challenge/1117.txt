@@ -1,0 +1,2 @@
+An astronomical unit (AU) is the distance between Earth and the Sun. It takes about 8 minutes for the energy from the Sun to reach Earth. If Mars is 1.5 AU from the Sun, how many minutes will it take the Sun's energy to reach Mars? (A) 4 minutes (B) 8 minutes (C) 12 minutes (D) 15 minutes
+Answer: C

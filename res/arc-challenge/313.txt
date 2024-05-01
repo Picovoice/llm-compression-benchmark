@@ -1,0 +1,2 @@
+An object accelerates at 3 meters per second^2 when a 10-newton (N) force is applied to it. Which force would cause this object to accelerate at 6 meters per second^2? (1) 5 N (2) 10 N (3) 20 N (4) 30 N
+Answer: 3
