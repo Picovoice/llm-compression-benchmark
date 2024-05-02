@@ -4,7 +4,7 @@ Made in Vancouver, Canada by [Picovoice](https://picovoice.ai)
 
 This repository is a minimalist and extensible framework for benchmarking LLM compression algorithms.
 
-We developed this repository on a Ubuntu 22.04 desktop with a GPU. We have not tested any other OS or CPU inference.
+We developed this repository on an Ubuntu 22.04 desktop with a GPU. We have not tested any other OS or CPU inference.
 
 ## Table of Contents
 - [Algorithms](#algorithms)
@@ -128,23 +128,26 @@ Perform the above for the `easy` portion:
 python3 data/arc.py --dataset-folder ${DATASET_FOLDER} --easy
 ```
 
-### Models
+## Models
 
-We use 6 different models from different families.
+We use six different models from different families:
 
-- `Llama-3-8b`
-- `Llama-2-7b`
 - `Gemma-2b`
 - `Gemma-7b`
-- `Phi-2`
+- `Llama-2-7b`
+- `Llama-3-8b`
 - `Mistral-7b-v0.1`
+- `Phi-2`
 
-The corresponding picoLLM compressed models can be downloaded from [Picovoice Console](https://console.picovoice.ai/).
-For GPTQ we use the package [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ). You can quantize the models using the package
-by running:
+The corresponding picoLLM compressed models are on [Picovoice Console](https://console.picovoice.ai/). We create GPTQ
+models using the package [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ). You can quantize the models by running the
+following:
 
 ```console
-python3 model/autogptq.py --model-uri ${MODEL_URI} --quantized-model-folder ${QUANTIZED_MODEL_FOLDER} --bits ${BITS}
+python3 model/autogptq.py \
+--model-uri ${MODEL_URI} \
+--quantized-model-folder ${QUANTIZED_MODEL_FOLDER} \
+--bits ${BITS}
 ```
 
 ## Usage
