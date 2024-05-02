@@ -11,6 +11,10 @@
     }
   ],
   "ignorePaths": [
-    "**/__pycache__/**"
+    "**/__pycache__/**",
+    "res/arc-challenge",
+    "res/arc-easy",
+    "res/c4-train",
+    "res/c4-valid"
   ]
 }
