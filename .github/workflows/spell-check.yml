@@ -3,9 +3,9 @@ name: SpellCheck
 on:
   workflow_dispatch:
   push:
-    branches: [ main, init ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, init ]
+    branches: [ main ]
 
 jobs:
   markdown:
