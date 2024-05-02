@@ -159,6 +159,7 @@ python3 perplexity.py \
 --compression ${COMPRESSION} \
 --model-uri ${MODEL_URI}
 ```
+Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
 
 The measure ARC score for a given model, run the following:
 
@@ -168,10 +169,14 @@ python3 arc.py \
 --model-uri ${MODEL_URI}
 ```
 
+Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
+
 When running picoLLM Compressed models, you must also provide your Picovoice AccessKey, which is available on
 [Picovoice Console](https://console.picovoice.ai/).
 
-`--picollm-access-key ${PICOLLM_ACCESS_KEY}`
+```console
+... --picollm-access-key ${PICOLLM_ACCESS_KEY}
+```
 
 ## Results
 
@@ -321,7 +326,7 @@ The table below depicts the perplexity of the quantized models.
 
 ### ARC Easy
 
-The table below depicts the ARC (easy) score of the original models.
+The table below depicts the ARC Easy score of the original models.
 
 <table>
 <tbody>
@@ -356,7 +361,7 @@ The table below depicts the ARC (easy) score of the original models.
 </tbody>
 </table>
 
-The table below depicts the ARC (easy) score of the quantized models.
+The table below depicts the ARC Easy score of the quantized models.
 
 <table>
 <tbody>
@@ -460,7 +465,7 @@ The table below depicts the ARC (easy) score of the quantized models.
 
 ### ARC Challenge
 
-The table below depicts the ARC (challenge) score of the original models.
+The table below depicts the ARC Challenge score of the original models.
 
 <table>
 <tbody>
@@ -495,7 +500,7 @@ The table below depicts the ARC (challenge) score of the original models.
 </tbody>
 </table>
 
-The table below depicts the ARC (challenge) score of the quantized models.
+The table below depicts the ARC Challenge score of the quantized models.
 
 <table>
 <tbody>
