@@ -14,8 +14,8 @@ We developed this repository on a Ubuntu 22.04 desktop with a GPU. We have not t
   - [Perplexity Loss](#perplexity-loss)
   - [ARC Score](#arc-score)
 - [Data](#data)
-  - [Quantization](#quantization)
-  - [C4](#c4)
+  - [Quantization (C4)](#quantization-c4)
+  - [Perplexity (C4)](#perplexity-c4)
   - [ARC](#arc)
 - [Models](#models)
 - [Usage](#usage)
@@ -65,7 +65,7 @@ both partitions and report the results separately.
 All required data to run the benchmark is available under [res](res). But if you wish to reproduce it, find out how the
 data is curated, or change it, you can follow the sections below.
 
-### Quantization
+### Quantization (C4)
 
 We need a sample dataset for quantization algorithms (GPTQ, picoLLM). We use 128 randomly selected text snippets from
 the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset run the
@@ -89,20 +89,28 @@ python3 data/c4-sample.py \
 --portion train
 ```
 
-### C4
+### Perplexity (C4)
 
-For the perplexity task we use 128 randomly selected snippets from the validation portion of the 
-[C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset  run the following from the root of the
+For the perplexity measurement, we use 128 randomly selected text snippets from the validation portion of the 
+[C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset, run the following from the root of the
 repository to extract and normalize the data:
 
 ```console
-python3 data/c4-normalize.py --repository-folder ${REPOSITORY_FOLDER} --normalized-folder ${VALIDATION_FOLDER} --portion validation
+python3 data/c4-normalize.py \
+--repository-folder ${REPOSITORY_FOLDER} \
+--normalized-folder ${VALIDATION_FOLDER} \
+--portion validation
 ```
 
-Then we sample 128 sequences from teh normalized data:
+replace `${REPOSITORY_FOLDER}` with the path the downloaded dataset repository, `${VALIDATION_FOLDER}` with a folder to
+hold on to the normalized data.
+
+Then we sample 128 sequences from the normalized data:
 
 ```console
-python3 data/c4-sample.py --dataset-folder ${VALIDATION_FOLDER} --portion valid
+python3 data/c4-sample.py \
+--dataset-folder ${VALIDATION_FOLDER} \
+--portion valid
 ```
 
 ### ARC
