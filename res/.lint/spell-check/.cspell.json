@@ -12,9 +12,9 @@
   ],
   "ignorePaths": [
     "**/__pycache__/**",
-    "./res/arc-challenge/*.txt",
-    "./res/arc-easy/*.txt",
-    "./res/c4-train/*.txt",
-    "./res/c4-valid/*.txt"
+    "./res/arc-challenge/**",
+    "./res/arc-easy/**",
+    "./res/c4-train/**",
+    "./res/c4-valid/**"
   ]
 }
