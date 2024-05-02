@@ -152,23 +152,33 @@ python3 model/autogptq.py \
 
 ## Usage
 
-To measure perplexity for a given model run the following:
+To measure perplexity for a given model, run the following:
 
 ```console
-python3 perplexity.py --compression ${COMPRESSION} --model-uri ${MODEL_URI}
+python3 perplexity.py \
+--compression ${COMPRESSION} \
+--model-uri ${MODEL_URI}
 ```
 
-The measure ARC score for a given model run the following:~~~~
+The measure ARC score for a given model, run the following:
 
 ```console
-python3 arc.py --compression ${COMPRESSION} --model-uri ${MODEL_URI}
+python3 arc.py \
+--compression ${COMPRESSION} \
+--model-uri ${MODEL_URI}
 ```
 
-When running picoLLM Compressed models you also need to provide your Picovoice AccessKey which can be downloaded from [Picovoice Console](https://console.picovoice.ai/).
+When running picoLLM Compressed models, you must also provide your Picovoice AccessKey, which is available on
+[Picovoice Console](https://console.picovoice.ai/).
 
 `--picollm-access-key ${PICOLLM_ACCESS_KEY}`
 
 ## Results
+
+Below are our benchmark results comparing GPTQ against picoLLM for all [models](model). We perform 2, 3, and 4-bit
+quantization using GPTQ, then find the model size in GB and set that as the target size for picoLLM Compression. Hence,
+both models have the same size regarding the number of bytes. When performing GPTQ, we set the group size parameter to
+128, set the damp percent to 0.1, and enabled activation reordering.
 
 ### Perplexity
 
