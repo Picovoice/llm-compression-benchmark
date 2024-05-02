@@ -12,6 +12,7 @@ This repo is a minimalist and extensible framework for benchmarking different LL
   - [C4 Perplexity](#c4-perplexity)
   - [ARC](#arc)
 - [Data](#data)
+  - [Quantization](#quantization)
   - [C4](#c4)
   - [ARC](#arc)
 - [Models](#models)
@@ -25,31 +26,65 @@ This repo is a minimalist and extensible framework for benchmarking different LL
 
 ### GPTQ
 
+[GPTQ](https://arxiv.org/abs/2210.17323) is arguably the most popular quantization technique for LLMs at the moment. It
+is fairly powerful as it fully reconstructs the weights to closely mimic the floating-point version.  
+
 ### picoLLM Compression
+
+picoLLM Compression is a developed by Picovoice. What sets it apart is that it optimally distributes bits (resources)
+within and across model parameters. picoLLM accepts a target model size and given that distributes all available bits
+optimally across and within model parameters. Hence, picoLLM is an x-bit quantization technique. 
 
 ## Tasks
 
 ### C4 Perplexity
 
+Perplexity is very sensitive to quantization and can be used to detect deterioration early on. It is a language modeling
+task.
+
 ### ARC
+
+[AI2 Reasoning Challenge (ARC) dataset](https://allenai.org/data/arc) is a multiple choice dataset that can measure the
+models ability to perform reasoning. ARC dataset is partitioned into two segments: easy and challenge. We perform the benchmark
+on both partitions and report the results separately.
 
 ## Data
 
+All the data needed to run the benchmark is already available under [res](res) for ease of use. But if you wish to reproduce
+it or find out how the data is curated or even change it you can use the sections below:
+
+### Quantization
+
+We do need a sample dataset for GPTQ and picoLLM to learn characteristics of the model to perform their algorithms. We
+choose to use 128 randomly selected sequences from the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset
+run the following from the root of the repository to extract and normalize the data:
+
+```console
+python3 data/c4-normalize.py --repository-folder ${REPOSITORY_FOLDER} --normalized-folder ${TRAIN_FOLDER} --portion train
+```
+replace `${REPOSITORY_FOLDER}` with the path the downloaded dataset repository, `${TRAIN_FOLDER}` with a folder to hold on to
+the normalized data.
+
+Then we sample 128 sequences from teh normalized data:
+
+```console
+python3 data/c4-sample.py --dataset-folder ${TRAIN_FOLDER} --portion train
+```
+
 ### C4
 
-[C4 dataset](https://huggingface.co/datasets/c4)
+For the perplexity task we use 128 randomly selected snippets from the validation portion of the 
+[C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset  run the following from the root of the
+repository to extract and normalize the data:
 
 ```console
 python3 data/c4-normalize.py --repository-folder ${REPOSITORY_FOLDER} --normalized-folder ${VALIDATION_FOLDER} --portion validation
 ```
 
-```console
-python3 data/c4-sample.py --dataset-folder ${VALIDATION_FOLDER}
-```
+Then we sample 128 sequences from teh normalized data:
 
 ```console
-python3 data/c4-normalize.py --repository-folder ${REPOSITORY_FOLDER} --normalized-folder ${TRAIN_FOLDER} --portion train
-python3 data/c4-sample.py --dataset-folder ${TRAIN_FOLDER}
+python3 data/c4-sample.py --dataset-folder ${VALIDATION_FOLDER} --portion valid
 ```
 
 ### ARC

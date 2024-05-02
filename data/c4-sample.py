@@ -10,17 +10,20 @@ from numpy.random import RandomState
 def main() -> None:
     parser = ArgumentParser()
     parser.add_argument('--dataset-folder', required=True)
+    parser.add_argument('--portion', choices=['train', 'valid'], required=True)
     parser.add_argument('--num-sequences', type=int, default=128)
     parser.add_argument('--min-sequence-length', type=int, default=1024 * 8)
     parser.add_argument('--seed', type=int, default=666)
+
     args = parser.parse_args()
 
     dataset_folder = args.dataset_folder
     num_sequences = args.num_sequences
     min_sequence_length = args.min_sequence_length
     seed = args.seed
+    portion = args.portion
 
-    sample_folder = os.path.join(os.path.dirname(__file__), '../res/c4-valid')
+    sample_folder = os.path.join(os.path.dirname(__file__), f'../res/c4-{portion}')
     if os.path.isdir(sample_folder):
         shutil.rmtree(sample_folder)
     os.makedirs(sample_folder)
