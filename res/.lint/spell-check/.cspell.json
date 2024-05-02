@@ -1,8 +1,10 @@
 {
   "language": "en",
+
   "dictionaries": [
     "dict"
   ],
+
   "dictionaryDefinitions": [
     {
       "name": "dict",
@@ -10,11 +12,9 @@
       "addWords": true
     }
   ],
+
   "ignorePaths": [
-    "**/__pycache__/**",
-    "./res/arc-challenge/**",
-    "./res/arc-easy/**",
-    "./res/c4-train/**",
-    "./res/c4-valid/**"
+    "**/*.txt",
+    "**/__pycache__/**"
   ]
 }

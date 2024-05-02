@@ -1,0 +1,12 @@
+argmax
+autogptq
+gptq
+keepdims
+logit
+ndim
+newaxis
+nlls
+picollm
+picovoice
+probs
+softmax
