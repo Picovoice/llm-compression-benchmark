@@ -536,7 +536,7 @@ The table below depicts the ARC (challenge) score of the quantized models.
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 4.2G</td>
-    <td>64.42</td>
+    <td><strong>64.42</strong></td>
     <td>60.49</td>
   </tr>
   <tr>
