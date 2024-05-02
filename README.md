@@ -115,17 +115,17 @@ python3 data/c4-sample.py \
 
 ### ARC
 
-Download [ARC dataset](https://allenai.org/data/arc) and run the following from the root of the repository to extract
-and format the `challenge` portion.
+Download the [ARC dataset](https://allenai.org/data/arc) and run the following from the repository's root to extract and
+format the `challenge` portion.
 
 ```console
-python3 data/arc.py  --dataset-folder ${DATASET_FOLDER}
+python3 data/arc.py --dataset-folder ${DATASET_FOLDER}
 ```
 
 Perform the above for the `easy` portion:
 
 ```console
-python3 data/arc.py  --dataset-folder ${DATASET_FOLDER} --easy
+python3 data/arc.py --dataset-folder ${DATASET_FOLDER} --easy
 ```
 
 ### Models
