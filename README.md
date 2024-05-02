@@ -89,17 +89,22 @@ python3 data/c4-sample.py --dataset-folder ${VALIDATION_FOLDER} --portion valid
 
 ### ARC
 
-[ARC dataset](https://allenai.org/data/arc)
+Download [ARC dataset](https://allenai.org/data/arc) and run the following from the root of the repository to extract
+and format the `challenge` portion.
 
 ```console
 python3 data/arc.py  --dataset-folder ${DATASET_FOLDER}
 ```
+
+Perform the above for the `easy` portion:
 
 ```console
 python3 data/arc.py  --dataset-folder ${DATASET_FOLDER} --easy
 ```
 
 ### Models
+
+We use 6 different models from different families.
 
 - `Llama-3-8b`
 - `Llama-2-7b`
@@ -108,7 +113,9 @@ python3 data/arc.py  --dataset-folder ${DATASET_FOLDER} --easy
 - `Phi-2`
 - `Mistral-7b-v0.1`
 
-[Picovoice Console](https://console.picovoice.ai/)
+The corresponding picoLLM compressed models can be downloaded from [Picovoice Console](https://console.picovoice.ai/).
+For GPTQ we use the package [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ). You can quantize the models using the package
+by running:
 
 ```console
 python3 model/autogptq.py --model-uri ${MODEL_URI} --quantized-model-folder ${QUANTIZED_MODEL_FOLDER} --bits ${BITS}
@@ -116,13 +123,19 @@ python3 model/autogptq.py --model-uri ${MODEL_URI} --quantized-model-folder ${QU
 
 ## Usage
 
+To measure perplexity for a given model run the following:
+
 ```console
 python3 perplexity.py --compression ${COMPRESSION} --model-uri ${MODEL_URI}
 ```
 
+The measure ARC score for a given model run the following:~~~~
+
 ```console
 python3 arc.py --compression ${COMPRESSION} --model-uri ${MODEL_URI}
 ```
+
+When running picoLLM Compressed models you also need to provide your Picovoice AccessKey which can be downloaded from [Picovoice Console](https://console.picovoice.ai/).
 
 `--picollm-access-key ${PICOLLM_ACCESS_KEY}`
 
