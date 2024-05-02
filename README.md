@@ -4,6 +4,8 @@ Made in Vancouver, Canada by [Picovoice](https://picovoice.ai)
 
 This repository is a minimalist and extensible framework for benchmarking LLM compression algorithms.
 
+We developed this repository on a Ubuntu 22.04 desktop with a GPU. We have not tested any other OS or CPU inference.
+
 ## Table of Contents
 - [Algorithms](#algorithms)
   - [GPTQ](#gptq)
@@ -65,20 +67,26 @@ data is curated, or change it, you can follow the sections below.
 
 ### Quantization
 
-We do need a sample dataset for GPTQ and picoLLM to learn characteristics of the model to perform their algorithms. We
-choose to use 128 randomly selected sequences from the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset
-run the following from the root of the repository to extract and normalize the data:
+We need a sample dataset for quantization algorithms (GPTQ, picoLLM). We use 128 randomly selected text snippets from
+the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset run the
+following from the root of the repository to extract and normalize the data:
 
 ```console
-python3 data/c4-normalize.py --repository-folder ${REPOSITORY_FOLDER} --normalized-folder ${TRAIN_FOLDER} --portion train
+python3 data/c4-normalize.py \
+--repository-folder ${REPOSITORY_FOLDER} \
+--normalized-folder ${TRAIN_FOLDER} \
+--portion train
 ```
+
 replace `${REPOSITORY_FOLDER}` with the path the downloaded dataset repository, `${TRAIN_FOLDER}` with a folder to hold on to
 the normalized data.
 
-Then we sample 128 sequences from teh normalized data:
+Then we sample 128 sequences from the normalized data:
 
 ```console
-python3 data/c4-sample.py --dataset-folder ${TRAIN_FOLDER} --portion train
+python3 data/c4-sample.py \
+--dataset-folder ${TRAIN_FOLDER} \
+--portion train
 ```
 
 ### C4

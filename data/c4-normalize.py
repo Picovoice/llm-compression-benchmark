@@ -30,7 +30,7 @@ def normalize(gz_paths: Sequence[str], folder: str) -> int:
         with open(json_path, 'w') as f:
             json.dump(texts, f, indent=2)
 
-        gc.collect(2)
+        gc.collect()
 
     return num_snippets
 
@@ -40,7 +40,7 @@ def main() -> None:
     parser.add_argument('--repository-folder', required=True)
     parser.add_argument('--normalized-folder', required=True)
     parser.add_argument('--portion', choices=['train', 'validation'], required=True)
-    parser.add_argument('--num-workers', type=int, default=os.cpu_count())
+    parser.add_argument('--num-workers', type=int, default=1)
     args = parser.parse_args()
 
     repository_folder = args.repository_folder
