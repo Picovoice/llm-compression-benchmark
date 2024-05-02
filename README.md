@@ -2,15 +2,15 @@
 
 Made in Vancouver, Canada by [Picovoice](https://picovoice.ai)
 
-This repo is a minimalist and extensible framework for benchmarking different LLM compression algorithms.
+This repository is a minimalist and extensible framework for benchmarking LLM compression algorithms.
 
 ## Table of Contents
 - [Algorithms](#algorithms)
   - [GPTQ](#gptq)
   - [picoLLM Compression](#picollm-compression)
 - [Tasks](#tasks)
-  - [C4 Perplexity](#c4-perplexity)
-  - [ARC](#arc)
+  - [Perplexity Loss](#perplexity-loss)
+  - [ARC Score](#arc-score)
 - [Data](#data)
   - [Quantization](#quantization)
   - [C4](#c4)
@@ -26,32 +26,42 @@ This repo is a minimalist and extensible framework for benchmarking different LL
 
 ### GPTQ
 
-[GPTQ](https://arxiv.org/abs/2210.17323) is arguably the most popular quantization technique for LLMs at the moment. It
-is fairly powerful as it fully reconstructs the weights to closely mimic the floating-point version.  
+[GPTQ](https://arxiv.org/abs/2210.17323) is arguably the most popular quantization technique for LLMs. GPTQ fully
+reconstructs LLM weights so that the quantized version closely mimics the full precision version. 
 
 ### picoLLM Compression
 
-picoLLM Compression is a developed by Picovoice. What sets it apart is that it optimally distributes bits (resources)
-within and across model parameters. picoLLM accepts a target model size and given that distributes all available bits
-optimally across and within model parameters. Hence, picoLLM is an x-bit quantization technique. 
+picoLLM is Picovoice's in-house LLM compression algorithm. Given a target compressed model size (e.g., 2GB), picoLLM
+optimally distributes available bits within and across LLM's weights.
+
+For example, within the softmax weight, picoLLM quantizes different regions (e.g., columns) using different bit depths
+(i.e., 1, 2, 3, 4, 5, 6, 7, or 8) based on the importance of that region to LLM's performance. Hence, a weight is not
+quantized to a bit-depth but rather to a bit-rate. Similarly, picoLLM will find optimal bit-rates for different weights
+within LLM based on their importance to the overall performance of the LLM.
 
 ## Tasks
 
-### C4 Perplexity
+### Perplexity Loss
 
-Perplexity is very sensitive to quantization and can be used to detect deterioration early on. It is a language modeling
-task.
+Perplexity measures the LLM's language modeling capabilities. Research has shown that perplexity is very sensitive to
+quantization and can be used to detect deterioration in the model's output distribution early on. 
 
-### ARC
+### ARC Score
 
-[AI2 Reasoning Challenge (ARC) dataset](https://allenai.org/data/arc) is a multiple choice dataset that can measure the
-models ability to perform reasoning. ARC dataset is partitioned into two segments: easy and challenge. We perform the benchmark
-on both partitions and report the results separately.
+[Some](https://arxiv.org/pdf/2310.01382) suggest that perplexity might be insufficient to measure the accuracy
+degradation of quantized models. Hence, we include another task to measure the degradation of reasoning capability.
+Many datasets are available to measure the ability to perform reasoning, math, coding, etc. Our goal here is not to
+benchmark the original LLM but to compare the quantized LLM to its full precision counterpart. Hence, we only pick a
+single dataset rather than a comprehensive selection.
+
+[AI2 Reasoning Challenge (ARC) dataset](https://allenai.org/data/arc) is a multiple-choice dataset that can measure the
+models' ability to perform reasoning. ARC dataset has two partitions: easy and challenge. We perform the benchmark on
+both partitions and report the results separately.
 
 ## Data
 
-All the data needed to run the benchmark is already available under [res](res) for ease of use. But if you wish to reproduce
-it or find out how the data is curated or even change it you can use the sections below:
+All required data to run the benchmark is available under [res](res). But if you wish to reproduce it, find out how the
+data is curated, or change it, you can follow the sections below.
 
 ### Quantization
 
