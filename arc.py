@@ -28,7 +28,7 @@ def main() -> None:
     easy = args.easy
 
     examples = list()
-    folder = os.path.join(os.path.dirname(__file__), f'../res/arc-{"easy" if easy else "challenge"}')
+    folder = os.path.join(os.path.dirname(__file__), f'res/arc-{"easy" if easy else "challenge"}')
     for x in sorted(os.listdir(folder), key=lambda x: int(x.split('.')[0])):
         with open(os.path.join(folder, x)) as f:
             example = f.read()

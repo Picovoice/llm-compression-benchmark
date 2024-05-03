@@ -66,7 +66,7 @@ def main() -> None:
     sequence_length = args.sequence_length
     warmup_length = args.warmup_length
 
-    cache_folder = os.path.join(os.path.dirname(__file__), f'../res/{dataset.value.lower()}-valid')
+    cache_folder = os.path.join(os.path.dirname(__file__), f'res/{dataset.value.lower()}-valid')
 
     texts = list()
     for x in sorted(os.listdir(cache_folder), key=lambda x: int(x.strip('.txt'))):

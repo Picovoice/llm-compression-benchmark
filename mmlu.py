@@ -28,7 +28,7 @@ def main() -> None:
     max_sequence_length = args.max_sequence_length
 
     examples = list()
-    folder = os.path.join(os.path.dirname(__file__), '../res/mmlu')
+    folder = os.path.join(os.path.dirname(__file__), 'res/mmlu')
     for x in sorted(os.listdir(folder), key=lambda x: int(x.split('.')[0])):
         with open(os.path.join(folder, x)) as f:
             example = f.read()
