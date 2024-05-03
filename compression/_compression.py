@@ -51,6 +51,7 @@ class Compression(object):
             cls,
             compression: Compressions,
             model_uri: str,
+            device: Optional[str] = None,
             **kwargs: Any) -> 'Compression':
         children = {
             Compressions.GPTQ: GPTQCompression,
@@ -64,7 +65,7 @@ class Compression(object):
         kwargs = dict(
             (k[len(compression.value) + 1:], v) for k, v in kwargs.items() if k.startswith(compression.value.lower()))
 
-        return children[compression](model_uri=model_uri, **kwargs)
+        return children[compression](model_uri=model_uri, device=device, **kwargs)
 
     @staticmethod
     def log_softmax(logits: NDArray[float]) -> NDArray[float]:

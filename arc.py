@@ -39,8 +39,8 @@ def main() -> None:
     comp = Compression.create(
         compression=compression,
         model_uri=model_uri,
-        picollm_access_key=picollm_access_key,
-        device=device)
+        device=device,
+        picollm_access_key=picollm_access_key)
     log.info(f"Loaded {comp}")
 
     stop = [False]
