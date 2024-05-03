@@ -56,6 +56,7 @@ def main() -> None:
     parser.add_argument('--dataset', choices=[x.value for x in Datasets], default=Datasets.C4.value)
     parser.add_argument('--sequence_length', type=int, default=1024)
     parser.add_argument('--warmup-length', type=int, default=512)
+    parser.add_argument('--device')
     args = parser.parse_args()
 
     compression = Compressions(args.compression)
@@ -65,6 +66,7 @@ def main() -> None:
     dataset = Datasets(args.dataset)
     sequence_length = args.sequence_length
     warmup_length = args.warmup_length
+    device = args.device
 
     cache_folder = os.path.join(os.path.dirname(__file__), f'res/{dataset.value.lower()}-valid')
 
@@ -78,7 +80,8 @@ def main() -> None:
     comp = Compression.create(
         compression=compression,
         model_uri=model_uri,
-        picollm_access_key=picollm_access_key)
+        picollm_access_key=picollm_access_key,
+        device=device)
     log.info(f"Loaded {str(comp)}")
 
     tokenized_texts = tokenize(

@@ -19,6 +19,7 @@ def main() -> None:
     parser.add_argument('--model-uri', required=True)
     parser.add_argument('--picollm-access-key')
     parser.add_argument('--max-sequence-length', type=int, default=None)
+    parser.add_argument('--device')
     args = parser.parse_args()
 
     compression = Compressions(args.compression)
@@ -26,6 +27,7 @@ def main() -> None:
     picollm_access_key = args.picollm_access_key
     assert picollm_access_key is not None or compression is not Compressions.PICOLLM
     max_sequence_length = args.max_sequence_length
+    device = args.device
 
     examples = list()
     folder = os.path.join(os.path.dirname(__file__), 'res/mmlu')
@@ -37,7 +39,8 @@ def main() -> None:
     comp = Compression.create(
         compression=compression,
         model_uri=model_uri,
-        picollm_access_key=picollm_access_key)
+        picollm_access_key=picollm_access_key,
+        device=device)
     log.info(f"Loaded {comp}")
 
     stop = [False]

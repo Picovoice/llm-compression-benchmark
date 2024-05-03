@@ -2,6 +2,7 @@ from argparse import ArgumentParser
 from enum import Enum
 from typing import (
     Any,
+    Optional,
     Sequence,
     Tuple,
 )
@@ -25,8 +26,9 @@ class Compressions(Enum):
 
 
 class Compression(object):
-    def __init__(self, model_uri: str) -> None:
+    def __init__(self, model_uri: str, device: Optional[str] = None) -> None:
         self._model_uri = model_uri
+        self._device = device
 
     def tokenize(self, text: str) -> Sequence[int]:
         raise NotImplementedError()
@@ -71,12 +73,12 @@ class Compression(object):
 
 
 class GPTQCompression(Compression):
-    def __init__(self, model_uri: str) -> None:
-        super().__init__(model_uri=model_uri)
+    def __init__(self, model_uri: str, device: Optional[str] = None) -> None:
+        super().__init__(model_uri=model_uri, device=device)
 
         self._tokenizer = AutoTokenizer.from_pretrained(model_uri)
         self._indices = dict((v, k) for k, v in self._tokenizer.vocab.items())
-        self._model = AutoGPTQForCausalLM.from_quantized(model_uri, device_map='auto')
+        self._model = AutoGPTQForCausalLM.from_quantized(model_uri, device_map='auto' if device is None else device)
 
     def tokenize(self, text: str) -> Sequence[int]:
         return self._tokenizer(text).input_ids
@@ -103,12 +105,12 @@ class GPTQCompression(Compression):
 
 
 class NoneCompression(Compression):
-    def __init__(self, model_uri: str) -> None:
-        super().__init__(model_uri=model_uri)
+    def __init__(self, model_uri: str, device: Optional[str] = None) -> None:
+        super().__init__(model_uri=model_uri, device=device)
 
         self._tokenizer = AutoTokenizer.from_pretrained(model_uri)
         self._indices = dict((v, k) for k, v in self._tokenizer.vocab.items())
-        self._model = AutoModelForCausalLM.from_pretrained(model_uri, device_map='auto')
+        self._model = AutoModelForCausalLM.from_pretrained(model_uri, device_map='auto' if device is None else device)
 
     def tokenize(self, text: str) -> Sequence[int]:
         return self._tokenizer(text).input_ids
@@ -134,10 +136,10 @@ class NoneCompression(Compression):
 
 
 class PicoLLMCompression(Compression):
-    def __init__(self, model_uri: str, access_key: str) -> None:
-        super().__init__(model_uri=model_uri)
+    def __init__(self, model_uri: str, access_key: str, device: Optional[str] = None) -> None:
+        super().__init__(model_uri=model_uri, device=device)
 
-        self._model = picollm.create(access_key=access_key, model_path=model_uri)
+        self._model = picollm.create(access_key=access_key, model_path=model_uri, device=device)
 
     def tokenize(self, text: str) -> Sequence[int]:
         return self._model.tokenize(text=text, bos=True, eos=False)
