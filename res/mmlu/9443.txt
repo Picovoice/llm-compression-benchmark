@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about college chemistry.
+
+Which of the following statements about the lanthanide elements is NOT true?
+A. The most common oxidation state for the lanthanide elements is +3.
+B. Lanthanide complexes often have high coordination numbers (> 6).
+C. All of the lanthanide elements react with aqueous acid to liberate hydrogen.
+D. The atomic radii of the lanthanide elements increase across the period from La to Lu.
+Answer: D
+
+A 0.217 g sample of HgO (molar mass = 217 g) reacts with excess iodide ions according to the reaction shown above. Titration of the resulting solution requires how many mL of 0.10 M HCl to reach equivalence point?
+A. 1.0 mL
+B. 10 mL
+C. 20 mL
+D. 50 mL
+Answer: C
+
+Predict the number of lines in the EPR spectrum of a solution of 13C-labelled methyl radical (13CH3•), assuming the lines do not overlap.
+A. 4
+B. 3
+C. 6
+D. 24
+Answer: A
+
+3 Cl−(aq) + 4 CrO_4^2−(aq) + 23 H+(aq) → 3 HClO2(aq) + 4 Cr3+(aq) + 10 H2O(l). In the reaction shown above, Cl−(aq) behaves as
+A. an acid
+B. a base
+C. a catalyst
+D. a reducing agent
+Answer: D
+
+Which of the following lists the hydrides of group-14 elements in order of thermal stability, from lowest to highest?
+A. PbH4 < SnH4 < GeH4 < SiH4 < CH4
+B. PbH4 < SnH4 < CH4 < GeH4 < SiH4
+C. CH4 < SiH4 < GeH4 < SnH4 < PbH4
+D. CH4 < PbH4 < GeH4 < SnH4 < SiH4
+Answer: A
+
+A buffer is made from equal concentrations of a weak acid and its conjugate base. Doubling the volume of the buffer solution by adding water has what effect on its pH?
+A. It has little effect.
+B. It significantly increases the pH.
+C. It significantly decreases the pH.
+D. It changes the pH asymptotically to the pKa of the acid.
+Answer: A

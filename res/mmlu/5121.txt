@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about high school biology.
+
+Which of the following is not a way to form recombinant DNA?
+A. Translation
+B. Conjugation
+C. Specialized transduction
+D. Transformation
+Answer: A
+
+A mutation in a bacterial enzyme changed a previously polar amino acid into a nonpolar amino acid. This amino acid was located at a site distant from the enzyme’s active site. How might this mutation alter the enzyme’s substrate specificity?
+A. By changing the enzyme’s pH optimum
+B. By changing the enzyme’s location in the cell
+C. By changing the shape of the protein
+D. An amino acid change away from the active site cannot alter the enzyme’s substrate specificity.
+Answer: C
+
+In animal cells, which of the following represents the most likely pathway that a secretory protein takes as it is synthesized in a cell?
+A. Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER
+B. Ribosome–Golgi apparatus–rough ER–secretory vesicle–plasma membrane
+C. Plasma membrane–Golgi apparatus–ribosome–secretory vesicle–rough ER
+D. Ribosome–rough ER–Golgi apparatus–secretory vesicle–plasma membrane
+Answer: D
+
+Which of the following is not known to be involved in the control of cell division?
+A. Cyclins
+B. Protein kinases
+C. Checkpoints
+D. Fibroblast cells
+Answer: D
+
+Homologous structures are often cited as evidence for the process of natural selection. All of the following are examples of homologous structures EXCEPT
+A. the wings of a bird and the wings of a bat
+B. the flippers of a whale and the arms of a man
+C. the pectoral fins of a porpoise and the flippers of a seal
+D. the forelegs of an insect and the forelimbs of a dog
+Answer: D
+
+Recently, seasonal dead zones in low-oxygen waters have been occurring annually in the Gulf of Mexico near the mouth of the Mississippi River. The dead zones result from the rapid growth of photosynthetic phytoplankton (algal blooms) and their subsequent decay by oxygen-depleting microbes in the water column. Which of the following factors most likely triggers the algal blooms and the associated dead zones?
+A. A decrease in the light level in surface waters as day length starts to shorten after the summer solstice
+B. Increased predation by marine larvae and other zooplankton during the summer months
+C. A summer influx of nutrients derived from chemical fertilizers that are high in nitrogen and phosphorus
+D. Decreased competition from other marine phytoplankton during the summer months
+Answer: C

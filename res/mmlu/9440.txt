@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about high school physics.
+
+Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque
+A. I and II only
+B. I and III only
+C. II and III only
+D. III only
+Answer: D
+
+A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave’s properties at the closed end of the pipe?
+A. The pressure is at a node, but the particle displacement is at an antinode.
+B. The pressure is at an antinode, but the particle displacement is at a node.
+C. The pressure and the particle displacement are both at nodes.
+D. The pressure and the particle displacement are both at antinodes.
+Answer: B
+
+A photocell of work function ϕ = 2eV is connected to a resistor in series. Light of frequency f = 1 × 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?
+A. 2:00 AM
+B. 6:00 AM
+C. 12:00 AM
+D. 24 A
+Answer: D
+
+A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?
+A. 10 W
+B. 30 W
+C. 60 W
+D. 240 W
+Answer: D
+
+A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 µC, from the point (0, 4 meters) to the point (3 meters, 0)?
+A. 3.5 J
+B. 6.0 J
+C. 22.5 J
+D. 40 J
+Answer: B
+
+A 30 mF capacitor has 6 millicoulombs of charge on each plate. The energy stored in the capacitor is most nearly
+A. 5.4 × 10–10 J
+B. 9.0 × 10–8 J
+C. 0.6 J
+D. 12.5 J
+Answer: C

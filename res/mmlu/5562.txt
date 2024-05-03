@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about college medicine.
+
+Glucose is transported into the muscle cell:
+A. via protein transporters called GLUT4.
+B. only in the presence of insulin.
+C. via hexokinase.
+D. via monocarbylic acid transporters.
+Answer: A
+
+Which of the following is not a true statement?
+A. Muscle glycogen is broken down enzymatically to glucose-1-phosphate
+B. Elite endurance runners have a high proportion of Type I fibres in their leg muscles
+C. Liver glycogen is important in the maintenance of the blood glucose concentration
+D. Insulin promotes glucose uptake by all tissues in the body
+Answer: D
+
+In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?
+A. All descendants on the maternal side will have the disorder.
+B. Females will be approximately twice as affected as males in this family.
+C. All daughters of an affected male will be affected.
+D. There will be equal distribution of males and females affected.
+Answer: C
+
+A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25°C. Which two variables will both increase the pressure of the system, if all other variables are held constant?
+A. Increasing temperature, increasing moles of gas
+B. Increasing temperature, increasing volume
+C. Decreasing volume, decreasing temperature
+D. Decreasing moles of gas, increasing volume
+Answer: A
+
+An expected side effect of creatine supplementation is:
+A. muscle weakness.
+B. gain in body mass.
+C. muscle cramps.
+D. loss of electrolytes.
+Answer: B
+
+A certain molecule acts by binding to cytochrome oxidase A3, the final enzyme in the electron transport chain. Administration of a large dose of this substance to a human would likely:
+A. Lead to death due to an inability of the cell to pass electrons to oxygen, thus stopping aerobic respiration and asphyxiating the cells.
+B. Lead to death due to an inadequate supply of ADP to accept a phosphate group at the ATP synthase enzyme.
+C. Have no effect as cells would switch which macronutrient they metabolize to circumvent the blocked biochemical pathway.
+D. Increase the cell’s ATP production as negative feedback would cause the cell to up-regulate anaerobic pathways.
+Answer: A

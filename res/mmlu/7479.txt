@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about college biology.
+
+Which of the following represents an accurate statement concerning arthropods?
+A. They possess an exoskeleton composed primarily of peptidoglycan.
+B. They possess an open circulatory system with a dorsal heart.
+C. They are members of a biologically unsuccessful phylum incapable of exploiting diverse habitats and nutrition sources.
+D. They lack paired, jointed appendages.
+Answer: B
+
+In a given population, 1 out of every 400 people has a cancer caused by a completely recessive allele, b. Assuming the population is in Hardy-Weinberg equilibrium, which of the following is the expected proportion of individuals who carry the b allele but are not expected to develop the cancer?
+A. 1/400
+B. 19/400
+C. 20/400
+D. 38/400
+Answer: D
+
+The presence of homologous structures in two different organisms, such as the humerus in the front limb of a human and a bird, indicates that
+A. the human and bird are polyphyletic species
+B. a human's and bird's evolution is convergent
+C. the human and bird belong to a clade
+D. the human and bird developed by analogy
+Answer: C
+
+According to the pressure-flow model of movement of phloem contents, photosynthate movement from source to sink is driven by
+A. an ATP-dependent pressure-flow pump
+B. a water-pressure potential gradient
+C. transpiration
+D. apoplastic diffusion
+Answer: B
+
+Which of the following contain DNA sequences required for the segregation of chromosomes in mitosis and meiosis?
+A. Telomeres
+B. Centromeres
+C. Nucleosomes
+D. Spliceosomes
+Answer: B
+
+Based on the characteristic population curves that result from plotting population growth of a species, the most effective means of controlling the mosquito population is to
+A. maintain the population at a point corresponding to the midpoint of its logistic curve
+B. opt for zero population control once the K value of the curve has been reached
+C. reduce the carrying capacity cif the environment to lower the K value
+D. increase the mortality rate
+Answer: C

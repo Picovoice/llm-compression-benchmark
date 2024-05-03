@@ -1,0 +1,54 @@
+The following are multiple choice questions (with answers) about college computer science.
+
+Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?
+A. a*(c + d)+ b(c + d)
+B. a*(c + d)* + b(c + d)*
+C. a*(c + d)+ b*(c + d)
+D. (a + b)*c +(a + b)*d
+Answer: D
+
+A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?
+A. 5
+B. 6
+C. 7
+D. 8
+Answer: B
+
+The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.
+A. I only
+B. II only
+C. III only
+D. I, II, and III
+Answer: D
+
+A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is
+A. 5
+B. 6
+C. 7
+D. 9
+Answer: D
+
+Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?
+A. 1/50
+B. 1/27
+C. 1/25
+D. 2/27
+Answer: B
+
+Languages with a structure that implements abstract data types (e.g., a C++ class) can prevent access to components of this structure by all operations except those that are part of this structure. However, definitions of such a structure often contain declarations of components of the structure (e.g., the header file for a C++ class may contain declarations of its private components). For such a language, an object's name could be bound at run time to stack storage for its component values (direct representation) or to a stack pointer referencing heap storage for its component values (indirect representation). Which of the following statements about comparisons between direct and indirect representations is (are) true?
+I. Indirect representation noticeably increases compilation time.
+II. Direct representation decreases the time needed to access components of a variable.
+III. When the storage size of some private component of a variable changes, indirect representation minimizes the number of recompilations of source modules that must be performed.
+A. I only
+B. III only
+C. I and II only
+D. II and III only
+Answer: D

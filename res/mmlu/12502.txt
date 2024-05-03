@@ -1,0 +1,43 @@
+The following are multiple choice questions (with answers) about conceptual physics.
+
+Compared with the mass of a uranium atom undergoing fission, the combined masses of the products after fission are
+A. less
+B. more
+C. the same
+D. zero
+Answer: A
+
+Things that are equivalent according to the equivalence principle are
+A. space and time.
+B. a traveling twin and a stay-at-home twin.
+C. gravity and acceleration.
+D. mass and energy.
+Answer: C
+
+Colors in a soap bubble result from light
+A. converted to a different frequency
+B. deflection
+C. interference
+D. polarization
+Answer: C
+
+A model airplane flies slower when flying into the wind and faster with wind at its back. When launched at right angles to the wind a cross wind its groundspeed compared with flying in still air is
+A. the same
+B. greater
+C. less
+D. either greater or less depending on wind speed
+Answer: B
+
+Which of these three elements has the most mass per nucleon?
+A. Hydrogen
+B. Iron
+C. Uranium
+D. Same in each
+Answer: A
+
+To receive an electric shock there must be a
+A. current in one direction.
+B. presence of moisture.
+C. high voltage and low body resistance.
+D. voltage difference across part or all of your body.
+Answer: D
