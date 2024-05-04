@@ -69,6 +69,7 @@ class Compression(object):
 
     @staticmethod
     def log_softmax(logits: NDArray[float]) -> NDArray[float]:
+        logits = logits.astype(np.float64)
         logits -= np.min(logits, axis=-1)
         return logits - np.log(np.sum(np.exp(logits)))
 
