@@ -86,11 +86,11 @@ class GPTQCompression(Compression):
         return self._tokenizer(text).input_ids
 
     def compute_tokens_logits(self, tokens: Sequence[int]) -> NDArray[float]:
-        return self._model(IntTensor(tokens)[None, :]).logits[0, :, :].float().numpy(force=True)
+        return self._model(IntTensor(tokens)[None, :].cuda(1)).logits[0, :, :].float().numpy(force=True)
 
     def compute_next_token_sorted_log_probs(self, prompt: str) -> Sequence[Tuple[str, float]]:
         with torch.no_grad():
-            logits = self._model(IntTensor(self.tokenize(prompt))[None, :]).logits[0, -1, :].float().numpy(force=True)
+            logits = self._model(IntTensor(self.tokenize(prompt))[None, :].cuda(1)).logits[0, -1, :].float().numpy(force=True)
 
         return sorted(
             zip([self._indices[i] for i in range(self._tokenizer.vocab_size)], self.log_softmax(logits)),
