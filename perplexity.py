@@ -42,6 +42,7 @@ def compute_perplexity(logits: NDArray[float], labels: Sequence[int]) -> float:
     assert all(x >= 0 for x in labels)
     assert all(x < logits.shape[1] for x in labels)
 
+    logits = logits.astype(np.float64)
     logits = logits - np.max(logits, keepdims=True, axis=-1)
     nlls = [np.log(np.sum(np.exp(logits[i, :]))) - logits[i, labels[i]] for i in range(len(labels))]
     assert all(np.isfinite(nlls))
