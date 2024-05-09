@@ -1,8 +1,11 @@
+MMLU
 argmax
+astype
 autogptq
 gptq
 keepdims
 logit
+maxsplit
 ndim
 newaxis
 nlls
