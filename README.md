@@ -681,7 +681,7 @@ The table below depicts the MMLU score of the quantized models.
   <tr>
     <td>Llama-3-8b 4.0G</td>
     <td>25.05</td>
-    <td></td>
+    <td><strong>61.26</strong></td>
   </tr>
   <tr>
     <td>Llama-2-7b 3.9G</td>
@@ -711,7 +711,7 @@ The table below depicts the MMLU score of the quantized models.
   <tr>
     <td>Mistral-7b-v0.1 2.4G</td>
     <td>25.70</td>
-    <td></td>
+    <td><strong>43.53</strong></td>
   </tr>
   <tr>
     <td>Gemma-7b 7.2G</td>
