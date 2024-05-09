@@ -4,19 +4,21 @@ Made in Vancouver, Canada by [Picovoice](https://picovoice.ai)
 
 This repository is a minimalist and extensible framework for benchmarking LLM compression algorithms.
 
-We developed this repository on an Ubuntu 22.04 desktop with a GPU. We have not tested any other OS or CPU inference.
+We developed this repository on an Ubuntu 22.04 desktop with a single RTX GPU.
 
 ## Table of Contents
 - [Algorithms](#algorithms)
   - [GPTQ](#gptq)
   - [picoLLM Compression](#picollm-compression)
 - [Tasks](#tasks)
-  - [Perplexity Loss](#perplexity-loss)
+  - [MMLU Score](#mmlu-score)
   - [ARC Score](#arc-score)
+  - [Perplexity Loss](#perplexity-loss)
 - [Data](#data)
-  - [Quantization (C4)](#quantization-c4)
-  - [Perplexity (C4)](#perplexity-c4)
+  - [MMLU](#mmlu)
   - [ARC](#arc)
+  - [Perplexity (C4)](#perplexity-c4)
+  - [Quantization (C4)](#quantization-c4)
 - [Models](#models)
 - [Usage](#usage)
 - [Results](#results)
@@ -43,50 +45,49 @@ within LLM based on their importance to the overall performance of the LLM.
 
 ## Tasks
 
-### Perplexity Loss
+### MMLU Score
 
-Perplexity measures the LLM's language modeling capabilities. Research has shown that perplexity is very sensitive to
-quantization and can be used to detect deterioration in the model's output distribution early on. 
+pMMLU (Massive Multitask Language Understanding)](https://huggingface.co/datasets/lukaemon/mmlu) is a multiple-choice dataset that can measure the
+models' ability to perform reasoning.
 
 ### ARC Score
-
-[Some](https://arxiv.org/pdf/2310.01382) suggest that perplexity might be insufficient to measure the accuracy
-degradation of quantized models. Hence, we include another task to measure the degradation of reasoning capability.
-Many datasets are available to measure the ability to perform reasoning, math, coding, etc. Our goal here is not to
-benchmark the original LLM but to compare the quantized LLM to its full precision counterpart. Hence, we only pick a
-single dataset rather than a comprehensive selection.
 
 [AI2 Reasoning Challenge (ARC) dataset](https://allenai.org/data/arc) is a multiple-choice dataset that can measure the
 models' ability to perform reasoning. ARC dataset has two partitions: easy and challenge. We perform the benchmark on
 both partitions and report the results separately.
+
+### Perplexity Loss
+
+Perplexity measures the LLM's language modeling capabilities. Research has shown that perplexity is very sensitive to
+quantization and can be used to detect deterioration in the model's output distribution early on.
 
 ## Data
 
 All required data to run the benchmark is available under [res](res). But if you wish to reproduce it, find out how the
 data is curated, or change it, you can follow the sections below.
 
-### Quantization (C4)
+### MMLU
 
-We need a sample dataset for quantization algorithms (GPTQ, picoLLM). We use 128 randomly selected text snippets from
-the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset run the
-following from the root of the repository to extract and normalize the data:
+Download the [MMLU dataset](https://huggingface.co/datasets/lukaemon/mmlu) and run the following from the repository's root to 
+extract and format it.
 
 ```console
-python3 data/c4-normalize.py \
---repository-folder ${REPOSITORY_FOLDER} \
---normalized-folder ${TRAIN_FOLDER} \
---portion train
+python3 data/mmlu.py --dataset-folder ${DATASET_FOLDER}
 ```
 
-replace `${REPOSITORY_FOLDER}` with the path the downloaded dataset repository, `${TRAIN_FOLDER}` with a folder to hold on to
-the normalized data.
+### ARC
 
-Then we sample 128 sequences from the normalized data:
+Download the [ARC dataset](https://allenai.org/data/arc) and run the following from the repository's root to extract and
+format the `challenge` portion.
 
 ```console
-python3 data/c4-sample.py \
---dataset-folder ${TRAIN_FOLDER} \
---portion train
+python3 data/arc.py --dataset-folder ${DATASET_FOLDER}
+```
+
+Perform the above for the `easy` portion:
+
+```console
+python3 data/arc.py --dataset-folder ${DATASET_FOLDER} --easy
 ```
 
 ### Perplexity (C4)
@@ -113,19 +114,28 @@ python3 data/c4-sample.py \
 --portion valid
 ```
 
-### ARC
+### Quantization (C4)
 
-Download the [ARC dataset](https://allenai.org/data/arc) and run the following from the repository's root to extract and
-format the `challenge` portion.
+We need a sample dataset for quantization algorithms (GPTQ, picoLLM). We use 128 randomly selected text snippets from
+the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset run the
+following from the root of the repository to extract and normalize the data:
 
 ```console
-python3 data/arc.py --dataset-folder ${DATASET_FOLDER}
+python3 data/c4-normalize.py \
+--repository-folder ${REPOSITORY_FOLDER} \
+--normalized-folder ${TRAIN_FOLDER} \
+--portion train
 ```
 
-Perform the above for the `easy` portion:
+replace `${REPOSITORY_FOLDER}` with the path the downloaded dataset repository, `${TRAIN_FOLDER}` with a folder to hold on to
+the normalized data.
+
+Then we sample 128 sequences from the normalized data:
 
 ```console
-python3 data/arc.py --dataset-folder ${DATASET_FOLDER} --easy
+python3 data/c4-sample.py \
+--dataset-folder ${TRAIN_FOLDER} \
+--portion train
 ```
 
 ## Models
@@ -152,13 +162,14 @@ python3 model/autogptq.py \
 
 ## Usage
 
-To measure perplexity for a given model, run the following:
+The measure MMLU score for a given model, run the following:
 
 ```console
-python3 perplexity.py \
+python3 mmlu.py \
 --compression ${COMPRESSION} \
 --model-uri ${MODEL_URI}
 ```
+
 Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
 
 The measure ARC score for a given model, run the following:
@@ -169,6 +180,15 @@ python3 arc.py \
 --model-uri ${MODEL_URI}
 ```
 
+Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
+
+To measure perplexity for a given model, run the following:
+
+```console
+python3 perplexity.py \
+--compression ${COMPRESSION} \
+--model-uri ${MODEL_URI}
+```
 Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
 
 When running picoLLM Compressed models, you must also provide your Picovoice AccessKey, which is available on
