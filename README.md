@@ -131,7 +131,7 @@ python3 data/c4-sample.py \
 
 ## Models
 
-We use six different models from different families:
+We use six models:
 
 - `Gemma-2b`
 - `Gemma-7b`
@@ -153,7 +153,7 @@ python3 model/autogptq.py \
 
 ## Usage
 
-The measure MMLU score for a given model, run the following:
+To measure the MMLU score for a given model, run the following:
 
 ```console
 python3 mmlu.py \
@@ -163,7 +163,7 @@ python3 mmlu.py \
 
 Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
 
-The measure ARC score for a given model, run the following:
+To measure the ARC score for a given model, run the following:
 
 ```console
 python3 arc.py \
@@ -173,13 +173,14 @@ python3 arc.py \
 
 Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
 
-To measure perplexity for a given model, run the following:
+To measure the perplexity for a given model, run the following:
 
 ```console
 python3 perplexity.py \
 --compression ${COMPRESSION} \
 --model-uri ${MODEL_URI}
 ```
+
 Replace `${COMPRESSION}` with the model's compression. i.e., `NONE` for full-precision models, `GPTQ,` or `picoLLM.`
 
 When running picoLLM Compressed models, you must also provide your Picovoice AccessKey, which is available on
