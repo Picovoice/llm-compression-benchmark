@@ -69,13 +69,13 @@ python3 data/mmlu.py --dataset-folder ${DATASET_FOLDER}
 ### ARC
 
 Download the [ARC dataset](https://allenai.org/data/arc) and run the following from the repository's root to extract and
-format the `challenge` portion.
+format the `Challenge` portion:
 
 ```console
 python3 data/arc.py --dataset-folder ${DATASET_FOLDER}
 ```
 
-Perform the above for the `easy` portion:
+Perform the above for the `Easy` portion:
 
 ```console
 python3 data/arc.py --dataset-folder ${DATASET_FOLDER} --easy
@@ -94,8 +94,8 @@ python3 data/c4-normalize.py \
 --portion validation
 ```
 
-replace `${REPOSITORY_FOLDER}` with the path the downloaded dataset repository, `${VALIDATION_FOLDER}` with a folder to
-hold on to the normalized data.
+Replace `${REPOSITORY_FOLDER}` with the path to the downloaded dataset repository and `${VALIDATION_FOLDER}` with a 
+folder to hold onto the normalized data.
 
 Then we sample 128 sequences from the normalized data:
 
@@ -108,7 +108,7 @@ python3 data/c4-sample.py \
 ### Quantization (C4)
 
 We need a sample dataset for quantization algorithms (GPTQ, picoLLM). We use 128 randomly selected text snippets from
-the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset run the
+the train portion of the [C4 dataset](https://huggingface.co/datasets/c4). Once you download the dataset, run the
 following from the root of the repository to extract and normalize the data:
 
 ```console
@@ -118,8 +118,8 @@ python3 data/c4-normalize.py \
 --portion train
 ```
 
-replace `${REPOSITORY_FOLDER}` with the path the downloaded dataset repository, `${TRAIN_FOLDER}` with a folder to hold on to
-the normalized data.
+Replace `${REPOSITORY_FOLDER}` with the path to the downloaded dataset repository and `${TRAIN_FOLDER}` with a 
+folder to hold onto the normalized data.
 
 Then we sample 128 sequences from the normalized data:
 
