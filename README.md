@@ -195,8 +195,8 @@ When running picoLLM Compressed models, you must also provide your Picovoice Acc
 
 Below are our benchmark results comparing GPTQ against picoLLM for all [models](model). We perform 2, 3, and 4-bit
 quantization using GPTQ, then find the model size in GB and set that as the target size for picoLLM Compression. Hence,
-both models have the same size regarding the number of bytes. When performing GPTQ, we set the group size parameter to
-128, set the damp percent to 0.1, and enabled activation reordering.
+both models have the same size in terms of the number of bytes. When performing GPTQ, we set the group size parameter to
+128, set the damp percent to 0.1 and enabled activation reordering.
 
 
 ### MMLU
