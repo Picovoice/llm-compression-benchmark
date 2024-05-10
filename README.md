@@ -47,7 +47,7 @@ multiple-choice dataset that can measure the models' ability to understand natur
 
 ### ARC Score
 
-[ARC]((https://allenai.org/data/arc)) (AI2 Reasoning Challenge) is a multiple-choice dataset that measures
+[ARC](https://allenai.org/data/arc) (AI2 Reasoning Challenge) is a multiple-choice dataset that measures
 the models' reasoning ability. The ARC dataset has two partitions: `Easy` and `Challenge`. We perform the benchmark on
 both partitions and report the results separately.
 
