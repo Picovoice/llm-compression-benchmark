@@ -53,13 +53,11 @@ both partitions and report the results separately.
 
 ### Perplexity Loss
 
-Perplexity measures the models' language modeling capabilities. Research has shown that perplexity is very sensitive to
-quantization and can be used to detect deterioration in the model's output distribution early on.
+Perplexity measures the models' language modeling capabilities.
 
 ## Data
 
-All required data for the benchmark is available under the `/res` folder But if you wish to reproduce it find out
-how the data is curated or change it you can follow the sections below.
+The'/res' folder contains all required data for the benchmark. To reproduce it, follow the sections below.
 
 ### MMLU
 
