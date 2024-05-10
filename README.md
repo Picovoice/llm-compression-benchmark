@@ -4,8 +4,6 @@ Made in Vancouver, Canada by [Picovoice](https://picovoice.ai)
 
 This repository is a minimalist and extensible framework for benchmarking LLM compression algorithms.
 
-We developed this repository on an Ubuntu 22.04 desktop with a single RTX GPU.
-
 ## Table of Contents
 - [Algorithms](#algorithms)
   - [GPTQ](#gptq)
@@ -30,18 +28,11 @@ We developed this repository on an Ubuntu 22.04 desktop with a single RTX GPU.
 
 ### GPTQ
 
-[GPTQ](https://arxiv.org/abs/2210.17323) is arguably the most popular quantization technique for LLMs. GPTQ fully
-reconstructs LLM weights so that the quantized version closely mimics the full precision version. 
+[GPTQ](https://arxiv.org/abs/2210.17323) is arguably the most popular quantization algorithm for LLMs. GPTQ fully reconstructs weights so that the quantized version closely mimics the full-precision one. 
 
 ### picoLLM Compression
 
-picoLLM is Picovoice's in-house LLM compression algorithm. Given a target compressed model size (e.g., 2GB), picoLLM
-optimally distributes available bits within and across LLM's weights.
-
-For example, within the softmax weight, picoLLM quantizes different regions (e.g., columns) using different bit depths
-(i.e., 1, 2, 3, 4, 5, 6, 7, or 8) based on the importance of that region to LLM's performance. Hence, a weight is not
-quantized to a bit-depth but rather to a bit-rate. Similarly, picoLLM will find optimal bit-rates for different weights
-within LLM based on their importance to the overall performance of the LLM.
+picoLLM Compression is Picovoice's in-house LLM compression algorithm. Given a target size, picoLLM optimally distributes available bits within and across LLM's weights.
 
 ## Tasks
 
