@@ -20,9 +20,10 @@ This repository is a minimalist and extensible framework for benchmarking LLM co
 - [Models](#models)
 - [Usage](#usage)
 - [Results](#results)
-  - [Perplexity](#perplexity)
+  - [MMLU](#mmlu-1)
   - [ARC-Easy](#arc-easy)
   - [ARC-Challenge](#arc-challenge)
+  - [Perplexity](#perplexity)
 
 ## Algorithms
 
@@ -197,44 +198,45 @@ quantization using GPTQ, then find the model size in GB and set that as the targ
 both models have the same size regarding the number of bytes. When performing GPTQ, we set the group size parameter to
 128, set the damp percent to 0.1, and enabled activation reordering.
 
-### Perplexity
 
-The table below depicts the perplexity of the original models.
+### MMLU
+
+The table below depicts the MMLU score of the original models.
 
 <table>
 <tbody>
   <tr>
     <td>Model</td>
-    <td>Perplexity</td>
+    <td>MMLU</td>
   </tr>
   <tr>
     <td>Llama-3-8b 16.1G</td>
-    <td>11.61</td>
+    <td>64.88</td>
   </tr>
   <tr>
     <td>Llama-2-7b 13.5G</td>
-    <td>8.40</td>
+    <td>46.38</td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 15.0G</td>
-    <td>10.50</td>
+    <td>62.41</td>
   </tr>
   <tr>
     <td>Gemma-7b 17.1G</td>
-    <td>14.67</td>
+    <td>64.48</td>
   </tr>
   <tr>
     <td>Phi-2 5.6G</td>
-    <td>17.38</td>
+    <td>56.04</td>
   </tr>
   <tr>
     <td>Gemma-2b 5.0G</td>
-    <td>16.79</td>
+    <td>40.21</td>
   </tr>
 </tbody>
 </table>
 
-The table below depicts the perplexity of the quantized models.
+The table below depicts the MMLU score of the quantized models.
 
 <table>
 <tbody>
@@ -245,96 +247,97 @@ The table below depicts the perplexity of the quantized models.
   </tr>
   <tr>
     <td>Llama-3-8b 5.7G</td>
-    <td>12.31</td>
-    <td><strong>11.73</strong></td>
+    <td>63.09</td>
+    <td><strong>64.96</strong></td>
   </tr>
   <tr>
     <td>Llama-3-8b 4.9G</td>
-    <td>17.47</td>
-    <td><strong>11.90</strong></td>
+    <td>53.86</td>
+    <td><strong>64.76</strong></td>
   </tr>
   <tr>
     <td>Llama-3-8b 4.0G</td>
-    <td>712.70</td>
-    <td><strong>12.67</strong></td>
+    <td>25.05</td>
+    <td><strong>61.26</strong></td>
   </tr>
   <tr>
     <td>Llama-2-7b 3.9G</td>
-    <td>8.59</td>
-    <td><strong>8.50</strong></td>
+    <td><strong>45.26</strong></td>
+    <td>44.99</td>
   </tr>
   <tr>
     <td>Llama-2-7b 3.1G</td>
-    <td>9.66</td>
-    <td><strong>8.86</strong></td>
+    <td>40.40</td>
+    <td><strong>40.68</strong></td>
   </tr>
   <tr>
     <td>Llama-2-7b 2.3G</td>
-    <td>67.43</td>
-    <td><strong>10.87</strong></td>
+    <td>25.36</td>
+    <td><strong>28.72</strong></td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 4.2G</td>
-    <td><strong>10.43</strong></td>
-    <td>10.62</td>
+    <td><strong>61.00</strong></td>
+    <td>59.19</td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 3.3G</td>
-    <td>2909.83</td>
-    <td><strong>10.81</strong></td>
+    <td>23.73</td>
+    <td><strong>57.72</strong></td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 2.4G</td>
-    <td>1176.43</td>
-    <td><strong>14.87</strong></td>
+    <td>25.70</td>
+    <td><strong>43.53</strong></td>
   </tr>
   <tr>
     <td>Gemma-7b 7.2G</td>
-    <td>15.47</td>
-    <td><strong>14.82</strong></td>
+    <td>62.58</td>
+    <td><strong>64.98</strong></td>
   </tr>
   <tr>
     <td>Gemma-7b 6.2G</td>
-    <td>27.29</td>
-    <td><strong>14.84</strong></td>
+    <td>53.30</td>
+    <td><strong>64.57</strong></td>
   </tr>
   <tr>
     <td>Gemma-7b 5.2G</td>
-    <td>33370970.40</td>
-    <td><strong>15.08</strong></td>
+    <td>25.58</td>
+    <td><strong>64.32</strong></td>
   </tr>
   <tr>
     <td>Phi-2 1.8G</td>
-    <td>18.15</td>
-    <td><strong>17.76</strong></td>
+    <td><strong>54.61</strong></td>
+    <td>54.11</td>
   </tr>
   <tr>
     <td>Phi-2 1.5G</td>
-    <td>19.94</td>
-    <td><strong>18.14</strong></td>
+    <td>50.64</td>
+    <td><strong>52.24</strong></td>
   </tr>
   <tr>
     <td>Phi-2 1.2G</td>
-    <td>76.55</td>
-    <td><strong>20.22</strong></td>
+    <td>26.05</td>
+    <td><strong>48.86</strong></td>
   </tr>
   <tr>
     <td>Gemma-2b 3.1G</td>
-    <td>17.85</td>
-    <td><strong>16.86</strong></td>
+    <td>39.07</td>
+    <td><strong>41.12</strong></td>
   </tr>
   <tr>
     <td>Gemma-2b 2.9G</td>
-    <td>24.11</td>
-    <td><strong>16.86</strong></td>
+    <td>27.51</td>
+    <td><strong>41.12</strong></td>
   </tr>
   <tr>
     <td>Gemma-2b 2.6G</td>
-    <td>8377.74</td>
-    <td><strong>16.86</strong></td>
+    <td>24.93</td>
+    <td><strong>41.12</strong></td>
   </tr>
 </tbody>
 </table>
+
 
 ### ARC Easy
 
@@ -614,44 +617,45 @@ The table below depicts the ARC Challenge score of the quantized models.
 </tbody>
 </table>
 
-### MMLU
 
-The table below depicts the MMLU score of the original models.
+### Perplexity
+
+The table below depicts the perplexity of the original models.
 
 <table>
 <tbody>
   <tr>
     <td>Model</td>
-    <td>MMLU</td>
+    <td>Perplexity</td>
   </tr>
   <tr>
     <td>Llama-3-8b 16.1G</td>
-    <td>64.88</td>
+    <td>11.61</td>
   </tr>
   <tr>
     <td>Llama-2-7b 13.5G</td>
-    <td>46.38</td>
+    <td>8.40</td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 15.0G</td>
-    <td>62.41</td>
+    <td>10.50</td>
   </tr>
   <tr>
     <td>Gemma-7b 17.1G</td>
-    <td>64.48</td>
+    <td>14.67</td>
   </tr>
   <tr>
     <td>Phi-2 5.6G</td>
-    <td>56.04</td>
+    <td>17.38</td>
   </tr>
   <tr>
     <td>Gemma-2b 5.0G</td>
-    <td>40.21</td>
+    <td>16.79</td>
   </tr>
 </tbody>
 </table>
 
-The table below depicts the MMLU score of the quantized models.
+The table below depicts the perplexity of the quantized models.
 
 <table>
 <tbody>
@@ -662,93 +666,93 @@ The table below depicts the MMLU score of the quantized models.
   </tr>
   <tr>
     <td>Llama-3-8b 5.7G</td>
-    <td>63.09</td>
-    <td><strong>64.96</strong></td>
+    <td>12.31</td>
+    <td><strong>11.73</strong></td>
   </tr>
   <tr>
     <td>Llama-3-8b 4.9G</td>
-    <td>53.86</td>
-    <td><strong>64.76</strong></td>
+    <td>17.47</td>
+    <td><strong>11.90</strong></td>
   </tr>
   <tr>
     <td>Llama-3-8b 4.0G</td>
-    <td>25.05</td>
-    <td><strong>61.26</strong></td>
+    <td>712.70</td>
+    <td><strong>12.67</strong></td>
   </tr>
   <tr>
     <td>Llama-2-7b 3.9G</td>
-    <td><strong>45.26</strong></td>
-    <td>44.99</td>
+    <td>8.59</td>
+    <td><strong>8.50</strong></td>
   </tr>
   <tr>
     <td>Llama-2-7b 3.1G</td>
-    <td>40.40</td>
-    <td><strong>40.68</strong></td>
+    <td>9.66</td>
+    <td><strong>8.86</strong></td>
   </tr>
   <tr>
     <td>Llama-2-7b 2.3G</td>
-    <td>25.36</td>
-    <td><strong>28.72</strong></td>
+    <td>67.43</td>
+    <td><strong>10.87</strong></td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 4.2G</td>
-    <td><strong>61.00</strong></td>
-    <td>59.19</td>
+    <td><strong>10.43</strong></td>
+    <td>10.62</td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 3.3G</td>
-    <td>23.73</td>
-    <td><strong>57.72</strong></td>
+    <td>2909.83</td>
+    <td><strong>10.81</strong></td>
   </tr>
   <tr>
     <td>Mistral-7b-v0.1 2.4G</td>
-    <td>25.70</td>
-    <td><strong>43.53</strong></td>
+    <td>1176.43</td>
+    <td><strong>14.87</strong></td>
   </tr>
   <tr>
     <td>Gemma-7b 7.2G</td>
-    <td>62.58</td>
-    <td><strong>64.98</strong></td>
+    <td>15.47</td>
+    <td><strong>14.82</strong></td>
   </tr>
   <tr>
     <td>Gemma-7b 6.2G</td>
-    <td>53.30</td>
-    <td><strong>64.57</strong></td>
+    <td>27.29</td>
+    <td><strong>14.84</strong></td>
   </tr>
   <tr>
     <td>Gemma-7b 5.2G</td>
-    <td>25.58</td>
-    <td><strong>64.32</strong></td>
+    <td>33370970.40</td>
+    <td><strong>15.08</strong></td>
   </tr>
   <tr>
     <td>Phi-2 1.8G</td>
-    <td><strong>54.61</strong></td>
-    <td>54.11</td>
+    <td>18.15</td>
+    <td><strong>17.76</strong></td>
   </tr>
   <tr>
     <td>Phi-2 1.5G</td>
-    <td>50.64</td>
-    <td><strong>52.24</strong></td>
+    <td>19.94</td>
+    <td><strong>18.14</strong></td>
   </tr>
   <tr>
     <td>Phi-2 1.2G</td>
-    <td>26.05</td>
-    <td><strong>48.86</strong></td>
+    <td>76.55</td>
+    <td><strong>20.22</strong></td>
   </tr>
   <tr>
     <td>Gemma-2b 3.1G</td>
-    <td>39.07</td>
-    <td><strong>41.12</strong></td>
+    <td>17.85</td>
+    <td><strong>16.86</strong></td>
   </tr>
   <tr>
     <td>Gemma-2b 2.9G</td>
-    <td>27.51</td>
-    <td><strong>41.12</strong></td>
+    <td>24.11</td>
+    <td><strong>16.86</strong></td>
   </tr>
   <tr>
     <td>Gemma-2b 2.6G</td>
-    <td>24.93</td>
-    <td><strong>41.12</strong></td>
+    <td>8377.74</td>
+    <td><strong>16.86</strong></td>
   </tr>
 </tbody>
 </table>
