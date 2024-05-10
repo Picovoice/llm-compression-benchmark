@@ -38,29 +38,29 @@ picoLLM Compression is Picovoice's in-house LLM compression algorithm. Given a t
 
 ### MMLU Score
 
-pMMLU (Massive Multitask Language Understanding)](https://huggingface.co/datasets/lukaemon/mmlu) is a multiple-choice dataset that can measure the
-models' ability to perform reasoning.
+[MMLU](https://huggingface.co/datasets/lukaemon/mmlu) (Massive Multitask Language Understanding) is a 
+multiple-choice dataset that can measure the models' ability to understand natural language.
 
 ### ARC Score
 
-[AI2 Reasoning Challenge (ARC) dataset](https://allenai.org/data/arc) is a multiple-choice dataset that can measure the
-models' ability to perform reasoning. ARC dataset has two partitions: easy and challenge. We perform the benchmark on
+[ARC]((https://allenai.org/data/arc)) (AI2 Reasoning Challenge) is a multiple-choice dataset that measures 
+the models' reasoning ability. The ARC dataset has two partitions: `Easy` and `Challenge`. We perform the benchmark on 
 both partitions and report the results separately.
 
 ### Perplexity Loss
 
-Perplexity measures the LLM's language modeling capabilities. Research has shown that perplexity is very sensitive to
+Perplexity measures the models' language modeling capabilities. Research has shown that perplexity is very sensitive to
 quantization and can be used to detect deterioration in the model's output distribution early on.
 
 ## Data
 
-All required data to run the benchmark is available under [res](res). But if you wish to reproduce it, find out how the
-data is curated, or change it, you can follow the sections below.
+All required data for the benchmark is available under the `/res` folder But if you wish to reproduce it find out 
+how the data is curated or change it you can follow the sections below.
 
 ### MMLU
 
-Download the [MMLU dataset](https://huggingface.co/datasets/lukaemon/mmlu) and run the following from the repository's root to 
-extract and format it.
+Download the [MMLU dataset](https://huggingface.co/datasets/lukaemon/mmlu) and run the following from the 
+repository's root to extract and format it:
 
 ```console
 python3 data/mmlu.py --dataset-folder ${DATASET_FOLDER}
